@@ -1,0 +1,44 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "goTestDemo-sdsm",
+  "variables" : [ "github.com/j123kaishichufa/goTestDemo/main/mainfile.go", "github.com/j123kaishichufa/goTestDemo/mymath/const.go", "github.com/j123kaishichufa/goTestDemo/mymath/math.go", "github.com/j123kaishichufa/goTestDemo/mytype/mystruct.go" ],
+  "cells" : [ {
+    "src" : 0,
+    "dest" : 1,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 2,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 3,
+    "values" : {
+      "Import" : 1.0,
+      "Return" : 1.0,
+      "Parameter" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 0,
+    "values" : {
+      "Implement" : 2.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 1,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 2,
+    "values" : {
+      "Import" : 1.0
+    }
+  } ]
+}

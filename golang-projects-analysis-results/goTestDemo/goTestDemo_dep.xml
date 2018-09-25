@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<matrix name="goTestDemo-sdsm" schema-version="1.0">
+    <cells>
+        <cell dest="1" src="0">
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="2" src="0">
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="3" src="0">
+            <depend name="Import" weight="1.0"/>
+            <depend name="Return" weight="1.0"/>
+            <depend name="Parameter" weight="1.0"/>
+        </cell>
+        <cell dest="0" src="3">
+            <depend name="Implement" weight="2.0"/>
+        </cell>
+        <cell dest="1" src="3">
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="2" src="3">
+            <depend name="Import" weight="1.0"/>
+        </cell>
+    </cells>
+    <variables>
+        <variable>github.com/j123kaishichufa/goTestDemo/main/mainfile.go</variable>
+        <variable>github.com/j123kaishichufa/goTestDemo/mymath/const.go</variable>
+        <variable>github.com/j123kaishichufa/goTestDemo/mymath/math.go</variable>
+        <variable>github.com/j123kaishichufa/goTestDemo/mytype/mystruct.go</variable>
+    </variables>
+</matrix>

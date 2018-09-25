@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<matrix name="python-patterns-sdsm" schema-version="1.0">
+    <cells>
+        <cell dest="8" src="64">
+            <depend name="Call" weight="25.0"/>
+            <depend name="Import" weight="3.0"/>
+            <depend name="Use" weight="2.0"/>
+        </cell>
+        <cell dest="26" src="65">
+            <depend name="Call" weight="8.0"/>
+            <depend name="Import" weight="3.0"/>
+        </cell>
+        <cell dest="11" src="66">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="16" src="46">
+            <depend name="Call" weight="2.0"/>
+            <depend name="Import" weight="2.0"/>
+            <depend name="Use" weight="1.0"/>
+        </cell>
+        <cell dest="36" src="47">
+            <depend name="Call" weight="14.0"/>
+            <depend name="Import" weight="5.0"/>
+            <depend name="Use" weight="5.0"/>
+        </cell>
+        <cell dest="17" src="48">
+            <depend name="Call" weight="3.0"/>
+            <depend name="Import" weight="2.0"/>
+            <depend name="Use" weight="1.0"/>
+        </cell>
+        <cell dest="37" src="49">
+            <depend name="Call" weight="14.0"/>
+            <depend name="Import" weight="3.0"/>
+            <depend name="Use" weight="1.0"/>
+        </cell>
+        <cell dest="18" src="50">
+            <depend name="Call" weight="3.0"/>
+            <depend name="Import" weight="4.0"/>
+            <depend name="Use" weight="1.0"/>
+        </cell>
+        <cell dest="3" src="51">
+            <depend name="Call" weight="2.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="24" src="52">
+            <depend name="Call" weight="6.0"/>
+            <depend name="Import" weight="3.0"/>
+        </cell>
+        <cell dest="39" src="53">
+            <depend name="Call" weight="5.0"/>
+            <depend name="Import" weight="3.0"/>
+        </cell>
+        <cell dest="40" src="54">
+            <depend name="Call" weight="4.0"/>
+            <depend name="Import" weight="4.0"/>
+        </cell>
+        <cell dest="19" src="55">
+            <depend name="Call" weight="2.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="41" src="56">
+            <depend name="Call" weight="8.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="32" src="57">
+            <depend name="Call" weight="4.0"/>
+            <depend name="Import" weight="7.0"/>
+            <depend name="Use" weight="13.0"/>
+        </cell>
+        <cell dest="20" src="58">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="7" src="59">
+            <depend name="Call" weight="6.0"/>
+            <depend name="Import" weight="4.0"/>
+            <depend name="Use" weight="3.0"/>
+        </cell>
+        <cell dest="25" src="60">
+            <depend name="Call" weight="6.0"/>
+            <depend name="Import" weight="3.0"/>
+        </cell>
+        <cell dest="21" src="61">
+            <depend name="Call" weight="3.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="22" src="62">
+            <depend name="Call" weight="3.0"/>
+            <depend name="Import" weight="2.0"/>
+        </cell>
+        <cell dest="44" src="63">
+            <depend name="Call" weight="2.0"/>
+            <depend name="Import" weight="2.0"/>
+        </cell>
+    </cells>
+    <variables>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\behavioral\catalog.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\behavioral\chain.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\behavioral\chaining_method.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\behavioral\command.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\behavioral\iterator.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\behavioral\mediator.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\behavioral\memento.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\behavioral\observer.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\behavioral\publish_subscribe.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\behavioral\registry.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\behavioral\specification.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\behavioral\state.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\behavioral\strategy.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\behavioral\template.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\behavioral\visitor.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\behavioral\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\creational\abstract_factory.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\creational\borg.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\creational\builder.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\creational\factory_method.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\creational\lazy_evaluation.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\creational\pool.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\creational\prototype.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\creational\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\dft\constructor_injection.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\dft\parameter_injection.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\dft\setter_injection.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\dft\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\fundamental\delegation_pattern.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\fundamental\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\other\blackboard.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\other\graph_search.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\other\hsm\hsm.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\other\hsm\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\other\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\structural\3-tier.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\structural\adapter.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\structural\bridge.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\structural\composite.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\structural\decorator.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\structural\facade.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\structural\flyweight.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\structural\front_controller.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\structural\mvc.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\structural\proxy.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\structural\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_abstract_factory.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_adapter.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_borg.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_bridge.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_builder.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_command.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_constructor_injection.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_decorator.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_facade.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_factory_method.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_flyweight.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_hsm.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_lazy.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_observer.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_parameter_injection.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_pool.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_prototype.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_proxy.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_publish_subscribe.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_setter_injection.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_state.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\test_strategy.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-patterns\tests\__init__.py</variable>
+    </variables>
+</matrix>

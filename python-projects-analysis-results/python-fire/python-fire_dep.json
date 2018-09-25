@@ -1,0 +1,526 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "python-fire-sdsm",
+  "variables" : [ "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\examples\\cipher\\cipher.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\examples\\cipher\\cipher_test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\examples\\cipher\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\examples\\diff\\diff.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\examples\\diff\\difffull.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\examples\\diff\\diff_test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\examples\\diff\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\examples\\identity\\identity.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\examples\\identity\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\examples\\widget\\collector.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\examples\\widget\\collector_test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\examples\\widget\\widget.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\examples\\widget\\widget_test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\examples\\widget\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\examples\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\completion.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\completion_test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\core.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\core_test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\decorators.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\decorators_test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\fire_import_test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\fire_test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\helputils.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\helputils_test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\inspectutils.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\inspectutils_test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\interact.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\interact_test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\parser.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\parser_fuzz_test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\parser_test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\testutils.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\testutils_test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\test_components.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\test_components_py3.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\test_components_test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\trace.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\trace_test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\fire\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\python-workspace\\python-fire\\setup.py" ],
+  "cells" : [ {
+    "src" : 0,
+    "dest" : 17,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 39,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 32,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Inherit" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Call" : 5.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 17,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 39,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 17,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 39,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 32,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Inherit" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 3,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Set" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 4,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 17,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 39,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 9,
+    "dest" : 17,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 9,
+    "dest" : 39,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 9,
+    "dest" : 11,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 10,
+    "dest" : 32,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Inherit" : 1.0
+    }
+  }, {
+    "src" : 10,
+    "dest" : 9,
+    "values" : {
+      "Call" : 3.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 10,
+    "dest" : 11,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 11,
+    "dest" : 17,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 11,
+    "dest" : 39,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 12,
+    "dest" : 32,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Inherit" : 1.0
+    }
+  }, {
+    "src" : 12,
+    "dest" : 11,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 15,
+    "dest" : 25,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 16,
+    "dest" : 32,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Inherit" : 1.0
+    }
+  }, {
+    "src" : 16,
+    "dest" : 34,
+    "values" : {
+      "Call" : 3.0,
+      "Import" : 1.0,
+      "Use" : 5.0
+    }
+  }, {
+    "src" : 16,
+    "dest" : 15,
+    "values" : {
+      "Call" : 18.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 17,
+    "dest" : 19,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Use" : 2.0
+    }
+  }, {
+    "src" : 17,
+    "dest" : 37,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Use" : 4.0
+    }
+  }, {
+    "src" : 17,
+    "dest" : 23,
+    "values" : {
+      "Call" : 4.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 17,
+    "dest" : 25,
+    "values" : {
+      "Call" : 4.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 17,
+    "dest" : 27,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 17,
+    "dest" : 29,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 17,
+    "dest" : 15,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 18,
+    "dest" : 32,
+    "values" : {
+      "Call" : 23.0,
+      "Import" : 1.0,
+      "Inherit" : 1.0
+    }
+  }, {
+    "src" : 18,
+    "dest" : 17,
+    "values" : {
+      "Call" : 35.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 18,
+    "dest" : 34,
+    "values" : {
+      "Call" : 4.0,
+      "Import" : 1.0,
+      "Use" : 13.0
+    }
+  }, {
+    "src" : 18,
+    "dest" : 37,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 2.0
+    }
+  }, {
+    "src" : 20,
+    "dest" : 32,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Inherit" : 1.0
+    }
+  }, {
+    "src" : 20,
+    "dest" : 17,
+    "values" : {
+      "Call" : 22.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 20,
+    "dest" : 19,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 21,
+    "dest" : 32,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Inherit" : 1.0
+    }
+  }, {
+    "src" : 21,
+    "dest" : 17,
+    "values" : {
+      "Call" : 1.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 21,
+    "dest" : 39,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 22,
+    "dest" : 32,
+    "values" : {
+      "Call" : 30.0,
+      "Import" : 1.0,
+      "Inherit" : 1.0
+    }
+  }, {
+    "src" : 22,
+    "dest" : 17,
+    "values" : {
+      "Call" : 157.0
+    }
+  }, {
+    "src" : 22,
+    "dest" : 34,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Use" : 50.0
+    }
+  }, {
+    "src" : 22,
+    "dest" : 35,
+    "values" : {
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 22,
+    "dest" : 39,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 23,
+    "dest" : 25,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 23,
+    "dest" : 15,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 24,
+    "dest" : 32,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Inherit" : 1.0
+    }
+  }, {
+    "src" : 24,
+    "dest" : 34,
+    "values" : {
+      "Call" : 3.0,
+      "Import" : 1.0,
+      "Use" : 2.0
+    }
+  }, {
+    "src" : 24,
+    "dest" : 23,
+    "values" : {
+      "Call" : 10.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 26,
+    "dest" : 32,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Inherit" : 1.0
+    }
+  }, {
+    "src" : 26,
+    "dest" : 34,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Use" : 5.0
+    }
+  }, {
+    "src" : 26,
+    "dest" : 35,
+    "values" : {
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 26,
+    "dest" : 25,
+    "values" : {
+      "Call" : 9.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 28,
+    "dest" : 32,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Inherit" : 1.0
+    }
+  }, {
+    "src" : 28,
+    "dest" : 27,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 30,
+    "dest" : 32,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Inherit" : 1.0
+    }
+  }, {
+    "src" : 30,
+    "dest" : 29,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 31,
+    "dest" : 32,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Inherit" : 1.0
+    }
+  }, {
+    "src" : 31,
+    "dest" : 29,
+    "values" : {
+      "Call" : 60.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 32,
+    "dest" : 17,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 32,
+    "dest" : 37,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 33,
+    "dest" : 32,
+    "values" : {
+      "Call" : 6.0,
+      "Import" : 1.0,
+      "Inherit" : 1.0
+    }
+  }, {
+    "src" : 34,
+    "dest" : 35,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 36,
+    "dest" : 32,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Inherit" : 1.0
+    }
+  }, {
+    "src" : 36,
+    "dest" : 34,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Use" : 2.0
+    }
+  }, {
+    "src" : 38,
+    "dest" : 32,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Inherit" : 2.0
+    }
+  }, {
+    "src" : 38,
+    "dest" : 37,
+    "values" : {
+      "Call" : 17.0,
+      "Import" : 1.0,
+      "Use" : 6.0
+    }
+  }, {
+    "src" : 39,
+    "dest" : 17,
+    "values" : {
+      "Import" : 1.0
+    }
+  } ]
+}

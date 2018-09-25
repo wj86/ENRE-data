@@ -1,0 +1,1923 @@
+strict digraph {
+compound = true;
+concentrate=true;
+node [shape=box];
+
+subgraph cluster585 {
+style=bold;label="behavioral";
+GRAPH_DUMMY585 [shape=point, style=invis];
+subgraph cluster0 {
+style=dashed;label="catalog.py";
+GRAPH_DUMMY0 [shape=point, style=invis];
+subgraph cluster2 {
+style=rounded;label="Catalog";
+GRAPH_DUMMY2 [shape=point, style=invis];
+3 [style=solid,label="__init__"];
+8 [style=solid,label="_static_method_1"];
+9 [style=solid,label="_static_method_2"];
+10 [style=solid,label="main_method"];
+}
+subgraph cluster12 {
+style=rounded;label="CatalogInstance";
+GRAPH_DUMMY12 [shape=point, style=invis];
+13 [style=solid,label="__init__"];
+19 [style=solid,label="_instance_method_1"];
+21 [style=solid,label="_instance_method_2"];
+24 [style=solid,label="main_method"];
+}
+subgraph cluster26 {
+style=rounded;label="CatalogClass";
+GRAPH_DUMMY26 [shape=point, style=invis];
+29 [style=solid,label="__init__"];
+33 [style=solid,label="_class_method_1"];
+35 [style=solid,label="_class_method_2"];
+38 [style=solid,label="main_method"];
+}
+subgraph cluster40 {
+style=rounded;label="CatalogStatic";
+GRAPH_DUMMY40 [shape=point, style=invis];
+41 [style=solid,label="__init__"];
+45 [style=solid,label="_static_method_1"];
+46 [style=solid,label="_static_method_2"];
+48 [style=solid,label="main_method"];
+}
+subgraph cluster50 {
+style=solid;label="main";
+GRAPH_DUMMY50 [shape=point, style=invis];
+}
+52 [style=solid,label="__main__"];
+}
+subgraph cluster53 {
+style=dashed;label="chain.py";
+GRAPH_DUMMY53 [shape=point, style=invis];
+subgraph cluster54 {
+style=rounded;label="Handler";
+GRAPH_DUMMY54 [shape=point, style=invis];
+56 [style=solid,label="__init__"];
+subgraph cluster60 {
+style=solid;label="handle";
+GRAPH_DUMMY60 [shape=point, style=invis];
+}
+64 [style=solid,label="_handle"];
+}
+subgraph cluster67 {
+style=rounded;label="ConcreteHandler1";
+GRAPH_DUMMY67 [shape=point, style=invis];
+68 [style=solid,label="_handle"];
+71 [style=solid,label="__init__"];
+}
+subgraph cluster72 {
+style=rounded;label="ConcreteHandler2";
+GRAPH_DUMMY72 [shape=point, style=invis];
+73 [style=solid,label="_handle"];
+76 [style=solid,label="__init__"];
+}
+subgraph cluster77 {
+style=rounded;label="ConcreteHandler3";
+GRAPH_DUMMY77 [shape=point, style=invis];
+78 [style=solid,label="_handle"];
+81 [style=solid,label="__init__"];
+}
+subgraph cluster82 {
+style=rounded;label="DefaultHandler";
+GRAPH_DUMMY82 [shape=point, style=invis];
+83 [style=solid,label="_handle"];
+86 [style=solid,label="__init__"];
+}
+subgraph cluster87 {
+style=rounded;label="Client";
+GRAPH_DUMMY87 [shape=point, style=invis];
+88 [style=solid,label="__init__"];
+91 [style=solid,label="delegate"];
+}
+subgraph cluster94 {
+style=solid;label="coroutine";
+GRAPH_DUMMY94 [shape=point, style=invis];
+96 [style=solid,label="start"];
+}
+subgraph cluster99 {
+style=solid;label="coroutine1";
+GRAPH_DUMMY99 [shape=point, style=invis];
+}
+subgraph cluster102 {
+style=solid;label="coroutine2";
+GRAPH_DUMMY102 [shape=point, style=invis];
+}
+subgraph cluster105 {
+style=solid;label="coroutine3";
+GRAPH_DUMMY105 [shape=point, style=invis];
+}
+subgraph cluster108 {
+style=solid;label="default_coroutine";
+GRAPH_DUMMY108 [shape=point, style=invis];
+}
+subgraph cluster110 {
+style=rounded;label="ClientCoroutine";
+GRAPH_DUMMY110 [shape=point, style=invis];
+111 [style=solid,label="__init__"];
+114 [style=solid,label="delegate"];
+}
+subgraph cluster117 {
+style=solid;label="timeit";
+GRAPH_DUMMY117 [shape=point, style=invis];
+119 [style=solid,label="count"];
+}
+subgraph cluster122 {
+style=solid;label="suppress_stdout";
+GRAPH_DUMMY122 [shape=point, style=invis];
+}
+subgraph cluster124 {
+style=solid;label="__main__";
+GRAPH_DUMMY124 [shape=point, style=invis];
+}
+}
+subgraph cluster130 {
+style=dashed;label="chaining_method.py";
+GRAPH_DUMMY130 [shape=point, style=invis];
+subgraph cluster131 {
+style=rounded;label="Person";
+GRAPH_DUMMY131 [shape=point, style=invis];
+132 [style=solid,label="__init__"];
+138 [style=solid,label="do_action"];
+}
+subgraph cluster140 {
+style=rounded;label="Action";
+GRAPH_DUMMY140 [shape=point, style=invis];
+141 [style=solid,label="__init__"];
+145 [style=solid,label="amount"];
+148 [style=solid,label="stop"];
+}
+subgraph cluster150 {
+style=solid;label="__main__";
+GRAPH_DUMMY150 [shape=point, style=invis];
+}
+}
+subgraph cluster153 {
+style=dashed;label="command.py";
+GRAPH_DUMMY153 [shape=point, style=invis];
+subgraph cluster154 {
+style=rounded;label="MoveFileCommand";
+GRAPH_DUMMY154 [shape=point, style=invis];
+155 [style=solid,label="__init__"];
+161 [style=solid,label="execute"];
+163 [style=solid,label="undo"];
+165 [style=solid,label="rename"];
+}
+subgraph cluster169 {
+style=solid;label="main";
+GRAPH_DUMMY169 [shape=point, style=invis];
+}
+171 [style=solid,label="__main__"];
+}
+subgraph cluster172 {
+style=dashed;label="iterator.py";
+GRAPH_DUMMY172 [shape=point, style=invis];
+subgraph cluster173 {
+style=solid;label="count_to";
+GRAPH_DUMMY173 [shape=point, style=invis];
+}
+}
+subgraph cluster178 {
+style=dashed;label="mediator.py";
+GRAPH_DUMMY178 [shape=point, style=invis];
+subgraph cluster179 {
+style=rounded;label="TC";
+GRAPH_DUMMY179 [shape=point, style=invis];
+180 [style=solid,label="__init__"];
+184 [style=solid,label="setup"];
+186 [style=solid,label="execute"];
+188 [style=solid,label="tearDown"];
+190 [style=solid,label="setTM"];
+193 [style=solid,label="setProblem"];
+}
+subgraph cluster196 {
+style=rounded;label="Reporter";
+GRAPH_DUMMY196 [shape=point, style=invis];
+197 [style=solid,label="__init__"];
+200 [style=solid,label="prepare"];
+202 [style=solid,label="report"];
+204 [style=solid,label="setTM"];
+}
+subgraph cluster207 {
+style=rounded;label="DB";
+GRAPH_DUMMY207 [shape=point, style=invis];
+208 [style=solid,label="__init__"];
+211 [style=solid,label="insert"];
+213 [style=solid,label="update"];
+215 [style=solid,label="setTM"];
+}
+subgraph cluster218 {
+style=rounded;label="TestManager";
+GRAPH_DUMMY218 [shape=point, style=invis];
+219 [style=solid,label="__init__"];
+subgraph cluster224 {
+style=solid;label="prepareReporting";
+GRAPH_DUMMY224 [shape=point, style=invis];
+}
+227 [style=solid,label="setReporter"];
+230 [style=solid,label="setDB"];
+233 [style=solid,label="publishReport"];
+235 [style=solid,label="setTC"];
+}
+subgraph cluster238 {
+style=solid;label="__main__";
+GRAPH_DUMMY238 [shape=point, style=invis];
+}
+}
+subgraph cluster243 {
+style=dashed;label="memento.py";
+GRAPH_DUMMY243 [shape=point, style=invis];
+subgraph cluster244 {
+style=solid;label="memento";
+GRAPH_DUMMY244 [shape=point, style=invis];
+248 [style=solid,label="restore"];
+}
+subgraph cluster249 {
+style=rounded;label="Transaction";
+GRAPH_DUMMY249 [shape=point, style=invis];
+252 [style=solid,label="__init__"];
+258 [style=solid,label="commit"];
+260 [style=solid,label="rollback"];
+}
+subgraph cluster262 {
+style=rounded;label="Transactional";
+GRAPH_DUMMY262 [shape=point, style=invis];
+263 [style=solid,label="__init__"];
+subgraph cluster267 {
+style=solid;label="__get__";
+GRAPH_DUMMY267 [shape=point, style=invis];
+271 [style=solid,label="transaction"];
+}
+}
+subgraph cluster274 {
+style=rounded;label="NumObj";
+GRAPH_DUMMY274 [shape=point, style=invis];
+275 [style=solid,label="__init__"];
+279 [style=solid,label="__repr__"];
+281 [style=solid,label="increment"];
+283 [style=solid,label="do_stuff"];
+}
+subgraph cluster285 {
+style=solid;label="__main__";
+GRAPH_DUMMY285 [shape=point, style=invis];
+}
+}
+subgraph cluster288 {
+style=dashed;label="observer.py";
+GRAPH_DUMMY288 [shape=point, style=invis];
+subgraph cluster289 {
+style=rounded;label="Subject";
+GRAPH_DUMMY289 [shape=point, style=invis];
+290 [style=solid,label="__init__"];
+293 [style=solid,label="attach"];
+296 [style=solid,label="detach"];
+299 [style=solid,label="notify"];
+}
+subgraph cluster302 {
+style=rounded;label="Data";
+GRAPH_DUMMY302 [shape=point, style=invis];
+303 [style=solid,label="__init__"];
+308 [style=solid,label="data"];
+310 [style=solid,label="data"];
+}
+subgraph cluster313 {
+style=rounded;label="HexViewer";
+GRAPH_DUMMY313 [shape=point, style=invis];
+314 [style=solid,label="update"];
+317 [style=solid,label="__init__"];
+}
+subgraph cluster318 {
+style=rounded;label="DecimalViewer";
+GRAPH_DUMMY318 [shape=point, style=invis];
+319 [style=solid,label="update"];
+322 [style=solid,label="__init__"];
+}
+subgraph cluster323 {
+style=solid;label="main";
+GRAPH_DUMMY323 [shape=point, style=invis];
+}
+328 [style=solid,label="__main__"];
+}
+subgraph cluster329 {
+style=dashed;label="publish_subscribe.py";
+GRAPH_DUMMY329 [shape=point, style=invis];
+subgraph cluster330 {
+style=rounded;label="Provider";
+GRAPH_DUMMY330 [shape=point, style=invis];
+331 [style=solid,label="__init__"];
+335 [style=solid,label="notify"];
+338 [style=solid,label="subscribe"];
+342 [style=solid,label="unsubscribe"];
+346 [style=solid,label="update"];
+}
+subgraph cluster348 {
+style=rounded;label="Publisher";
+GRAPH_DUMMY348 [shape=point, style=invis];
+349 [style=solid,label="__init__"];
+353 [style=solid,label="publish"];
+}
+subgraph cluster356 {
+style=rounded;label="Subscriber";
+GRAPH_DUMMY356 [shape=point, style=invis];
+357 [style=solid,label="__init__"];
+363 [style=solid,label="subscribe"];
+366 [style=solid,label="unsubscribe"];
+369 [style=solid,label="run"];
+}
+subgraph cluster372 {
+style=solid;label="main";
+GRAPH_DUMMY372 [shape=point, style=invis];
+}
+379 [style=solid,label="__main__"];
+}
+subgraph cluster380 {
+style=dashed;label="registry.py";
+GRAPH_DUMMY380 [shape=point, style=invis];
+subgraph cluster381 {
+style=rounded;label="RegistryHolder";
+GRAPH_DUMMY381 [shape=point, style=invis];
+subgraph cluster383 {
+style=solid;label="__new__";
+GRAPH_DUMMY383 [shape=point, style=invis];
+}
+389 [style=solid,label="get_registry"];
+391 [style=solid,label="__init__"];
+}
+subgraph cluster392 {
+style=rounded;label="BaseRegisteredClass";
+GRAPH_DUMMY392 [shape=point, style=invis];
+394 [style=solid,label="__init__"];
+}
+subgraph cluster395 {
+style=solid;label="__main__";
+GRAPH_DUMMY395 [shape=point, style=invis];
+396 [style=rounded,label="ClassRegistree"];
+}
+}
+subgraph cluster397 {
+style=dashed;label="specification.py";
+GRAPH_DUMMY397 [shape=point, style=invis];
+subgraph cluster398 {
+style=rounded;label="Specification";
+GRAPH_DUMMY398 [shape=point, style=invis];
+399 [style=solid,label="and_specification"];
+402 [style=solid,label="or_specification"];
+405 [style=solid,label="not_specification"];
+407 [style=solid,label="is_satisfied_by"];
+410 [style=solid,label="__init__"];
+}
+subgraph cluster411 {
+style=rounded;label="CompositeSpecification";
+GRAPH_DUMMY411 [shape=point, style=invis];
+412 [style=solid,label="is_satisfied_by"];
+415 [style=solid,label="and_specification"];
+418 [style=solid,label="or_specification"];
+421 [style=solid,label="not_specification"];
+423 [style=solid,label="__init__"];
+}
+subgraph cluster424 {
+style=rounded;label="AndSpecification";
+GRAPH_DUMMY424 [shape=point, style=invis];
+427 [style=solid,label="__init__"];
+433 [style=solid,label="is_satisfied_by"];
+}
+subgraph cluster436 {
+style=rounded;label="OrSpecification";
+GRAPH_DUMMY436 [shape=point, style=invis];
+439 [style=solid,label="__init__"];
+445 [style=solid,label="is_satisfied_by"];
+}
+subgraph cluster448 {
+style=rounded;label="NotSpecification";
+GRAPH_DUMMY448 [shape=point, style=invis];
+450 [style=solid,label="__init__"];
+454 [style=solid,label="is_satisfied_by"];
+}
+subgraph cluster457 {
+style=rounded;label="User";
+GRAPH_DUMMY457 [shape=point, style=invis];
+458 [style=solid,label="__init__"];
+}
+subgraph cluster462 {
+style=rounded;label="UserSpecification";
+GRAPH_DUMMY462 [shape=point, style=invis];
+463 [style=solid,label="is_satisfied_by"];
+466 [style=solid,label="__init__"];
+}
+subgraph cluster467 {
+style=rounded;label="SuperUserSpecification";
+GRAPH_DUMMY467 [shape=point, style=invis];
+468 [style=solid,label="is_satisfied_by"];
+471 [style=solid,label="__init__"];
+}
+subgraph cluster472 {
+style=solid;label="__main__";
+GRAPH_DUMMY472 [shape=point, style=invis];
+}
+}
+subgraph cluster477 {
+style=dashed;label="state.py";
+GRAPH_DUMMY477 [shape=point, style=invis];
+subgraph cluster478 {
+style=rounded;label="State";
+GRAPH_DUMMY478 [shape=point, style=invis];
+479 [style=solid,label="scan"];
+481 [style=solid,label="__init__"];
+}
+subgraph cluster482 {
+style=rounded;label="AmState";
+GRAPH_DUMMY482 [shape=point, style=invis];
+483 [style=solid,label="__init__"];
+490 [style=solid,label="toggle_amfm"];
+}
+subgraph cluster492 {
+style=rounded;label="FmState";
+GRAPH_DUMMY492 [shape=point, style=invis];
+493 [style=solid,label="__init__"];
+500 [style=solid,label="toggle_amfm"];
+}
+subgraph cluster502 {
+style=rounded;label="Radio";
+GRAPH_DUMMY502 [shape=point, style=invis];
+503 [style=solid,label="__init__"];
+508 [style=solid,label="toggle_amfm"];
+510 [style=solid,label="scan"];
+}
+subgraph cluster512 {
+style=solid;label="__main__";
+GRAPH_DUMMY512 [shape=point, style=invis];
+}
+}
+subgraph cluster515 {
+style=dashed;label="strategy.py";
+GRAPH_DUMMY515 [shape=point, style=invis];
+subgraph cluster516 {
+style=rounded;label="StrategyExample";
+GRAPH_DUMMY516 [shape=point, style=invis];
+517 [style=solid,label="__init__"];
+522 [style=solid,label="execute"];
+}
+524 [style=solid,label="execute_replacement1"];
+526 [style=solid,label="execute_replacement2"];
+subgraph cluster528 {
+style=solid;label="__main__";
+GRAPH_DUMMY528 [shape=point, style=invis];
+}
+}
+subgraph cluster532 {
+style=dashed;label="template.py";
+GRAPH_DUMMY532 [shape=point, style=invis];
+535 [style=solid,label="iter_elements"];
+538 [style=solid,label="rev_elements"];
+541 [style=solid,label="get_list"];
+542 [style=solid,label="get_lists"];
+543 [style=solid,label="print_item"];
+545 [style=solid,label="reverse_item"];
+subgraph cluster547 {
+style=solid;label="make_template";
+GRAPH_DUMMY547 [shape=point, style=invis];
+551 [style=solid,label="template"];
+}
+}
+subgraph cluster553 {
+style=dashed;label="visitor.py";
+GRAPH_DUMMY553 [shape=point, style=invis];
+subgraph cluster554 {
+style=rounded;label="Node";
+GRAPH_DUMMY554 [shape=point, style=invis];
+555 [style=solid,label="__init__"];
+}
+subgraph cluster556 {
+style=rounded;label="A";
+GRAPH_DUMMY556 [shape=point, style=invis];
+557 [style=solid,label="__init__"];
+}
+subgraph cluster558 {
+style=rounded;label="B";
+GRAPH_DUMMY558 [shape=point, style=invis];
+559 [style=solid,label="__init__"];
+}
+subgraph cluster560 {
+style=rounded;label="C";
+GRAPH_DUMMY560 [shape=point, style=invis];
+561 [style=solid,label="__init__"];
+}
+subgraph cluster562 {
+style=rounded;label="Visitor";
+GRAPH_DUMMY562 [shape=point, style=invis];
+subgraph cluster563 {
+style=solid;label="visit";
+GRAPH_DUMMY563 [shape=point, style=invis];
+}
+570 [style=solid,label="generic_visit"];
+575 [style=solid,label="visit_B"];
+580 [style=solid,label="__init__"];
+}
+}
+586 [style=dashed,label="__init__.py"];
+}
+subgraph cluster767 {
+style=bold;label="creational";
+GRAPH_DUMMY767 [shape=point, style=invis];
+subgraph cluster587 {
+style=dashed;label="abstract_factory.py";
+GRAPH_DUMMY587 [shape=point, style=invis];
+subgraph cluster588 {
+style=rounded;label="PetShop";
+GRAPH_DUMMY588 [shape=point, style=invis];
+589 [style=solid,label="__init__"];
+subgraph cluster593 {
+style=solid;label="show_pet";
+GRAPH_DUMMY593 [shape=point, style=invis];
+}
+}
+subgraph cluster596 {
+style=rounded;label="Dog";
+GRAPH_DUMMY596 [shape=point, style=invis];
+597 [style=solid,label="speak"];
+599 [style=solid,label="__str__"];
+601 [style=solid,label="__init__"];
+}
+subgraph cluster602 {
+style=rounded;label="Cat";
+GRAPH_DUMMY602 [shape=point, style=invis];
+603 [style=solid,label="speak"];
+605 [style=solid,label="__str__"];
+607 [style=solid,label="__init__"];
+}
+608 [style=solid,label="random_animal"];
+subgraph cluster609 {
+style=solid;label="__main__";
+GRAPH_DUMMY609 [shape=point, style=invis];
+}
+}
+subgraph cluster612 {
+style=dashed;label="borg.py";
+GRAPH_DUMMY612 [shape=point, style=invis];
+subgraph cluster613 {
+style=rounded;label="Borg";
+GRAPH_DUMMY613 [shape=point, style=invis];
+615 [style=solid,label="__init__"];
+619 [style=solid,label="__str__"];
+}
+subgraph cluster621 {
+style=rounded;label="YourBorg";
+GRAPH_DUMMY621 [shape=point, style=invis];
+622 [style=solid,label="__init__"];
+}
+subgraph cluster623 {
+style=solid;label="__main__";
+GRAPH_DUMMY623 [shape=point, style=invis];
+}
+}
+subgraph cluster627 {
+style=dashed;label="builder.py";
+GRAPH_DUMMY627 [shape=point, style=invis];
+subgraph cluster628 {
+style=rounded;label="Building";
+GRAPH_DUMMY628 [shape=point, style=invis];
+629 [style=solid,label="__init__"];
+631 [style=solid,label="build_floor"];
+633 [style=solid,label="build_size"];
+635 [style=solid,label="__repr__"];
+}
+subgraph cluster637 {
+style=rounded;label="House";
+GRAPH_DUMMY637 [shape=point, style=invis];
+638 [style=solid,label="build_floor"];
+640 [style=solid,label="build_size"];
+642 [style=solid,label="__init__"];
+}
+subgraph cluster643 {
+style=rounded;label="Flat";
+GRAPH_DUMMY643 [shape=point, style=invis];
+644 [style=solid,label="build_floor"];
+646 [style=solid,label="build_size"];
+648 [style=solid,label="__init__"];
+}
+subgraph cluster649 {
+style=rounded;label="ComplexBuilding";
+GRAPH_DUMMY649 [shape=point, style=invis];
+650 [style=solid,label="__repr__"];
+652 [style=solid,label="__init__"];
+}
+subgraph cluster653 {
+style=rounded;label="ComplexHouse";
+GRAPH_DUMMY653 [shape=point, style=invis];
+654 [style=solid,label="build_floor"];
+656 [style=solid,label="build_size"];
+658 [style=solid,label="__init__"];
+}
+subgraph cluster659 {
+style=solid;label="construct_building";
+GRAPH_DUMMY659 [shape=point, style=invis];
+}
+subgraph cluster662 {
+style=solid;label="__main__";
+GRAPH_DUMMY662 [shape=point, style=invis];
+}
+}
+subgraph cluster666 {
+style=dashed;label="factory_method.py";
+GRAPH_DUMMY666 [shape=point, style=invis];
+subgraph cluster667 {
+style=rounded;label="GreekGetter";
+GRAPH_DUMMY667 [shape=point, style=invis];
+668 [style=solid,label="__init__"];
+671 [style=solid,label="get"];
+}
+subgraph cluster674 {
+style=rounded;label="EnglishGetter";
+GRAPH_DUMMY674 [shape=point, style=invis];
+675 [style=solid,label="get"];
+678 [style=solid,label="__init__"];
+}
+subgraph cluster679 {
+style=solid;label="get_localizer";
+GRAPH_DUMMY679 [shape=point, style=invis];
+}
+subgraph cluster682 {
+style=solid;label="__main__";
+GRAPH_DUMMY682 [shape=point, style=invis];
+}
+}
+subgraph cluster685 {
+style=dashed;label="lazy_evaluation.py";
+GRAPH_DUMMY685 [shape=point, style=invis];
+subgraph cluster686 {
+style=rounded;label="lazy_property";
+GRAPH_DUMMY686 [shape=point, style=invis];
+687 [style=solid,label="__init__"];
+subgraph cluster691 {
+style=solid;label="__get__";
+GRAPH_DUMMY691 [shape=point, style=invis];
+}
+}
+subgraph cluster696 {
+style=solid;label="lazy_property2";
+GRAPH_DUMMY696 [shape=point, style=invis];
+699 [style=solid,label="_lazy_property"];
+}
+subgraph cluster701 {
+style=rounded;label="Person";
+GRAPH_DUMMY701 [shape=point, style=invis];
+702 [style=solid,label="__init__"];
+subgraph cluster709 {
+style=solid;label="relatives";
+GRAPH_DUMMY709 [shape=point, style=invis];
+}
+712 [style=solid,label="parents"];
+}
+subgraph cluster714 {
+style=solid;label="main";
+GRAPH_DUMMY714 [shape=point, style=invis];
+}
+716 [style=solid,label="__main__"];
+}
+subgraph cluster717 {
+style=dashed;label="pool.py";
+GRAPH_DUMMY717 [shape=point, style=invis];
+subgraph cluster718 {
+style=rounded;label="ObjectPool";
+GRAPH_DUMMY718 [shape=point, style=invis];
+719 [style=solid,label="__init__"];
+725 [style=solid,label="__enter__"];
+727 [style=solid,label="__exit__"];
+732 [style=solid,label="__del__"];
+}
+subgraph cluster734 {
+style=solid;label="main";
+GRAPH_DUMMY734 [shape=point, style=invis];
+735 [style=solid,label="test_object"];
+}
+738 [style=solid,label="__main__"];
+}
+subgraph cluster739 {
+style=dashed;label="prototype.py";
+GRAPH_DUMMY739 [shape=point, style=invis];
+subgraph cluster740 {
+style=rounded;label="Prototype";
+GRAPH_DUMMY740 [shape=point, style=invis];
+subgraph cluster742 {
+style=solid;label="clone";
+GRAPH_DUMMY742 [shape=point, style=invis];
+}
+746 [style=solid,label="__init__"];
+}
+subgraph cluster747 {
+style=rounded;label="PrototypeDispatcher";
+GRAPH_DUMMY747 [shape=point, style=invis];
+748 [style=solid,label="__init__"];
+751 [style=solid,label="get_objects"];
+753 [style=solid,label="register_object"];
+757 [style=solid,label="unregister_object"];
+}
+subgraph cluster760 {
+style=solid;label="main";
+GRAPH_DUMMY760 [shape=point, style=invis];
+}
+766 [style=solid,label="__main__"];
+}
+768 [style=dashed,label="__init__.py"];
+}
+subgraph cluster832 {
+style=bold;label="dft";
+GRAPH_DUMMY832 [shape=point, style=invis];
+subgraph cluster769 {
+style=dashed;label="constructor_injection.py";
+GRAPH_DUMMY769 [shape=point, style=invis];
+subgraph cluster770 {
+style=rounded;label="TimeDisplay";
+GRAPH_DUMMY770 [shape=point, style=invis];
+771 [style=solid,label="__init__"];
+subgraph cluster775 {
+style=solid;label="get_current_time_as_html_fragment";
+GRAPH_DUMMY775 [shape=point, style=invis];
+}
+}
+subgraph cluster779 {
+style=rounded;label="ProductionCodeTimeProvider";
+GRAPH_DUMMY779 [shape=point, style=invis];
+subgraph cluster780 {
+style=solid;label="now";
+GRAPH_DUMMY780 [shape=point, style=invis];
+}
+784 [style=solid,label="__init__"];
+}
+subgraph cluster785 {
+style=rounded;label="MidnightTimeProvider";
+GRAPH_DUMMY785 [shape=point, style=invis];
+subgraph cluster786 {
+style=solid;label="now";
+GRAPH_DUMMY786 [shape=point, style=invis];
+}
+789 [style=solid,label="__init__"];
+}
+}
+subgraph cluster790 {
+style=dashed;label="parameter_injection.py";
+GRAPH_DUMMY790 [shape=point, style=invis];
+subgraph cluster791 {
+style=rounded;label="TimeDisplay";
+GRAPH_DUMMY791 [shape=point, style=invis];
+792 [style=solid,label="__init__"];
+subgraph cluster794 {
+style=solid;label="get_current_time_as_html_fragment";
+GRAPH_DUMMY794 [shape=point, style=invis];
+}
+}
+subgraph cluster799 {
+style=rounded;label="ProductionCodeTimeProvider";
+GRAPH_DUMMY799 [shape=point, style=invis];
+subgraph cluster800 {
+style=solid;label="now";
+GRAPH_DUMMY800 [shape=point, style=invis];
+}
+804 [style=solid,label="__init__"];
+}
+subgraph cluster805 {
+style=rounded;label="MidnightTimeProvider";
+GRAPH_DUMMY805 [shape=point, style=invis];
+subgraph cluster806 {
+style=solid;label="now";
+GRAPH_DUMMY806 [shape=point, style=invis];
+}
+809 [style=solid,label="__init__"];
+}
+}
+subgraph cluster810 {
+style=dashed;label="setter_injection.py";
+GRAPH_DUMMY810 [shape=point, style=invis];
+subgraph cluster811 {
+style=rounded;label="TimeDisplay";
+GRAPH_DUMMY811 [shape=point, style=invis];
+812 [style=solid,label="__init__"];
+814 [style=solid,label="set_time_provider"];
+subgraph cluster817 {
+style=solid;label="get_current_time_as_html_fragment";
+GRAPH_DUMMY817 [shape=point, style=invis];
+}
+}
+subgraph cluster821 {
+style=rounded;label="ProductionCodeTimeProvider";
+GRAPH_DUMMY821 [shape=point, style=invis];
+subgraph cluster822 {
+style=solid;label="now";
+GRAPH_DUMMY822 [shape=point, style=invis];
+}
+826 [style=solid,label="__init__"];
+}
+subgraph cluster827 {
+style=rounded;label="MidnightTimeProvider";
+GRAPH_DUMMY827 [shape=point, style=invis];
+subgraph cluster828 {
+style=solid;label="now";
+GRAPH_DUMMY828 [shape=point, style=invis];
+}
+831 [style=solid,label="__init__"];
+}
+}
+833 [style=dashed,label="__init__.py"];
+}
+subgraph cluster852 {
+style=bold;label="fundamental";
+GRAPH_DUMMY852 [shape=point, style=invis];
+subgraph cluster834 {
+style=dashed;label="delegation_pattern.py";
+GRAPH_DUMMY834 [shape=point, style=invis];
+subgraph cluster835 {
+style=rounded;label="Delegator";
+GRAPH_DUMMY835 [shape=point, style=invis];
+836 [style=solid,label="__init__"];
+subgraph cluster840 {
+style=solid;label="__getattr__";
+GRAPH_DUMMY840 [shape=point, style=invis];
+843 [style=solid,label="wrapper"];
+}
+}
+subgraph cluster846 {
+style=rounded;label="Delegate";
+GRAPH_DUMMY846 [shape=point, style=invis];
+847 [style=solid,label="do_something"];
+850 [style=solid,label="__init__"];
+}
+851 [style=solid,label="__main__"];
+}
+853 [style=dashed,label="__init__.py"];
+}
+subgraph cluster1038 {
+style=bold;label="other";
+GRAPH_DUMMY1038 [shape=point, style=invis];
+subgraph cluster1036 {
+style=bold;label="hsm";
+GRAPH_DUMMY1036 [shape=point, style=invis];
+subgraph cluster930 {
+style=dashed;label="hsm.py";
+GRAPH_DUMMY930 [shape=point, style=invis];
+subgraph cluster931 {
+style=rounded;label="UnsupportedMessageType";
+GRAPH_DUMMY931 [shape=point, style=invis];
+932 [style=solid,label="__init__"];
+}
+subgraph cluster933 {
+style=rounded;label="UnsupportedState";
+GRAPH_DUMMY933 [shape=point, style=invis];
+934 [style=solid,label="__init__"];
+}
+subgraph cluster935 {
+style=rounded;label="UnsupportedTransition";
+GRAPH_DUMMY935 [shape=point, style=invis];
+936 [style=solid,label="__init__"];
+}
+subgraph cluster937 {
+style=rounded;label="HierachicalStateMachine";
+GRAPH_DUMMY937 [shape=point, style=invis];
+938 [style=solid,label="__init__"];
+947 [style=solid,label="_next_state"];
+950 [style=solid,label="_send_diagnostics_request"];
+952 [style=solid,label="_raise_alarm"];
+954 [style=solid,label="_clear_alarm"];
+956 [style=solid,label="_perform_switchover"];
+958 [style=solid,label="_send_switchover_response"];
+960 [style=solid,label="_send_operator_inservice_response"];
+962 [style=solid,label="_send_diagnostics_failure_report"];
+964 [style=solid,label="_send_diagnostics_pass_report"];
+966 [style=solid,label="_abort_diagnostics"];
+968 [style=solid,label="_check_mate_status"];
+970 [style=solid,label="on_message"];
+}
+subgraph cluster973 {
+style=rounded;label="Unit";
+GRAPH_DUMMY973 [shape=point, style=invis];
+974 [style=solid,label="__init__"];
+978 [style=solid,label="on_switchover"];
+980 [style=solid,label="on_fault_trigger"];
+982 [style=solid,label="on_diagnostics_failed"];
+984 [style=solid,label="on_diagnostics_passed"];
+986 [style=solid,label="on_operator_inservice"];
+}
+subgraph cluster988 {
+style=rounded;label="Inservice";
+GRAPH_DUMMY988 [shape=point, style=invis];
+989 [style=solid,label="__init__"];
+993 [style=solid,label="on_fault_trigger"];
+995 [style=solid,label="on_switchover"];
+}
+subgraph cluster997 {
+style=rounded;label="Active";
+GRAPH_DUMMY997 [shape=point, style=invis];
+998 [style=solid,label="__init__"];
+1002 [style=solid,label="on_fault_trigger"];
+1004 [style=solid,label="on_switchover"];
+}
+subgraph cluster1006 {
+style=rounded;label="Standby";
+GRAPH_DUMMY1006 [shape=point, style=invis];
+1007 [style=solid,label="__init__"];
+1011 [style=solid,label="on_switchover"];
+}
+subgraph cluster1013 {
+style=rounded;label="OutOfService";
+GRAPH_DUMMY1013 [shape=point, style=invis];
+1014 [style=solid,label="__init__"];
+1018 [style=solid,label="on_operator_inservice"];
+}
+subgraph cluster1020 {
+style=rounded;label="Suspect";
+GRAPH_DUMMY1020 [shape=point, style=invis];
+1021 [style=solid,label="__init__"];
+1025 [style=solid,label="on_diagnostics_failed"];
+1027 [style=solid,label="on_diagnostics_passed"];
+1029 [style=solid,label="on_operator_inservice"];
+}
+subgraph cluster1031 {
+style=rounded;label="Failed";
+GRAPH_DUMMY1031 [shape=point, style=invis];
+1032 [style=solid,label="__init__"];
+}
+}
+1037 [style=dashed,label="__init__.py"];
+}
+subgraph cluster854 {
+style=dashed;label="blackboard.py";
+GRAPH_DUMMY854 [shape=point, style=invis];
+subgraph cluster855 {
+style=rounded;label="Blackboard";
+GRAPH_DUMMY855 [shape=point, style=invis];
+856 [style=solid,label="__init__"];
+860 [style=solid,label="add_expert"];
+}
+subgraph cluster863 {
+style=rounded;label="Controller";
+GRAPH_DUMMY863 [shape=point, style=invis];
+864 [style=solid,label="__init__"];
+868 [style=solid,label="run_loop"];
+}
+subgraph cluster870 {
+style=rounded;label="AbstractExpert";
+GRAPH_DUMMY870 [shape=point, style=invis];
+872 [style=solid,label="__init__"];
+876 [style=solid,label="is_eager_to_contribute"];
+878 [style=solid,label="contribute"];
+}
+subgraph cluster880 {
+style=rounded;label="Student";
+GRAPH_DUMMY880 [shape=point, style=invis];
+881 [style=solid,label="is_eager_to_contribute"];
+883 [style=solid,label="contribute"];
+885 [style=solid,label="__init__"];
+}
+subgraph cluster886 {
+style=rounded;label="Scientist";
+GRAPH_DUMMY886 [shape=point, style=invis];
+887 [style=solid,label="is_eager_to_contribute"];
+889 [style=solid,label="contribute"];
+891 [style=solid,label="__init__"];
+}
+subgraph cluster892 {
+style=rounded;label="Professor";
+GRAPH_DUMMY892 [shape=point, style=invis];
+893 [style=solid,label="is_eager_to_contribute"];
+895 [style=solid,label="contribute"];
+897 [style=solid,label="__init__"];
+}
+subgraph cluster898 {
+style=solid;label="__main__";
+GRAPH_DUMMY898 [shape=point, style=invis];
+}
+}
+subgraph cluster902 {
+style=dashed;label="graph_search.py";
+GRAPH_DUMMY902 [shape=point, style=invis];
+subgraph cluster903 {
+style=rounded;label="GraphSearch";
+GRAPH_DUMMY903 [shape=point, style=invis];
+904 [style=solid,label="__init__"];
+subgraph cluster908 {
+style=solid;label="find_path";
+GRAPH_DUMMY908 [shape=point, style=invis];
+}
+subgraph cluster914 {
+style=solid;label="find_all_path";
+GRAPH_DUMMY914 [shape=point, style=invis];
+}
+subgraph cluster921 {
+style=solid;label="find_shortest_path";
+GRAPH_DUMMY921 [shape=point, style=invis];
+}
+}
+}
+1039 [style=dashed,label="__init__.py"];
+}
+subgraph cluster1404 {
+style=bold;label="structural";
+GRAPH_DUMMY1404 [shape=point, style=invis];
+subgraph cluster1040 {
+style=dashed;label="3-tier.py";
+GRAPH_DUMMY1040 [shape=point, style=invis];
+subgraph cluster1041 {
+style=rounded;label="Data";
+GRAPH_DUMMY1041 [shape=point, style=invis];
+1043 [style=solid,label="__get__"];
+1047 [style=solid,label="__init__"];
+}
+subgraph cluster1048 {
+style=rounded;label="BusinessLogic";
+GRAPH_DUMMY1048 [shape=point, style=invis];
+1050 [style=solid,label="product_list"];
+1052 [style=solid,label="product_information"];
+1055 [style=solid,label="__init__"];
+}
+subgraph cluster1056 {
+style=rounded;label="Ui";
+GRAPH_DUMMY1056 [shape=point, style=invis];
+1057 [style=solid,label="__init__"];
+1060 [style=solid,label="get_product_list"];
+subgraph cluster1062 {
+style=solid;label="get_product_information";
+GRAPH_DUMMY1062 [shape=point, style=invis];
+}
+}
+subgraph cluster1066 {
+style=solid;label="main";
+GRAPH_DUMMY1066 [shape=point, style=invis];
+}
+1068 [style=solid,label="__main__"];
+}
+subgraph cluster1069 {
+style=dashed;label="adapter.py";
+GRAPH_DUMMY1069 [shape=point, style=invis];
+subgraph cluster1070 {
+style=rounded;label="Dog";
+GRAPH_DUMMY1070 [shape=point, style=invis];
+1071 [style=solid,label="__init__"];
+1074 [style=solid,label="bark"];
+}
+subgraph cluster1076 {
+style=rounded;label="Cat";
+GRAPH_DUMMY1076 [shape=point, style=invis];
+1077 [style=solid,label="__init__"];
+1080 [style=solid,label="meow"];
+}
+subgraph cluster1082 {
+style=rounded;label="Human";
+GRAPH_DUMMY1082 [shape=point, style=invis];
+1083 [style=solid,label="__init__"];
+1086 [style=solid,label="speak"];
+}
+subgraph cluster1088 {
+style=rounded;label="Car";
+GRAPH_DUMMY1088 [shape=point, style=invis];
+1089 [style=solid,label="__init__"];
+1092 [style=solid,label="make_noise"];
+}
+subgraph cluster1095 {
+style=rounded;label="Adapter";
+GRAPH_DUMMY1095 [shape=point, style=invis];
+1096 [style=solid,label="__init__"];
+1101 [style=solid,label="__getattr__"];
+1104 [style=solid,label="original_dict"];
+}
+subgraph cluster1106 {
+style=solid;label="main";
+GRAPH_DUMMY1106 [shape=point, style=invis];
+}
+1112 [style=solid,label="__main__"];
+}
+subgraph cluster1113 {
+style=dashed;label="bridge.py";
+GRAPH_DUMMY1113 [shape=point, style=invis];
+subgraph cluster1114 {
+style=rounded;label="DrawingAPI1";
+GRAPH_DUMMY1114 [shape=point, style=invis];
+1115 [style=solid,label="draw_circle"];
+1120 [style=solid,label="__init__"];
+}
+subgraph cluster1121 {
+style=rounded;label="DrawingAPI2";
+GRAPH_DUMMY1121 [shape=point, style=invis];
+1122 [style=solid,label="draw_circle"];
+1127 [style=solid,label="__init__"];
+}
+subgraph cluster1128 {
+style=rounded;label="CircleShape";
+GRAPH_DUMMY1128 [shape=point, style=invis];
+1129 [style=solid,label="__init__"];
+1139 [style=solid,label="draw"];
+1141 [style=solid,label="scale"];
+}
+subgraph cluster1144 {
+style=solid;label="main";
+GRAPH_DUMMY1144 [shape=point, style=invis];
+}
+1146 [style=solid,label="__main__"];
+}
+subgraph cluster1147 {
+style=dashed;label="composite.py";
+GRAPH_DUMMY1147 [shape=point, style=invis];
+subgraph cluster1148 {
+style=rounded;label="Graphic";
+GRAPH_DUMMY1148 [shape=point, style=invis];
+1149 [style=solid,label="render"];
+1151 [style=solid,label="__init__"];
+}
+subgraph cluster1152 {
+style=rounded;label="CompositeGraphic";
+GRAPH_DUMMY1152 [shape=point, style=invis];
+1153 [style=solid,label="__init__"];
+1156 [style=solid,label="render"];
+1158 [style=solid,label="add"];
+1161 [style=solid,label="remove"];
+}
+subgraph cluster1164 {
+style=rounded;label="Ellipse";
+GRAPH_DUMMY1164 [shape=point, style=invis];
+1165 [style=solid,label="__init__"];
+1169 [style=solid,label="render"];
+}
+subgraph cluster1171 {
+style=solid;label="__main__";
+GRAPH_DUMMY1171 [shape=point, style=invis];
+}
+}
+subgraph cluster1179 {
+style=dashed;label="decorator.py";
+GRAPH_DUMMY1179 [shape=point, style=invis];
+subgraph cluster1180 {
+style=rounded;label="TextTag";
+GRAPH_DUMMY1180 [shape=point, style=invis];
+1181 [style=solid,label="__init__"];
+1185 [style=solid,label="render"];
+}
+subgraph cluster1187 {
+style=rounded;label="BoldWrapper";
+GRAPH_DUMMY1187 [shape=point, style=invis];
+1188 [style=solid,label="__init__"];
+1192 [style=solid,label="render"];
+}
+subgraph cluster1194 {
+style=rounded;label="ItalicWrapper";
+GRAPH_DUMMY1194 [shape=point, style=invis];
+1195 [style=solid,label="__init__"];
+1199 [style=solid,label="render"];
+}
+subgraph cluster1201 {
+style=solid;label="__main__";
+GRAPH_DUMMY1201 [shape=point, style=invis];
+}
+}
+subgraph cluster1204 {
+style=dashed;label="facade.py";
+GRAPH_DUMMY1204 [shape=point, style=invis];
+subgraph cluster1206 {
+style=rounded;label="TC1";
+GRAPH_DUMMY1206 [shape=point, style=invis];
+1207 [style=solid,label="run"];
+1209 [style=solid,label="__init__"];
+}
+subgraph cluster1210 {
+style=rounded;label="TC2";
+GRAPH_DUMMY1210 [shape=point, style=invis];
+1211 [style=solid,label="run"];
+1213 [style=solid,label="__init__"];
+}
+subgraph cluster1214 {
+style=rounded;label="TC3";
+GRAPH_DUMMY1214 [shape=point, style=invis];
+1215 [style=solid,label="run"];
+1217 [style=solid,label="__init__"];
+}
+subgraph cluster1218 {
+style=rounded;label="TestRunner";
+GRAPH_DUMMY1218 [shape=point, style=invis];
+1219 [style=solid,label="__init__"];
+1225 [style=solid,label="runAll"];
+}
+subgraph cluster1227 {
+style=solid;label="__main__";
+GRAPH_DUMMY1227 [shape=point, style=invis];
+}
+}
+subgraph cluster1229 {
+style=dashed;label="flyweight.py";
+GRAPH_DUMMY1229 [shape=point, style=invis];
+subgraph cluster1230 {
+style=rounded;label="FlyweightMeta";
+GRAPH_DUMMY1230 [shape=point, style=invis];
+subgraph cluster1231 {
+style=solid;label="__new__";
+GRAPH_DUMMY1231 [shape=point, style=invis];
+}
+subgraph cluster1237 {
+style=solid;label="_serialize_params";
+GRAPH_DUMMY1237 [shape=point, style=invis];
+}
+subgraph cluster1243 {
+style=solid;label="__call__";
+GRAPH_DUMMY1243 [shape=point, style=invis];
+}
+1251 [style=solid,label="__init__"];
+}
+subgraph cluster1252 {
+style=rounded;label="Card";
+GRAPH_DUMMY1252 [shape=point, style=invis];
+subgraph cluster1254 {
+style=solid;label="__new__";
+GRAPH_DUMMY1254 [shape=point, style=invis];
+}
+1259 [style=solid,label="__repr__"];
+1261 [style=solid,label="__init__"];
+}
+1262 [style=solid,label="with_metaclass"];
+subgraph cluster1265 {
+style=rounded;label="Card2";
+GRAPH_DUMMY1265 [shape=point, style=invis];
+1266 [style=solid,label="__init__"];
+}
+subgraph cluster1270 {
+style=solid;label="__main__";
+GRAPH_DUMMY1270 [shape=point, style=invis];
+}
+}
+subgraph cluster1278 {
+style=dashed;label="front_controller.py";
+GRAPH_DUMMY1278 [shape=point, style=invis];
+subgraph cluster1279 {
+style=rounded;label="MobileView";
+GRAPH_DUMMY1279 [shape=point, style=invis];
+1280 [style=solid,label="show_index_page"];
+1282 [style=solid,label="__init__"];
+}
+subgraph cluster1283 {
+style=rounded;label="TabletView";
+GRAPH_DUMMY1283 [shape=point, style=invis];
+1284 [style=solid,label="show_index_page"];
+1286 [style=solid,label="__init__"];
+}
+subgraph cluster1287 {
+style=rounded;label="Dispatcher";
+GRAPH_DUMMY1287 [shape=point, style=invis];
+1288 [style=solid,label="__init__"];
+1292 [style=solid,label="dispatch"];
+}
+subgraph cluster1295 {
+style=rounded;label="RequestController";
+GRAPH_DUMMY1295 [shape=point, style=invis];
+1296 [style=solid,label="__init__"];
+1299 [style=solid,label="dispatch_request"];
+}
+subgraph cluster1302 {
+style=rounded;label="Request";
+GRAPH_DUMMY1302 [shape=point, style=invis];
+1305 [style=solid,label="__init__"];
+}
+subgraph cluster1311 {
+style=solid;label="__main__";
+GRAPH_DUMMY1311 [shape=point, style=invis];
+}
+}
+subgraph cluster1313 {
+style=dashed;label="mvc.py";
+GRAPH_DUMMY1313 [shape=point, style=invis];
+subgraph cluster1314 {
+style=rounded;label="Model";
+GRAPH_DUMMY1314 [shape=point, style=invis];
+1315 [style=solid,label="__iter__"];
+1317 [style=solid,label="get"];
+1320 [style=solid,label="item_type"];
+1322 [style=solid,label="__init__"];
+}
+subgraph cluster1323 {
+style=rounded;label="ProductModel";
+GRAPH_DUMMY1323 [shape=point, style=invis];
+1324 [style=rounded,label="Price"];
+1327 [style=solid,label="__iter__"];
+1329 [style=solid,label="get"];
+1332 [style=solid,label="__init__"];
+}
+subgraph cluster1333 {
+style=rounded;label="View";
+GRAPH_DUMMY1333 [shape=point, style=invis];
+1334 [style=solid,label="show_item_list"];
+1338 [style=solid,label="show_item_information"];
+1343 [style=solid,label="item_not_found"];
+1347 [style=solid,label="__init__"];
+}
+subgraph cluster1348 {
+style=rounded;label="ConsoleView";
+GRAPH_DUMMY1348 [shape=point, style=invis];
+1349 [style=solid,label="show_item_list"];
+1353 [style=solid,label="capitalizer"];
+subgraph cluster1355 {
+style=solid;label="show_item_information";
+GRAPH_DUMMY1355 [shape=point, style=invis];
+}
+1361 [style=solid,label="item_not_found"];
+1365 [style=solid,label="__init__"];
+}
+subgraph cluster1366 {
+style=rounded;label="Controller";
+GRAPH_DUMMY1366 [shape=point, style=invis];
+1367 [style=solid,label="__init__"];
+subgraph cluster1373 {
+style=solid;label="show_items";
+GRAPH_DUMMY1373 [shape=point, style=invis];
+}
+subgraph cluster1377 {
+style=solid;label="show_item_information";
+GRAPH_DUMMY1377 [shape=point, style=invis];
+}
+}
+subgraph cluster1382 {
+style=solid;label="__main__";
+GRAPH_DUMMY1382 [shape=point, style=invis];
+}
+}
+subgraph cluster1386 {
+style=dashed;label="proxy.py";
+GRAPH_DUMMY1386 [shape=point, style=invis];
+subgraph cluster1387 {
+style=rounded;label="SalesManager";
+GRAPH_DUMMY1387 [shape=point, style=invis];
+1388 [style=solid,label="talk"];
+1390 [style=solid,label="__init__"];
+}
+subgraph cluster1391 {
+style=rounded;label="Proxy";
+GRAPH_DUMMY1391 [shape=point, style=invis];
+1392 [style=solid,label="__init__"];
+1396 [style=solid,label="talk"];
+}
+subgraph cluster1398 {
+style=rounded;label="NoTalkProxy";
+GRAPH_DUMMY1398 [shape=point, style=invis];
+1399 [style=solid,label="talk"];
+1401 [style=solid,label="__init__"];
+}
+subgraph cluster1402 {
+style=solid;label="__main__";
+GRAPH_DUMMY1402 [shape=point, style=invis];
+}
+}
+1405 [style=dashed,label="__init__.py"];
+}
+subgraph cluster1879 {
+style=bold;label="tests";
+GRAPH_DUMMY1879 [shape=point, style=invis];
+subgraph cluster1406 {
+style=dashed;label="test_abstract_factory.py";
+GRAPH_DUMMY1406 [shape=point, style=invis];
+subgraph cluster1407 {
+style=rounded;label="TestPetShop";
+GRAPH_DUMMY1407 [shape=point, style=invis];
+subgraph cluster1408 {
+style=solid;label="test_dog_pet_shop_shall_show_dog_instance";
+GRAPH_DUMMY1408 [shape=point, style=invis];
+}
+1411 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1412 {
+style=dashed;label="test_adapter.py";
+GRAPH_DUMMY1412 [shape=point, style=invis];
+subgraph cluster1413 {
+style=rounded;label="ClassTest";
+GRAPH_DUMMY1413 [shape=point, style=invis];
+1414 [style=solid,label="setUp"];
+subgraph cluster1416 {
+style=solid;label="test_dog_shall_bark";
+GRAPH_DUMMY1416 [shape=point, style=invis];
+}
+subgraph cluster1420 {
+style=solid;label="test_cat_shall_meow";
+GRAPH_DUMMY1420 [shape=point, style=invis];
+}
+subgraph cluster1424 {
+style=solid;label="test_human_shall_speak";
+GRAPH_DUMMY1424 [shape=point, style=invis];
+}
+subgraph cluster1428 {
+style=solid;label="test_car_shall_make_loud_noise";
+GRAPH_DUMMY1428 [shape=point, style=invis];
+}
+subgraph cluster1432 {
+style=solid;label="test_car_shall_make_very_loud_noise";
+GRAPH_DUMMY1432 [shape=point, style=invis];
+}
+1436 [style=solid,label="__init__"];
+}
+subgraph cluster1437 {
+style=rounded;label="AdapterTest";
+GRAPH_DUMMY1437 [shape=point, style=invis];
+subgraph cluster1438 {
+style=solid;label="test_dog_adapter_shall_make_noise";
+GRAPH_DUMMY1438 [shape=point, style=invis];
+}
+subgraph cluster1444 {
+style=solid;label="test_cat_adapter_shall_make_noise";
+GRAPH_DUMMY1444 [shape=point, style=invis];
+}
+subgraph cluster1450 {
+style=solid;label="test_human_adapter_shall_make_noise";
+GRAPH_DUMMY1450 [shape=point, style=invis];
+}
+subgraph cluster1456 {
+style=solid;label="test_car_adapter_shall_make_loud_noise";
+GRAPH_DUMMY1456 [shape=point, style=invis];
+}
+subgraph cluster1462 {
+style=solid;label="test_car_adapter_shall_make_very_loud_noise";
+GRAPH_DUMMY1462 [shape=point, style=invis];
+}
+1468 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1469 {
+style=dashed;label="test_borg.py";
+GRAPH_DUMMY1469 [shape=point, style=invis];
+subgraph cluster1470 {
+style=rounded;label="BorgTest";
+GRAPH_DUMMY1470 [shape=point, style=invis];
+1471 [style=solid,label="setUp"];
+subgraph cluster1473 {
+style=solid;label="test_initial_borg_state_shall_be_init";
+GRAPH_DUMMY1473 [shape=point, style=invis];
+}
+1476 [style=solid,label="test_changing_instance_attribute_shall_change_borg_state"];
+1478 [style=solid,label="test_instances_shall_have_own_ids"];
+1480 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1481 {
+style=dashed;label="test_bridge.py";
+GRAPH_DUMMY1481 [shape=point, style=invis];
+subgraph cluster1482 {
+style=rounded;label="BridgeTest";
+GRAPH_DUMMY1482 [shape=point, style=invis];
+subgraph cluster1483 {
+style=solid;label="test_bridge_shall_draw_with_concrete_api_implementation";
+GRAPH_DUMMY1483 [shape=point, style=invis];
+}
+subgraph cluster1489 {
+style=solid;label="test_bridge_shall_scale_both_api_circles_with_own_implementation";
+GRAPH_DUMMY1489 [shape=point, style=invis];
+}
+1501 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1502 {
+style=dashed;label="test_builder.py";
+GRAPH_DUMMY1502 [shape=point, style=invis];
+subgraph cluster1503 {
+style=rounded;label="TestSimple";
+GRAPH_DUMMY1503 [shape=point, style=invis];
+subgraph cluster1504 {
+style=solid;label="test_house";
+GRAPH_DUMMY1504 [shape=point, style=invis];
+}
+subgraph cluster1507 {
+style=solid;label="test_flat";
+GRAPH_DUMMY1507 [shape=point, style=invis];
+}
+1510 [style=solid,label="__init__"];
+}
+subgraph cluster1511 {
+style=rounded;label="TestComplex";
+GRAPH_DUMMY1511 [shape=point, style=invis];
+subgraph cluster1512 {
+style=solid;label="test_house";
+GRAPH_DUMMY1512 [shape=point, style=invis];
+}
+1515 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1516 {
+style=dashed;label="test_command.py";
+GRAPH_DUMMY1516 [shape=point, style=invis];
+subgraph cluster1517 {
+style=rounded;label="CommandTest";
+GRAPH_DUMMY1517 [shape=point, style=invis];
+1518 [style=solid,label="__get_test_directory"];
+1520 [style=solid,label="setUpClass"];
+subgraph cluster1522 {
+style=solid;label="test_sequential_execution";
+GRAPH_DUMMY1522 [shape=point, style=invis];
+}
+subgraph cluster1526 {
+style=solid;label="test_sequential_undo";
+GRAPH_DUMMY1526 [shape=point, style=invis];
+}
+1530 [style=solid,label="tearDownClass"];
+1532 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1533 {
+style=dashed;label="test_constructor_injection.py";
+GRAPH_DUMMY1533 [shape=point, style=invis];
+subgraph cluster1534 {
+style=rounded;label="ConstructorInjectionTest";
+GRAPH_DUMMY1534 [shape=point, style=invis];
+subgraph cluster1535 {
+style=solid;label="test_display_current_time_at_midnight";
+GRAPH_DUMMY1535 [shape=point, style=invis];
+}
+subgraph cluster1540 {
+style=solid;label="test_display_current_time_at_current_time";
+GRAPH_DUMMY1540 [shape=point, style=invis];
+}
+1546 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1547 {
+style=dashed;label="test_decorator.py";
+GRAPH_DUMMY1547 [shape=point, style=invis];
+subgraph cluster1548 {
+style=rounded;label="TestTextWrapping";
+GRAPH_DUMMY1548 [shape=point, style=invis];
+1549 [style=solid,label="setUp"];
+1551 [style=solid,label="test_italic"];
+1553 [style=solid,label="test_bold"];
+1555 [style=solid,label="test_mixed_bold_and_italic"];
+1557 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1558 {
+style=dashed;label="test_facade.py";
+GRAPH_DUMMY1558 [shape=point, style=invis];
+subgraph cluster1559 {
+style=rounded;label="TestRunnerFacilities";
+GRAPH_DUMMY1559 [shape=point, style=invis];
+1560 [style=solid,label="setUp"];
+1562 [style=solid,label="tearDown"];
+subgraph cluster1564 {
+style=solid;label="test_tc1_output";
+GRAPH_DUMMY1564 [shape=point, style=invis];
+}
+subgraph cluster1567 {
+style=solid;label="test_tc2_output";
+GRAPH_DUMMY1567 [shape=point, style=invis];
+}
+subgraph cluster1570 {
+style=solid;label="test_tc3_output";
+GRAPH_DUMMY1570 [shape=point, style=invis];
+}
+subgraph cluster1573 {
+style=solid;label="test_bunch_launch";
+GRAPH_DUMMY1573 [shape=point, style=invis];
+}
+1576 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1577 {
+style=dashed;label="test_factory_method.py";
+GRAPH_DUMMY1577 [shape=point, style=invis];
+subgraph cluster1578 {
+style=rounded;label="TestLocalizer";
+GRAPH_DUMMY1578 [shape=point, style=invis];
+1579 [style=solid,label="setUp"];
+1581 [style=solid,label="test_parrot_eng_localization"];
+1583 [style=solid,label="test_parrot_greek_localization"];
+1585 [style=solid,label="test_dog_eng_localization"];
+1587 [style=solid,label="test_dog_greek_localization"];
+1589 [style=solid,label="test_cat_eng_localization"];
+1591 [style=solid,label="test_cat_greek_localization"];
+1593 [style=solid,label="test_bear_eng_localization"];
+1595 [style=solid,label="test_bear_greek_localization"];
+1597 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1598 {
+style=dashed;label="test_flyweight.py";
+GRAPH_DUMMY1598 [shape=point, style=invis];
+subgraph cluster1599 {
+style=rounded;label="TestCard";
+GRAPH_DUMMY1599 [shape=point, style=invis];
+subgraph cluster1600 {
+style=solid;label="test_instances_shall_reference_same_object";
+GRAPH_DUMMY1600 [shape=point, style=invis];
+}
+subgraph cluster1604 {
+style=solid;label="test_instances_with_different_suit";
+GRAPH_DUMMY1604 [shape=point, style=invis];
+}
+subgraph cluster1608 {
+style=solid;label="test_instances_with_different_values";
+GRAPH_DUMMY1608 [shape=point, style=invis];
+}
+subgraph cluster1612 {
+style=solid;label="test_instances_shall_share_additional_attributes";
+GRAPH_DUMMY1612 [shape=point, style=invis];
+}
+1618 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1619 {
+style=dashed;label="test_hsm.py";
+GRAPH_DUMMY1619 [shape=point, style=invis];
+subgraph cluster1620 {
+style=rounded;label="HsmMethodTest";
+GRAPH_DUMMY1620 [shape=point, style=invis];
+1621 [style=solid,label="setUpClass"];
+1623 [style=solid,label="test_initial_state_shall_be_standby"];
+1625 [style=solid,label="test_unsupported_state_shall_raise_exception"];
+1627 [style=solid,label="test_unsupported_message_type_shall_raise_exception"];
+1629 [style=solid,label="test_calling_next_state_shall_change_current_state"];
+subgraph cluster1631 {
+style=solid;label="test_method_perform_switchover_shall_return_specifically";
+GRAPH_DUMMY1631 [shape=point, style=invis];
+}
+1635 [style=solid,label="__init__"];
+}
+subgraph cluster1636 {
+style=rounded;label="StandbyStateTest";
+GRAPH_DUMMY1636 [shape=point, style=invis];
+1637 [style=solid,label="setUpClass"];
+1639 [style=solid,label="setUp"];
+1641 [style=solid,label="test_given_standby_on_message_switchover_shall_set_active"];
+1643 [style=solid,label="test_given_standby_on_message_switchover_shall_call_hsm_methods"];
+1645 [style=solid,label="test_given_standby_on_message_fault_trigger_shall_set_suspect"];
+1647 [style=solid,label="test_given_standby_on_message_diagnostics_failed_shall_raise_exception_and_keep_in_state"];
+1649 [style=solid,label="test_given_standby_on_message_diagnostics_passed_shall_raise_exception_and_keep_in_state"];
+1651 [style=solid,label="test_given_standby_on_message_operator_inservice_shall_raise_exception_and_keep_in_state"];
+1653 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1654 {
+style=dashed;label="test_lazy.py";
+GRAPH_DUMMY1654 [shape=point, style=invis];
+subgraph cluster1655 {
+style=rounded;label="TestDynamicExpanding";
+GRAPH_DUMMY1655 [shape=point, style=invis];
+1656 [style=solid,label="setUp"];
+1658 [style=solid,label="test_innate_properties"];
+1660 [style=solid,label="test_relatives_not_in_properties"];
+1662 [style=solid,label="test_extended_properties"];
+1664 [style=solid,label="test_relatives_after_access"];
+1666 [style=solid,label="test_parents"];
+1668 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1669 {
+style=dashed;label="test_observer.py";
+GRAPH_DUMMY1669 [shape=point, style=invis];
+subgraph cluster1670 {
+style=rounded;label="TestSubject";
+GRAPH_DUMMY1670 [shape=point, style=invis];
+1671 [style=solid,label="setUpClass"];
+1673 [style=solid,label="test_a_observer_list_shall_be_empty_initially"];
+1675 [style=solid,label="test_b_observers_shall_be_attachable"];
+1677 [style=solid,label="test_c_observers_shall_be_detachable"];
+1679 [style=solid,label="__init__"];
+}
+subgraph cluster1680 {
+style=rounded;label="TestData";
+GRAPH_DUMMY1680 [shape=point, style=invis];
+1681 [style=solid,label="setUpClass"];
+1683 [style=solid,label="test_data_change_shall_notify_all_observers_once"];
+1685 [style=solid,label="test_data_value_shall_be_changeable"];
+1687 [style=solid,label="test_data_name_shall_be_changeable"];
+1689 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1690 {
+style=dashed;label="test_parameter_injection.py";
+GRAPH_DUMMY1690 [shape=point, style=invis];
+subgraph cluster1691 {
+style=rounded;label="ParameterInjectionTest";
+GRAPH_DUMMY1691 [shape=point, style=invis];
+subgraph cluster1692 {
+style=solid;label="test_display_current_time_at_midnight";
+GRAPH_DUMMY1692 [shape=point, style=invis];
+}
+subgraph cluster1697 {
+style=solid;label="test_display_current_time_at_current_time";
+GRAPH_DUMMY1697 [shape=point, style=invis];
+}
+1703 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1704 {
+style=dashed;label="test_pool.py";
+GRAPH_DUMMY1704 [shape=point, style=invis];
+subgraph cluster1705 {
+style=rounded;label="TestPool";
+GRAPH_DUMMY1705 [shape=point, style=invis];
+1706 [style=solid,label="setUp"];
+1708 [style=solid,label="test_items_recoil"];
+1710 [style=solid,label="test_frozen_pool"];
+1712 [style=solid,label="__init__"];
+}
+subgraph cluster1713 {
+style=rounded;label="TestNaitivePool";
+GRAPH_DUMMY1713 [shape=point, style=invis];
+subgraph cluster1714 {
+style=solid;label="test_pool_behavior_with_single_object_inside";
+GRAPH_DUMMY1714 [shape=point, style=invis];
+}
+1717 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1718 {
+style=dashed;label="test_prototype.py";
+GRAPH_DUMMY1718 [shape=point, style=invis];
+subgraph cluster1719 {
+style=rounded;label="TestPrototypeFeatures";
+GRAPH_DUMMY1719 [shape=point, style=invis];
+1720 [style=solid,label="setUp"];
+subgraph cluster1722 {
+style=solid;label="test_cloning_propperty_innate_values";
+GRAPH_DUMMY1722 [shape=point, style=invis];
+}
+subgraph cluster1726 {
+style=solid;label="test_extended_property_values_cloning";
+GRAPH_DUMMY1726 [shape=point, style=invis];
+}
+subgraph cluster1730 {
+style=solid;label="test_cloning_propperty_assigned_values";
+GRAPH_DUMMY1730 [shape=point, style=invis];
+}
+1734 [style=solid,label="__init__"];
+}
+subgraph cluster1735 {
+style=rounded;label="TestDispatcherFeatures";
+GRAPH_DUMMY1735 [shape=point, style=invis];
+subgraph cluster1736 {
+style=solid;label="setUp";
+GRAPH_DUMMY1736 [shape=point, style=invis];
+}
+1741 [style=solid,label="test_batch_retrieving"];
+1743 [style=solid,label="test_particular_properties_retrieving"];
+1745 [style=solid,label="test_extended_properties_retrieving"];
+1747 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1748 {
+style=dashed;label="test_proxy.py";
+GRAPH_DUMMY1748 [shape=point, style=invis];
+subgraph cluster1749 {
+style=rounded;label="ProxyTest";
+GRAPH_DUMMY1749 [shape=point, style=invis];
+1750 [style=solid,label="setUpClass"];
+1752 [style=solid,label="setUp"];
+1754 [style=solid,label="tearDown"];
+subgraph cluster1756 {
+style=solid;label="test_sales_manager_shall_talk_through_proxy_with_delay";
+GRAPH_DUMMY1756 [shape=point, style=invis];
+}
+subgraph cluster1764 {
+style=solid;label="test_sales_manager_shall_respond_through_proxy_with_delay";
+GRAPH_DUMMY1764 [shape=point, style=invis];
+}
+1772 [style=solid,label="__init__"];
+}
+subgraph cluster1773 {
+style=rounded;label="NoTalkProxyTest";
+GRAPH_DUMMY1773 [shape=point, style=invis];
+1774 [style=solid,label="setUpClass"];
+1776 [style=solid,label="setUp"];
+1778 [style=solid,label="tearDown"];
+subgraph cluster1780 {
+style=solid;label="test_sales_manager_shall_not_talk_through_proxy_with_delay";
+GRAPH_DUMMY1780 [shape=point, style=invis];
+}
+subgraph cluster1788 {
+style=solid;label="test_sales_manager_shall_not_respond_through_proxy_with_delay";
+GRAPH_DUMMY1788 [shape=point, style=invis];
+}
+1796 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1797 {
+style=dashed;label="test_publish_subscribe.py";
+GRAPH_DUMMY1797 [shape=point, style=invis];
+subgraph cluster1798 {
+style=rounded;label="TestProvider";
+GRAPH_DUMMY1798 [shape=point, style=invis];
+subgraph cluster1799 {
+style=solid;label="test_subscriber_shall_be_attachable_to_subscriptions";
+GRAPH_DUMMY1799 [shape=point, style=invis];
+}
+subgraph cluster1804 {
+style=solid;label="test_subscriber_shall_be_detachable_from_subscriptions";
+GRAPH_DUMMY1804 [shape=point, style=invis];
+}
+subgraph cluster1809 {
+style=solid;label="test_publisher_shall_append_subscription_message_to_queue";
+GRAPH_DUMMY1809 [shape=point, style=invis];
+}
+subgraph cluster1815 {
+style=solid;label="test_provider_shall_update_affected_subscribers_with_published_subscription";
+GRAPH_DUMMY1815 [shape=point, style=invis];
+}
+1823 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1824 {
+style=dashed;label="test_setter_injection.py";
+GRAPH_DUMMY1824 [shape=point, style=invis];
+subgraph cluster1825 {
+style=rounded;label="ParameterInjectionTest";
+GRAPH_DUMMY1825 [shape=point, style=invis];
+subgraph cluster1826 {
+style=solid;label="test_display_current_time_at_midnight";
+GRAPH_DUMMY1826 [shape=point, style=invis];
+}
+subgraph cluster1831 {
+style=solid;label="test_display_current_time_at_current_time";
+GRAPH_DUMMY1831 [shape=point, style=invis];
+}
+1837 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1838 {
+style=dashed;label="test_state.py";
+GRAPH_DUMMY1838 [shape=point, style=invis];
+subgraph cluster1839 {
+style=rounded;label="RadioTest";
+GRAPH_DUMMY1839 [shape=point, style=invis];
+1840 [style=solid,label="setUpClass"];
+subgraph cluster1842 {
+style=solid;label="test_initial_state";
+GRAPH_DUMMY1842 [shape=point, style=invis];
+}
+subgraph cluster1846 {
+style=solid;label="test_initial_am_station";
+GRAPH_DUMMY1846 [shape=point, style=invis];
+}
+subgraph cluster1850 {
+style=solid;label="test_2nd_am_station_after_scan";
+GRAPH_DUMMY1850 [shape=point, style=invis];
+}
+subgraph cluster1854 {
+style=solid;label="test_3rd_am_station_after_scan";
+GRAPH_DUMMY1854 [shape=point, style=invis];
+}
+subgraph cluster1858 {
+style=solid;label="test_am_station_overflow_after_scan";
+GRAPH_DUMMY1858 [shape=point, style=invis];
+}
+subgraph cluster1862 {
+style=solid;label="test_shall_toggle_from_am_to_fm";
+GRAPH_DUMMY1862 [shape=point, style=invis];
+}
+subgraph cluster1866 {
+style=solid;label="test_shall_toggle_from_fm_to_am";
+GRAPH_DUMMY1866 [shape=point, style=invis];
+}
+1870 [style=solid,label="__init__"];
+}
+}
+subgraph cluster1871 {
+style=dashed;label="test_strategy.py";
+GRAPH_DUMMY1871 [shape=point, style=invis];
+subgraph cluster1872 {
+style=rounded;label="StrategyTest";
+GRAPH_DUMMY1872 [shape=point, style=invis];
+subgraph cluster1873 {
+style=solid;label="test_print_output";
+GRAPH_DUMMY1873 [shape=point, style=invis];
+}
+1878 [style=solid,label="__init__"];
+}
+}
+1880 [style=dashed,label="__init__.py"];
+}
+GRAPH_DUMMY67 -> GRAPH_DUMMY54;
+GRAPH_DUMMY72 -> GRAPH_DUMMY54;
+GRAPH_DUMMY77 -> GRAPH_DUMMY54;
+GRAPH_DUMMY82 -> GRAPH_DUMMY54;
+GRAPH_DUMMY302 -> GRAPH_DUMMY289;
+GRAPH_DUMMY411 -> GRAPH_DUMMY398;
+GRAPH_DUMMY424 -> GRAPH_DUMMY411;
+GRAPH_DUMMY436 -> GRAPH_DUMMY411;
+GRAPH_DUMMY448 -> GRAPH_DUMMY411;
+GRAPH_DUMMY462 -> GRAPH_DUMMY411;
+GRAPH_DUMMY467 -> GRAPH_DUMMY411;
+GRAPH_DUMMY482 -> GRAPH_DUMMY478;
+GRAPH_DUMMY492 -> GRAPH_DUMMY478;
+GRAPH_DUMMY556 -> GRAPH_DUMMY554;
+GRAPH_DUMMY558 -> GRAPH_DUMMY554;
+GRAPH_DUMMY560 -> GRAPH_DUMMY556;
+GRAPH_DUMMY560 -> GRAPH_DUMMY558;
+GRAPH_DUMMY621 -> GRAPH_DUMMY613;
+GRAPH_DUMMY637 -> GRAPH_DUMMY628;
+GRAPH_DUMMY643 -> GRAPH_DUMMY628;
+GRAPH_DUMMY653 -> GRAPH_DUMMY649;
+GRAPH_DUMMY880 -> GRAPH_DUMMY870;
+GRAPH_DUMMY886 -> GRAPH_DUMMY870;
+GRAPH_DUMMY892 -> GRAPH_DUMMY870;
+GRAPH_DUMMY988 -> GRAPH_DUMMY973;
+GRAPH_DUMMY997 -> GRAPH_DUMMY988;
+GRAPH_DUMMY1006 -> GRAPH_DUMMY988;
+GRAPH_DUMMY1013 -> GRAPH_DUMMY973;
+GRAPH_DUMMY1020 -> GRAPH_DUMMY1013;
+GRAPH_DUMMY1031 -> GRAPH_DUMMY1013;
+GRAPH_DUMMY1152 -> GRAPH_DUMMY1148;
+GRAPH_DUMMY1164 -> GRAPH_DUMMY1148;
+GRAPH_DUMMY1187 -> GRAPH_DUMMY1180;
+GRAPH_DUMMY1194 -> GRAPH_DUMMY1180;
+GRAPH_DUMMY1323 -> GRAPH_DUMMY1314;
+GRAPH_DUMMY1348 -> GRAPH_DUMMY1333;
+GRAPH_DUMMY1398 -> GRAPH_DUMMY1391;
+
+}

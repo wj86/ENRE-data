@@ -1,0 +1,68 @@
+strict digraph {
+compound = true;
+concentrate=true;
+node [shape=box];
+
+subgraph cluster0 {
+style=bold;label="main";
+GRAPH_DUMMY0 [shape=point, style=invis];
+subgraph cluster1 {
+style=dashed;label="mainfile.go";
+GRAPH_DUMMY1 [shape=point, style=invis];
+subgraph cluster3 {
+style=rounded;label="Shape";
+GRAPH_DUMMY3 [shape=point, style=invis];
+}
+subgraph cluster5 {
+style=rounded;label="Graph";
+GRAPH_DUMMY5 [shape=point, style=invis];
+}
+6 [style=solid,label="printRadiumOfCircle"];
+subgraph cluster8 {
+style=solid;label="generateASquare";
+GRAPH_DUMMY8 [shape=point, style=invis];
+}
+subgraph cluster11 {
+style=solid;label="main";
+GRAPH_DUMMY11 [shape=point, style=invis];
+}
+}
+}
+subgraph cluster16 {
+style=bold;label="mymath";
+GRAPH_DUMMY16 [shape=point, style=invis];
+subgraph cluster17 {
+style=dashed;label="const.go";
+GRAPH_DUMMY17 [shape=point, style=invis];
+}
+subgraph cluster20 {
+style=dashed;label="math.go";
+GRAPH_DUMMY20 [shape=point, style=invis];
+21 [style=solid,label="Multiply"];
+}
+}
+subgraph cluster25 {
+style=bold;label="mytype";
+GRAPH_DUMMY25 [shape=point, style=invis];
+subgraph cluster26 {
+style=dashed;label="mystruct.go";
+GRAPH_DUMMY26 [shape=point, style=invis];
+subgraph cluster29 {
+style=rounded;label="Circle";
+GRAPH_DUMMY29 [shape=point, style=invis];
+36 [style=solid,label="Length"];
+}
+subgraph cluster32 {
+style=rounded;label="Square";
+GRAPH_DUMMY32 [shape=point, style=invis];
+39 [style=solid,label="Length"];
+}
+subgraph cluster35 {
+style=rounded;label="Vertex2";
+GRAPH_DUMMY35 [shape=point, style=invis];
+}
+36 [style=solid,label="Length"];
+39 [style=solid,label="Length"];
+}
+}
+}

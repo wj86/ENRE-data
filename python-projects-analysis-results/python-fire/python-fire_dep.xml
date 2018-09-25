@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<matrix name="python-fire-sdsm" schema-version="1.0">
+    <cells>
+        <cell dest="17" src="0">
+            <depend name="Call" weight="1.0"/>
+        </cell>
+        <cell dest="39" src="0">
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="32" src="1">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Inherit" weight="1.0"/>
+        </cell>
+        <cell dest="0" src="1">
+            <depend name="Call" weight="5.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="17" src="3">
+            <depend name="Call" weight="1.0"/>
+        </cell>
+        <cell dest="39" src="3">
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="17" src="4">
+            <depend name="Call" weight="1.0"/>
+        </cell>
+        <cell dest="39" src="4">
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="32" src="5">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Inherit" weight="1.0"/>
+        </cell>
+        <cell dest="3" src="5">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Set" weight="1.0"/>
+        </cell>
+        <cell dest="4" src="5">
+            <depend name="Import" weight="1.0"/>
+            <depend name="Use" weight="1.0"/>
+        </cell>
+        <cell dest="17" src="7">
+            <depend name="Call" weight="1.0"/>
+        </cell>
+        <cell dest="39" src="7">
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="17" src="9">
+            <depend name="Call" weight="1.0"/>
+        </cell>
+        <cell dest="39" src="9">
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="11" src="9">
+            <depend name="Call" weight="2.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="32" src="10">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Inherit" weight="1.0"/>
+        </cell>
+        <cell dest="9" src="10">
+            <depend name="Call" weight="3.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="11" src="10">
+            <depend name="Import" weight="1.0"/>
+            <depend name="Use" weight="1.0"/>
+        </cell>
+        <cell dest="17" src="11">
+            <depend name="Call" weight="1.0"/>
+        </cell>
+        <cell dest="39" src="11">
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="32" src="12">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Inherit" weight="1.0"/>
+        </cell>
+        <cell dest="11" src="12">
+            <depend name="Call" weight="2.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="25" src="15">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="32" src="16">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Inherit" weight="1.0"/>
+        </cell>
+        <cell dest="34" src="16">
+            <depend name="Call" weight="3.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Use" weight="5.0"/>
+        </cell>
+        <cell dest="15" src="16">
+            <depend name="Call" weight="18.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="19" src="17">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Use" weight="2.0"/>
+        </cell>
+        <cell dest="37" src="17">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Use" weight="4.0"/>
+        </cell>
+        <cell dest="23" src="17">
+            <depend name="Call" weight="4.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="25" src="17">
+            <depend name="Call" weight="4.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="27" src="17">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="29" src="17">
+            <depend name="Call" weight="2.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Use" weight="1.0"/>
+        </cell>
+        <cell dest="15" src="17">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="32" src="18">
+            <depend name="Call" weight="23.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Inherit" weight="1.0"/>
+        </cell>
+        <cell dest="17" src="18">
+            <depend name="Call" weight="35.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="34" src="18">
+            <depend name="Call" weight="4.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Use" weight="13.0"/>
+        </cell>
+        <cell dest="37" src="18">
+            <depend name="Import" weight="1.0"/>
+            <depend name="Use" weight="2.0"/>
+        </cell>
+        <cell dest="32" src="20">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Inherit" weight="1.0"/>
+        </cell>
+        <cell dest="17" src="20">
+            <depend name="Call" weight="22.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="19" src="20">
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="32" src="21">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Inherit" weight="1.0"/>
+        </cell>
+        <cell dest="17" src="21">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Use" weight="1.0"/>
+        </cell>
+        <cell dest="39" src="21">
+            <depend name="Import" weight="1.0"/>
+            <depend name="Use" weight="1.0"/>
+        </cell>
+        <cell dest="32" src="22">
+            <depend name="Call" weight="30.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Inherit" weight="1.0"/>
+        </cell>
+        <cell dest="17" src="22">
+            <depend name="Call" weight="157.0"/>
+        </cell>
+        <cell dest="34" src="22">
+            <depend name="Call" weight="2.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Use" weight="50.0"/>
+        </cell>
+        <cell dest="35" src="22">
+            <depend name="Use" weight="1.0"/>
+        </cell>
+        <cell dest="39" src="22">
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="25" src="23">
+            <depend name="Call" weight="2.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="15" src="23">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="32" src="24">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Inherit" weight="1.0"/>
+        </cell>
+        <cell dest="34" src="24">
+            <depend name="Call" weight="3.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Use" weight="2.0"/>
+        </cell>
+        <cell dest="23" src="24">
+            <depend name="Call" weight="10.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="32" src="26">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Inherit" weight="1.0"/>
+        </cell>
+        <cell dest="34" src="26">
+            <depend name="Call" weight="2.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Use" weight="5.0"/>
+        </cell>
+        <cell dest="35" src="26">
+            <depend name="Use" weight="1.0"/>
+        </cell>
+        <cell dest="25" src="26">
+            <depend name="Call" weight="9.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="32" src="28">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Inherit" weight="1.0"/>
+        </cell>
+        <cell dest="27" src="28">
+            <depend name="Call" weight="2.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="32" src="30">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Inherit" weight="1.0"/>
+        </cell>
+        <cell dest="29" src="30">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="32" src="31">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Inherit" weight="1.0"/>
+        </cell>
+        <cell dest="29" src="31">
+            <depend name="Call" weight="60.0"/>
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="17" src="32">
+            <depend name="Import" weight="1.0"/>
+            <depend name="Use" weight="1.0"/>
+        </cell>
+        <cell dest="37" src="32">
+            <depend name="Import" weight="1.0"/>
+            <depend name="Use" weight="1.0"/>
+        </cell>
+        <cell dest="32" src="33">
+            <depend name="Call" weight="6.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Inherit" weight="1.0"/>
+        </cell>
+        <cell dest="35" src="34">
+            <depend name="Import" weight="1.0"/>
+        </cell>
+        <cell dest="32" src="36">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Inherit" weight="1.0"/>
+        </cell>
+        <cell dest="34" src="36">
+            <depend name="Call" weight="2.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Use" weight="2.0"/>
+        </cell>
+        <cell dest="32" src="38">
+            <depend name="Call" weight="1.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Inherit" weight="2.0"/>
+        </cell>
+        <cell dest="37" src="38">
+            <depend name="Call" weight="17.0"/>
+            <depend name="Import" weight="1.0"/>
+            <depend name="Use" weight="6.0"/>
+        </cell>
+        <cell dest="17" src="39">
+            <depend name="Import" weight="1.0"/>
+        </cell>
+    </cells>
+    <variables>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\cipher\cipher.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\cipher\cipher_test.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\cipher\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\diff\diff.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\diff\difffull.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\diff\diff_test.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\diff\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\identity\identity.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\identity\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\widget\collector.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\widget\collector_test.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\widget\widget.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\widget\widget_test.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\widget\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\completion.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\completion_test.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\core.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\core_test.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\decorators.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\decorators_test.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\fire_import_test.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\fire_test.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\helputils.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\helputils_test.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\inspectutils.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\inspectutils_test.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\interact.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\interact_test.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\parser.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\parser_fuzz_test.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\parser_test.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\testutils.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\testutils_test.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\test_components.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\test_components_py3.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\test_components_test.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\trace.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\trace_test.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\setup.py</variable>
+    </variables>
+</matrix>
