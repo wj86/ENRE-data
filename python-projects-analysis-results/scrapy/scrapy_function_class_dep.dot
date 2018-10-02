@@ -3,122 +3,6 @@ compound = true;
 concentrate=true;
 node [shape=box];
 
-subgraph cluster0 {
-style=dashed;label="conftest.py";
-GRAPH_DUMMY0 [shape=point, style=invis];
-1 [style=solid,label="_py_files"];
-5 [style=solid,label="chdir"];
-}
-subgraph cluster7 {
-style=dashed;label="conf.py";
-GRAPH_DUMMY7 [shape=point, style=invis];
-}
-subgraph cluster27 {
-style=dashed;label="linkfix.py";
-GRAPH_DUMMY27 [shape=point, style=invis];
-}
-subgraph cluster35 {
-style=dashed;label="scrapydocs.py";
-GRAPH_DUMMY35 [shape=point, style=invis];
-subgraph cluster36 {
-style=rounded;label="settingslist_node";
-GRAPH_DUMMY36 [shape=point, style=invis];
-37 [style=solid,label="__init__"];
-}
-subgraph cluster38 {
-style=rounded;label="SettingsListDirective";
-GRAPH_DUMMY38 [shape=point, style=invis];
-39 [style=solid,label="run"];
-41 [style=solid,label="__init__"];
-}
-subgraph cluster42 {
-style=solid;label="is_setting_index";
-GRAPH_DUMMY42 [shape=point, style=invis];
-}
-47 [style=solid,label="get_setting_target"];
-subgraph cluster49 {
-style=solid;label="get_setting_name_and_refid";
-GRAPH_DUMMY49 [shape=point, style=invis];
-}
-subgraph cluster54 {
-style=solid;label="collect_scrapy_settings_refs";
-GRAPH_DUMMY54 [shape=point, style=invis];
-}
-subgraph cluster61 {
-style=solid;label="make_setting_element";
-GRAPH_DUMMY61 [shape=point, style=invis];
-}
-subgraph cluster68 {
-style=solid;label="replace_settingslist_nodes";
-GRAPH_DUMMY68 [shape=point, style=invis];
-}
-74 [style=solid,label="setup"];
-subgraph cluster76 {
-style=solid;label="source_role";
-GRAPH_DUMMY76 [shape=point, style=invis];
-}
-subgraph cluster86 {
-style=solid;label="issue_role";
-GRAPH_DUMMY86 [shape=point, style=invis];
-}
-subgraph cluster96 {
-style=solid;label="commit_role";
-GRAPH_DUMMY96 [shape=point, style=invis];
-}
-subgraph cluster106 {
-style=solid;label="rev_role";
-GRAPH_DUMMY106 [shape=point, style=invis];
-}
-}
-subgraph cluster116 {
-style=dashed;label="qps-bench-server.py";
-GRAPH_DUMMY116 [shape=point, style=invis];
-subgraph cluster117 {
-style=rounded;label="Root";
-GRAPH_DUMMY117 [shape=point, style=invis];
-118 [style=solid,label="__init__"];
-122 [style=solid,label="_reset_stats"];
-124 [style=solid,label="getChild"];
-subgraph cluster128 {
-style=solid;label="render";
-GRAPH_DUMMY128 [shape=point, style=invis];
-}
-135 [style=solid,label="_finish"];
-}
-}
-subgraph cluster140 {
-style=dashed;label="qpsclient.py";
-GRAPH_DUMMY140 [shape=point, style=invis];
-subgraph cluster141 {
-style=rounded;label="QPSSpider";
-GRAPH_DUMMY141 [shape=point, style=invis];
-149 [style=solid,label="__init__"];
-subgraph cluster156 {
-style=solid;label="start_requests";
-GRAPH_DUMMY156 [shape=point, style=invis];
-}
-162 [style=solid,label="parse"];
-}
-}
-subgraph cluster6117 {
-style=bold;label="module";
-GRAPH_DUMMY6117 [shape=point, style=invis];
-subgraph cluster6115 {
-style=bold;label="spiders";
-GRAPH_DUMMY6115 [shape=point, style=invis];
-6116 [style=dashed,label="__init__.py"];
-}
-6118 [style=dashed,label="__init__.py"];
-}
-subgraph cluster7181 {
-style=bold;label="scrapy";
-GRAPH_DUMMY7181 [shape=point, style=invis];
-subgraph cluster668 {
-style=bold;label="commands";
-GRAPH_DUMMY668 [shape=point, style=invis];
-subgraph cluster227 {
-style=dashed;label="bench.py";
-GRAPH_DUMMY227 [shape=point, style=invis];
 subgraph cluster228 {
 style=rounded;label="Command";
 GRAPH_DUMMY228 [shape=point, style=invis];
@@ -146,10 +30,6 @@ GRAPH_DUMMY253 [shape=point, style=invis];
 257 [style=solid,label="parse"];
 260 [style=solid,label="__init__"];
 }
-}
-subgraph cluster261 {
-style=dashed;label="check.py";
-GRAPH_DUMMY261 [shape=point, style=invis];
 subgraph cluster262 {
 style=rounded;label="TextTestResult";
 GRAPH_DUMMY262 [shape=point, style=invis];
@@ -171,10 +51,6 @@ GRAPH_DUMMY285 [shape=point, style=invis];
 }
 299 [style=solid,label="__init__"];
 }
-}
-subgraph cluster300 {
-style=dashed;label="crawl.py";
-GRAPH_DUMMY300 [shape=point, style=invis];
 subgraph cluster301 {
 style=rounded;label="Command";
 GRAPH_DUMMY301 [shape=point, style=invis];
@@ -191,10 +67,6 @@ GRAPH_DUMMY316 [shape=point, style=invis];
 }
 321 [style=solid,label="__init__"];
 }
-}
-subgraph cluster322 {
-style=dashed;label="edit.py";
-GRAPH_DUMMY322 [shape=point, style=invis];
 subgraph cluster323 {
 style=rounded;label="Command";
 GRAPH_DUMMY323 [shape=point, style=invis];
@@ -208,10 +80,6 @@ GRAPH_DUMMY335 [shape=point, style=invis];
 }
 342 [style=solid,label="__init__"];
 }
-}
-subgraph cluster343 {
-style=dashed;label="fetch.py";
-GRAPH_DUMMY343 [shape=point, style=invis];
 subgraph cluster344 {
 style=rounded;label="Command";
 GRAPH_DUMMY344 [shape=point, style=invis];
@@ -231,10 +99,6 @@ GRAPH_DUMMY367 [shape=point, style=invis];
 }
 375 [style=solid,label="__init__"];
 }
-}
-subgraph cluster376 {
-style=dashed;label="genspider.py";
-GRAPH_DUMMY376 [shape=point, style=invis];
 377 [style=solid,label="sanitize_module_name"];
 subgraph cluster379 {
 style=rounded;label="Command";
@@ -261,10 +125,6 @@ GRAPH_DUMMY415 [shape=point, style=invis];
 }
 418 [style=solid,label="__init__"];
 }
-}
-subgraph cluster419 {
-style=dashed;label="list.py";
-GRAPH_DUMMY419 [shape=point, style=invis];
 subgraph cluster420 {
 style=rounded;label="Command";
 GRAPH_DUMMY420 [shape=point, style=invis];
@@ -272,10 +132,6 @@ GRAPH_DUMMY420 [shape=point, style=invis];
 425 [style=solid,label="run"];
 429 [style=solid,label="__init__"];
 }
-}
-subgraph cluster430 {
-style=dashed;label="parse.py";
-GRAPH_DUMMY430 [shape=point, style=invis];
 subgraph cluster432 {
 style=rounded;label="Command";
 GRAPH_DUMMY432 [shape=point, style=invis];
@@ -330,10 +186,6 @@ GRAPH_DUMMY511 [shape=point, style=invis];
 }
 516 [style=solid,label="__init__"];
 }
-}
-subgraph cluster517 {
-style=dashed;label="runspider.py";
-GRAPH_DUMMY517 [shape=point, style=invis];
 subgraph cluster518 {
 style=solid;label="_import_file";
 GRAPH_DUMMY518 [shape=point, style=invis];
@@ -355,10 +207,6 @@ GRAPH_DUMMY544 [shape=point, style=invis];
 }
 552 [style=solid,label="__init__"];
 }
-}
-subgraph cluster553 {
-style=dashed;label="settings.py";
-GRAPH_DUMMY553 [shape=point, style=invis];
 subgraph cluster554 {
 style=rounded;label="Command";
 GRAPH_DUMMY554 [shape=point, style=invis];
@@ -371,10 +219,6 @@ GRAPH_DUMMY564 [shape=point, style=invis];
 }
 570 [style=solid,label="__init__"];
 }
-}
-subgraph cluster571 {
-style=dashed;label="shell.py";
-GRAPH_DUMMY571 [shape=point, style=invis];
 subgraph cluster572 {
 style=rounded;label="Command";
 GRAPH_DUMMY572 [shape=point, style=invis];
@@ -393,10 +237,6 @@ GRAPH_DUMMY596 [shape=point, style=invis];
 }
 599 [style=solid,label="__init__"];
 }
-}
-subgraph cluster600 {
-style=dashed;label="startproject.py";
-GRAPH_DUMMY600 [shape=point, style=invis];
 subgraph cluster603 {
 style=rounded;label="Command";
 GRAPH_DUMMY603 [shape=point, style=invis];
@@ -421,10 +261,6 @@ GRAPH_DUMMY632 [shape=point, style=invis];
 }
 635 [style=solid,label="__init__"];
 }
-}
-subgraph cluster636 {
-style=dashed;label="version.py";
-GRAPH_DUMMY636 [shape=point, style=invis];
 subgraph cluster637 {
 style=rounded;label="Command";
 GRAPH_DUMMY637 [shape=point, style=invis];
@@ -437,10 +273,6 @@ GRAPH_DUMMY646 [shape=point, style=invis];
 }
 653 [style=solid,label="__init__"];
 }
-}
-subgraph cluster654 {
-style=dashed;label="view.py";
-GRAPH_DUMMY654 [shape=point, style=invis];
 subgraph cluster655 {
 style=rounded;label="Command";
 GRAPH_DUMMY655 [shape=point, style=invis];
@@ -450,10 +282,6 @@ GRAPH_DUMMY655 [shape=point, style=invis];
 663 [style=solid,label="_print_response"];
 667 [style=solid,label="__init__"];
 }
-}
-subgraph cluster669 {
-style=dashed;label="__init__.py";
-GRAPH_DUMMY669 [shape=point, style=invis];
 subgraph cluster670 {
 style=rounded;label="ScrapyCommand";
 GRAPH_DUMMY670 [shape=point, style=invis];
@@ -470,14 +298,6 @@ GRAPH_DUMMY689 [shape=point, style=invis];
 693 [style=solid,label="process_options"];
 697 [style=solid,label="run"];
 }
-}
-}
-subgraph cluster736 {
-style=bold;label="contracts";
-GRAPH_DUMMY736 [shape=point, style=invis];
-subgraph cluster703 {
-style=dashed;label="default.py";
-GRAPH_DUMMY703 [shape=point, style=invis];
 subgraph cluster704 {
 style=rounded;label="UrlContract";
 GRAPH_DUMMY704 [shape=point, style=invis];
@@ -502,10 +322,6 @@ GRAPH_DUMMY730 [shape=point, style=invis];
 732 [style=solid,label="post_process"];
 735 [style=solid,label="__init__"];
 }
-}
-subgraph cluster737 {
-style=dashed;label="__init__.py";
-GRAPH_DUMMY737 [shape=point, style=invis];
 subgraph cluster738 {
 style=rounded;label="ContractsManager";
 GRAPH_DUMMY738 [shape=point, style=invis];
@@ -554,20 +370,6 @@ style=solid;label="_create_testcase";
 GRAPH_DUMMY808 [shape=point, style=invis];
 812 [style=rounded,label="ContractTestCase"];
 }
-}
-}
-subgraph cluster1845 {
-style=bold;label="core";
-GRAPH_DUMMY1845 [shape=point, style=invis];
-subgraph cluster1373 {
-style=bold;label="downloader";
-GRAPH_DUMMY1373 [shape=point, style=invis];
-subgraph cluster1222 {
-style=bold;label="handlers";
-GRAPH_DUMMY1222 [shape=point, style=invis];
-subgraph cluster848 {
-style=dashed;label="datauri.py";
-GRAPH_DUMMY848 [shape=point, style=invis];
 subgraph cluster849 {
 style=rounded;label="DataURIDownloadHandler";
 GRAPH_DUMMY849 [shape=point, style=invis];
@@ -577,10 +379,6 @@ style=solid;label="download_request";
 GRAPH_DUMMY853 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster862 {
-style=dashed;label="file.py";
-GRAPH_DUMMY862 [shape=point, style=invis];
 subgraph cluster863 {
 style=rounded;label="FileDownloadHandler";
 GRAPH_DUMMY863 [shape=point, style=invis];
@@ -590,10 +388,6 @@ style=solid;label="download_request";
 GRAPH_DUMMY867 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster874 {
-style=dashed;label="ftp.py";
-GRAPH_DUMMY874 [shape=point, style=invis];
 subgraph cluster875 {
 style=rounded;label="ReceivedDataProtocol";
 GRAPH_DUMMY875 [shape=point, style=invis];
@@ -623,19 +417,11 @@ style=solid;label="_failed";
 GRAPH_DUMMY921 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster929 {
-style=dashed;label="http.py";
-GRAPH_DUMMY929 [shape=point, style=invis];
 subgraph cluster930 {
 style=rounded;label="HttpDownloadHandler";
 GRAPH_DUMMY930 [shape=point, style=invis];
 931 [style=solid,label="__init__"];
 }
-}
-subgraph cluster935 {
-style=dashed;label="http10.py";
-GRAPH_DUMMY935 [shape=point, style=invis];
 subgraph cluster936 {
 style=rounded;label="HTTP10DownloadHandler";
 GRAPH_DUMMY936 [shape=point, style=invis];
@@ -649,10 +435,6 @@ style=solid;label="_connect";
 GRAPH_DUMMY947 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster952 {
-style=dashed;label="http11.py";
-GRAPH_DUMMY952 [shape=point, style=invis];
 subgraph cluster954 {
 style=rounded;label="HTTP11DownloadHandler";
 GRAPH_DUMMY954 [shape=point, style=invis];
@@ -759,10 +541,6 @@ style=solid;label="connectionLost";
 GRAPH_DUMMY1185 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster1189 {
-style=dashed;label="s3.py";
-GRAPH_DUMMY1189 [shape=point, style=invis];
 subgraph cluster1190 {
 style=solid;label="_get_boto_connection";
 GRAPH_DUMMY1190 [shape=point, style=invis];
@@ -781,10 +559,6 @@ style=solid;label="download_request";
 GRAPH_DUMMY1211 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster1223 {
-style=dashed;label="__init__.py";
-GRAPH_DUMMY1223 [shape=point, style=invis];
 subgraph cluster1225 {
 style=rounded;label="DownloadHandlers";
 GRAPH_DUMMY1225 [shape=point, style=invis];
@@ -802,11 +576,6 @@ GRAPH_DUMMY1241 [shape=point, style=invis];
 }
 1247 [style=solid,label="_close"];
 }
-}
-}
-subgraph cluster814 {
-style=dashed;label="contextfactory.py";
-GRAPH_DUMMY814 [shape=point, style=invis];
 subgraph cluster815 {
 style=rounded;label="ScrapyClientContextFactory";
 GRAPH_DUMMY815 [shape=point, style=invis];
@@ -830,10 +599,6 @@ style=solid;label="getContext";
 GRAPH_DUMMY843 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster1251 {
-style=dashed;label="middleware.py";
-GRAPH_DUMMY1251 [shape=point, style=invis];
 subgraph cluster1252 {
 style=rounded;label="DownloaderMiddlewareManager";
 GRAPH_DUMMY1252 [shape=point, style=invis];
@@ -848,10 +613,6 @@ GRAPH_DUMMY1260 [shape=point, style=invis];
 }
 1272 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1273 {
-style=dashed;label="tls.py";
-GRAPH_DUMMY1273 [shape=point, style=invis];
 1285 [style=solid,label="set_tlsext_host_name"];
 subgraph cluster1288 {
 style=rounded;label="ScrapyClientTLSOptions";
@@ -859,10 +620,6 @@ GRAPH_DUMMY1288 [shape=point, style=invis];
 1289 [style=solid,label="_identityVerifyingInfoCallback"];
 1294 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1296 {
-style=dashed;label="webclient.py";
-GRAPH_DUMMY1296 [shape=point, style=invis];
 subgraph cluster1297 {
 style=solid;label="_parsed_url_args";
 GRAPH_DUMMY1297 [shape=point, style=invis];
@@ -898,10 +655,6 @@ GRAPH_DUMMY1364 [shape=point, style=invis];
 }
 1370 [style=solid,label="gotHeaders"];
 }
-}
-subgraph cluster1374 {
-style=dashed;label="__init__.py";
-GRAPH_DUMMY1374 [shape=point, style=invis];
 subgraph cluster1375 {
 style=rounded;label="Slot";
 GRAPH_DUMMY1375 [shape=point, style=invis];
@@ -958,11 +711,6 @@ style=solid;label="_slot_gc";
 GRAPH_DUMMY1472 [shape=point, style=invis];
 }
 }
-}
-}
-subgraph cluster1476 {
-style=dashed;label="engine.py";
-GRAPH_DUMMY1476 [shape=point, style=invis];
 subgraph cluster1478 {
 style=rounded;label="Slot";
 GRAPH_DUMMY1478 [shape=point, style=invis];
@@ -1038,10 +786,6 @@ GRAPH_DUMMY1608 [shape=point, style=invis];
 }
 1612 [style=solid,label="_finish_stopping_engine"];
 }
-}
-subgraph cluster1614 {
-style=dashed;label="scheduler.py";
-GRAPH_DUMMY1614 [shape=point, style=invis];
 subgraph cluster1616 {
 style=rounded;label="Scheduler";
 GRAPH_DUMMY1616 [shape=point, style=invis];
@@ -1085,10 +829,6 @@ style=solid;label="_dqdir";
 GRAPH_DUMMY1683 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster1687 {
-style=dashed;label="scraper.py";
-GRAPH_DUMMY1687 [shape=point, style=invis];
 subgraph cluster1689 {
 style=rounded;label="Slot";
 GRAPH_DUMMY1689 [shape=point, style=invis];
@@ -1161,10 +901,6 @@ style=solid;label="_itemproc_finished";
 GRAPH_DUMMY1807 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster1815 {
-style=dashed;label="spidermw.py";
-GRAPH_DUMMY1815 [shape=point, style=invis];
 1816 [style=solid,label="_isiterable"];
 subgraph cluster1818 {
 style=rounded;label="SpiderMiddlewareManager";
@@ -1181,15 +917,6 @@ GRAPH_DUMMY1826 [shape=point, style=invis];
 1840 [style=solid,label="process_start_requests"];
 1844 [style=solid,label="__init__"];
 }
-}
-1846 [style=dashed,label="__init__.py"];
-}
-subgraph cluster2411 {
-style=bold;label="downloadermiddlewares";
-GRAPH_DUMMY2411 [shape=point, style=invis];
-subgraph cluster1952 {
-style=dashed;label="ajaxcrawl.py";
-GRAPH_DUMMY1952 [shape=point, style=invis];
 subgraph cluster1954 {
 style=rounded;label="AjaxCrawlMiddleware";
 GRAPH_DUMMY1954 [shape=point, style=invis];
@@ -1205,10 +932,6 @@ GRAPH_DUMMY1968 [shape=point, style=invis];
 }
 }
 1973 [style=solid,label="_has_ajaxcrawlable_meta"];
-}
-subgraph cluster1975 {
-style=dashed;label="chunked.py";
-GRAPH_DUMMY1975 [shape=point, style=invis];
 subgraph cluster1976 {
 style=rounded;label="ChunkedTransferMiddleware";
 GRAPH_DUMMY1976 [shape=point, style=invis];
@@ -1218,10 +941,6 @@ GRAPH_DUMMY1977 [shape=point, style=invis];
 }
 1983 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1984 {
-style=dashed;label="cookies.py";
-GRAPH_DUMMY1984 [shape=point, style=invis];
 subgraph cluster1986 {
 style=rounded;label="CookiesMiddleware";
 GRAPH_DUMMY1986 [shape=point, style=invis];
@@ -1252,10 +971,6 @@ style=solid;label="_get_request_cookies";
 GRAPH_DUMMY2027 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster2035 {
-style=dashed;label="decompression.py";
-GRAPH_DUMMY2035 [shape=point, style=invis];
 subgraph cluster2037 {
 style=rounded;label="DecompressionMiddleware";
 GRAPH_DUMMY2037 [shape=point, style=invis];
@@ -1281,10 +996,6 @@ style=solid;label="process_response";
 GRAPH_DUMMY2067 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster2073 {
-style=dashed;label="defaultheaders.py";
-GRAPH_DUMMY2073 [shape=point, style=invis];
 subgraph cluster2074 {
 style=rounded;label="DefaultHeadersMiddleware";
 GRAPH_DUMMY2074 [shape=point, style=invis];
@@ -1295,10 +1006,6 @@ GRAPH_DUMMY2079 [shape=point, style=invis];
 }
 2083 [style=solid,label="process_request"];
 }
-}
-subgraph cluster2087 {
-style=dashed;label="downloadtimeout.py";
-GRAPH_DUMMY2087 [shape=point, style=invis];
 subgraph cluster2088 {
 style=rounded;label="DownloadTimeoutMiddleware";
 GRAPH_DUMMY2088 [shape=point, style=invis];
@@ -1310,10 +1017,6 @@ GRAPH_DUMMY2093 [shape=point, style=invis];
 2097 [style=solid,label="spider_opened"];
 2100 [style=solid,label="process_request"];
 }
-}
-subgraph cluster2104 {
-style=dashed;label="httpauth.py";
-GRAPH_DUMMY2104 [shape=point, style=invis];
 subgraph cluster2105 {
 style=rounded;label="HttpAuthMiddleware";
 GRAPH_DUMMY2105 [shape=point, style=invis];
@@ -1331,10 +1034,6 @@ GRAPH_DUMMY2115 [shape=point, style=invis];
 }
 2120 [style=solid,label="__init__"];
 }
-}
-subgraph cluster2121 {
-style=dashed;label="httpcache.py";
-GRAPH_DUMMY2121 [shape=point, style=invis];
 subgraph cluster2122 {
 style=rounded;label="HttpCacheMiddleware";
 GRAPH_DUMMY2122 [shape=point, style=invis];
@@ -1359,10 +1058,6 @@ GRAPH_DUMMY2153 [shape=point, style=invis];
 }
 2159 [style=solid,label="_cache_response"];
 }
-}
-subgraph cluster2165 {
-style=dashed;label="httpcompression.py";
-GRAPH_DUMMY2165 [shape=point, style=invis];
 subgraph cluster2167 {
 style=rounded;label="HttpCompressionMiddleware";
 GRAPH_DUMMY2167 [shape=point, style=invis];
@@ -1375,10 +1070,6 @@ GRAPH_DUMMY2175 [shape=point, style=invis];
 2186 [style=solid,label="_decode"];
 2190 [style=solid,label="__init__"];
 }
-}
-subgraph cluster2191 {
-style=dashed;label="httpproxy.py";
-GRAPH_DUMMY2191 [shape=point, style=invis];
 subgraph cluster2192 {
 style=rounded;label="HttpProxyMiddleware";
 GRAPH_DUMMY2192 [shape=point, style=invis];
@@ -1404,10 +1095,6 @@ style=solid;label="_set_proxy";
 GRAPH_DUMMY2226 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster2232 {
-style=dashed;label="redirect.py";
-GRAPH_DUMMY2232 [shape=point, style=invis];
 subgraph cluster2234 {
 style=rounded;label="BaseRedirectMiddleware";
 GRAPH_DUMMY2234 [shape=point, style=invis];
@@ -1440,10 +1127,6 @@ style=solid;label="process_response";
 GRAPH_DUMMY2274 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster2282 {
-style=dashed;label="retry.py";
-GRAPH_DUMMY2282 [shape=point, style=invis];
 subgraph cluster2284 {
 style=rounded;label="RetryMiddleware";
 GRAPH_DUMMY2284 [shape=point, style=invis];
@@ -1459,10 +1142,6 @@ style=solid;label="_retry";
 GRAPH_DUMMY2306 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster2315 {
-style=dashed;label="robotstxt.py";
-GRAPH_DUMMY2315 [shape=point, style=invis];
 subgraph cluster2317 {
 style=rounded;label="RobotsTxtMiddleware";
 GRAPH_DUMMY2317 [shape=point, style=invis];
@@ -1488,10 +1167,6 @@ style=solid;label="_robots_error";
 GRAPH_DUMMY2362 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster2368 {
-style=dashed;label="stats.py";
-GRAPH_DUMMY2368 [shape=point, style=invis];
 subgraph cluster2369 {
 style=rounded;label="DownloaderStats";
 GRAPH_DUMMY2369 [shape=point, style=invis];
@@ -1510,10 +1185,6 @@ style=solid;label="process_exception";
 GRAPH_DUMMY2388 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster2394 {
-style=dashed;label="useragent.py";
-GRAPH_DUMMY2394 [shape=point, style=invis];
 subgraph cluster2395 {
 style=rounded;label="UserAgentMiddleware";
 GRAPH_DUMMY2395 [shape=point, style=invis];
@@ -1525,15 +1196,6 @@ GRAPH_DUMMY2400 [shape=point, style=invis];
 2404 [style=solid,label="spider_opened"];
 2407 [style=solid,label="process_request"];
 }
-}
-2412 [style=dashed,label="__init__.py"];
-}
-subgraph cluster3376 {
-style=bold;label="extensions";
-GRAPH_DUMMY3376 [shape=point, style=invis];
-subgraph cluster2679 {
-style=dashed;label="closespider.py";
-GRAPH_DUMMY2679 [shape=point, style=invis];
 subgraph cluster2680 {
 style=rounded;label="CloseSpider";
 GRAPH_DUMMY2680 [shape=point, style=invis];
@@ -1548,10 +1210,6 @@ style=solid;label="spider_closed";
 GRAPH_DUMMY2707 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster2711 {
-style=dashed;label="corestats.py";
-GRAPH_DUMMY2711 [shape=point, style=invis];
 subgraph cluster2712 {
 style=rounded;label="CoreStats";
 GRAPH_DUMMY2712 [shape=point, style=invis];
@@ -1569,10 +1227,6 @@ style=solid;label="item_dropped";
 GRAPH_DUMMY2735 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster2741 {
-style=dashed;label="debug.py";
-GRAPH_DUMMY2741 [shape=point, style=invis];
 subgraph cluster2743 {
 style=rounded;label="StackTraceDump";
 GRAPH_DUMMY2743 [shape=point, style=invis];
@@ -1593,10 +1247,6 @@ GRAPH_DUMMY2762 [shape=point, style=invis];
 2763 [style=solid,label="__init__"];
 2765 [style=solid,label="_enter_debugger"];
 }
-}
-subgraph cluster2769 {
-style=dashed;label="feedexport.py";
-GRAPH_DUMMY2769 [shape=point, style=invis];
 subgraph cluster2771 {
 style=rounded;label="IFeedStorage";
 GRAPH_DUMMY2771 [shape=point, style=invis];
@@ -1702,10 +1352,6 @@ style=solid;label="_get_uri_params";
 GRAPH_DUMMY2933 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster2939 {
-style=dashed;label="httpcache.py";
-GRAPH_DUMMY2939 [shape=point, style=invis];
 subgraph cluster2941 {
 style=rounded;label="DummyPolicy";
 GRAPH_DUMMY2941 [shape=point, style=invis];
@@ -1824,10 +1470,6 @@ style=solid;label="parse_cachecontrol";
 GRAPH_DUMMY3162 [shape=point, style=invis];
 }
 3169 [style=solid,label="rfc1123_to_epoch"];
-}
-subgraph cluster3171 {
-style=dashed;label="logstats.py";
-GRAPH_DUMMY3171 [shape=point, style=invis];
 subgraph cluster3173 {
 style=rounded;label="LogStats";
 GRAPH_DUMMY3173 [shape=point, style=invis];
@@ -1843,10 +1485,6 @@ GRAPH_DUMMY3190 [shape=point, style=invis];
 }
 3199 [style=solid,label="spider_closed"];
 }
-}
-subgraph cluster3203 {
-style=dashed;label="memdebug.py";
-GRAPH_DUMMY3203 [shape=point, style=invis];
 subgraph cluster3204 {
 style=rounded;label="MemoryDebugger";
 GRAPH_DUMMY3204 [shape=point, style=invis];
@@ -1857,10 +1495,6 @@ GRAPH_DUMMY3209 [shape=point, style=invis];
 }
 3213 [style=solid,label="spider_closed"];
 }
-}
-subgraph cluster3217 {
-style=dashed;label="memusage.py";
-GRAPH_DUMMY3217 [shape=point, style=invis];
 subgraph cluster3219 {
 style=rounded;label="MemoryUsage";
 GRAPH_DUMMY3219 [shape=point, style=invis];
@@ -1889,10 +1523,6 @@ style=solid;label="_send_report";
 GRAPH_DUMMY3253 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster3259 {
-style=dashed;label="spiderstate.py";
-GRAPH_DUMMY3259 [shape=point, style=invis];
 subgraph cluster3260 {
 style=rounded;label="SpiderState";
 GRAPH_DUMMY3260 [shape=point, style=invis];
@@ -1905,10 +1535,6 @@ GRAPH_DUMMY3265 [shape=point, style=invis];
 3273 [style=solid,label="spider_opened"];
 3276 [style=solid,label="statefn"];
 }
-}
-subgraph cluster3278 {
-style=dashed;label="statsmailer.py";
-GRAPH_DUMMY3278 [shape=point, style=invis];
 subgraph cluster3279 {
 style=rounded;label="StatsMailer";
 GRAPH_DUMMY3279 [shape=point, style=invis];
@@ -1922,10 +1548,6 @@ style=solid;label="spider_closed";
 GRAPH_DUMMY3294 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster3299 {
-style=dashed;label="telnet.py";
-GRAPH_DUMMY3299 [shape=point, style=invis];
 subgraph cluster3305 {
 style=rounded;label="TelnetConsole";
 GRAPH_DUMMY3305 [shape=point, style=invis];
@@ -1945,10 +1567,6 @@ style=solid;label="_get_telnet_vars";
 GRAPH_DUMMY3324 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster3327 {
-style=dashed;label="throttle.py";
-GRAPH_DUMMY3327 [shape=point, style=invis];
 subgraph cluster3329 {
 style=rounded;label="AutoThrottle";
 GRAPH_DUMMY3329 [shape=point, style=invis];
@@ -1974,18 +1592,6 @@ style=solid;label="_adjust_delay";
 GRAPH_DUMMY3369 [shape=point, style=invis];
 }
 }
-}
-3377 [style=dashed,label="__init__.py"];
-}
-subgraph cluster3838 {
-style=bold;label="http";
-GRAPH_DUMMY3838 [shape=point, style=invis];
-subgraph cluster3641 {
-style=bold;label="request";
-GRAPH_DUMMY3641 [shape=point, style=invis];
-subgraph cluster3557 {
-style=dashed;label="form.py";
-GRAPH_DUMMY3557 [shape=point, style=invis];
 subgraph cluster3558 {
 style=rounded;label="FormRequest";
 GRAPH_DUMMY3558 [shape=point, style=invis];
@@ -2026,10 +1632,6 @@ subgraph cluster3624 {
 style=solid;label="_get_clickable";
 GRAPH_DUMMY3624 [shape=point, style=invis];
 }
-}
-subgraph cluster3631 {
-style=dashed;label="rpc.py";
-GRAPH_DUMMY3631 [shape=point, style=invis];
 subgraph cluster3633 {
 style=rounded;label="XmlRpcRequest";
 GRAPH_DUMMY3633 [shape=point, style=invis];
@@ -2038,10 +1640,6 @@ style=solid;label="__init__";
 GRAPH_DUMMY3634 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster3642 {
-style=dashed;label="__init__.py";
-GRAPH_DUMMY3642 [shape=point, style=invis];
 subgraph cluster3643 {
 style=rounded;label="Request";
 GRAPH_DUMMY3643 [shape=point, style=invis];
@@ -2062,23 +1660,11 @@ style=solid;label="replace";
 GRAPH_DUMMY3690 [shape=point, style=invis];
 }
 }
-}
-}
-subgraph cluster3773 {
-style=bold;label="response";
-GRAPH_DUMMY3773 [shape=point, style=invis];
-subgraph cluster3695 {
-style=dashed;label="html.py";
-GRAPH_DUMMY3695 [shape=point, style=invis];
 subgraph cluster3696 {
 style=rounded;label="HtmlResponse";
 GRAPH_DUMMY3696 [shape=point, style=invis];
 3697 [style=solid,label="__init__"];
 }
-}
-subgraph cluster3698 {
-style=dashed;label="text.py";
-GRAPH_DUMMY3698 [shape=point, style=invis];
 subgraph cluster3699 {
 style=rounded;label="TextResponse";
 GRAPH_DUMMY3699 [shape=point, style=invis];
@@ -2113,19 +1699,11 @@ subgraph cluster3767 {
 style=solid;label="_url_from_selector";
 GRAPH_DUMMY3767 [shape=point, style=invis];
 }
-}
-subgraph cluster3770 {
-style=dashed;label="xml.py";
-GRAPH_DUMMY3770 [shape=point, style=invis];
 subgraph cluster3771 {
 style=rounded;label="XmlResponse";
 GRAPH_DUMMY3771 [shape=point, style=invis];
 3772 [style=solid,label="__init__"];
 }
-}
-subgraph cluster3774 {
-style=dashed;label="__init__.py";
-GRAPH_DUMMY3774 [shape=point, style=invis];
 subgraph cluster3775 {
 style=rounded;label="Response";
 GRAPH_DUMMY3775 [shape=point, style=invis];
@@ -2147,20 +1725,11 @@ GRAPH_DUMMY3807 [shape=point, style=invis];
 3821 [style=solid,label="xpath"];
 3825 [style=solid,label="follow"];
 }
-}
-}
-subgraph cluster3378 {
-style=dashed;label="common.py";
-GRAPH_DUMMY3378 [shape=point, style=invis];
 subgraph cluster3379 {
 style=solid;label="obsolete_setter";
 GRAPH_DUMMY3379 [shape=point, style=invis];
 3382 [style=solid,label="newsetter"];
 }
-}
-subgraph cluster3385 {
-style=dashed;label="cookies.py";
-GRAPH_DUMMY3385 [shape=point, style=invis];
 subgraph cluster3386 {
 style=rounded;label="CookieJar";
 GRAPH_DUMMY3386 [shape=point, style=invis];
@@ -2223,10 +1792,6 @@ GRAPH_DUMMY3490 [shape=point, style=invis];
 3495 [style=solid,label="info"];
 3497 [style=solid,label="get_all"];
 }
-}
-subgraph cluster3502 {
-style=dashed;label="headers.py";
-GRAPH_DUMMY3502 [shape=point, style=invis];
 subgraph cluster3503 {
 style=rounded;label="Headers";
 GRAPH_DUMMY3503 [shape=point, style=invis];
@@ -2253,15 +1818,6 @@ GRAPH_DUMMY3538 [shape=point, style=invis];
 3552 [style=solid,label="to_unicode_dict"];
 3554 [style=solid,label="__copy__"];
 }
-}
-3839 [style=dashed,label="__init__.py"];
-}
-subgraph cluster4135 {
-style=bold;label="linkextractors";
-GRAPH_DUMMY4135 [shape=point, style=invis];
-subgraph cluster3929 {
-style=dashed;label="htmlparser.py";
-GRAPH_DUMMY3929 [shape=point, style=invis];
 subgraph cluster3930 {
 style=rounded;label="HtmlParserLinkExtractor";
 GRAPH_DUMMY3930 [shape=point, style=invis];
@@ -2280,10 +1836,6 @@ GRAPH_DUMMY3956 [shape=point, style=invis];
 3966 [style=solid,label="handle_data"];
 3969 [style=solid,label="matches"];
 }
-}
-subgraph cluster3972 {
-style=dashed;label="lxmlhtml.py";
-GRAPH_DUMMY3972 [shape=point, style=invis];
 3975 [style=solid,label="_nons"];
 subgraph cluster3977 {
 style=rounded;label="LxmlParserLinkExtractor";
@@ -2316,10 +1868,6 @@ style=solid;label="extract_links";
 GRAPH_DUMMY4036 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster4043 {
-style=dashed;label="regex.py";
-GRAPH_DUMMY4043 [shape=point, style=invis];
 4045 [style=solid,label="clean_link"];
 subgraph cluster4047 {
 style=rounded;label="RegexLinkExtractor";
@@ -2332,10 +1880,6 @@ GRAPH_DUMMY4048 [shape=point, style=invis];
 }
 4059 [style=solid,label="__init__"];
 }
-}
-subgraph cluster4060 {
-style=dashed;label="sgml.py";
-GRAPH_DUMMY4060 [shape=point, style=invis];
 subgraph cluster4061 {
 style=rounded;label="BaseSgmlLinkExtractor";
 GRAPH_DUMMY4061 [shape=point, style=invis];
@@ -2370,10 +1914,6 @@ style=solid;label="extract_links";
 GRAPH_DUMMY4129 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster4136 {
-style=dashed;label="__init__.py";
-GRAPH_DUMMY4136 [shape=point, style=invis];
 subgraph cluster4141 {
 style=rounded;label="FilteringLinkExtractor";
 GRAPH_DUMMY4141 [shape=point, style=invis];
@@ -2389,19 +1929,7 @@ GRAPH_DUMMY4166 [shape=point, style=invis];
 4171 [style=solid,label="_process_links"];
 4174 [style=solid,label="_extract_links"];
 }
-}
-}
-subgraph cluster4239 {
-style=bold;label="loader";
-GRAPH_DUMMY4239 [shape=point, style=invis];
-subgraph cluster4178 {
-style=dashed;label="common.py";
-GRAPH_DUMMY4178 [shape=point, style=invis];
 4179 [style=solid,label="wrap_loader_context"];
-}
-subgraph cluster4182 {
-style=dashed;label="processors.py";
-GRAPH_DUMMY4182 [shape=point, style=invis];
 subgraph cluster4183 {
 style=rounded;label="MapCompose";
 GRAPH_DUMMY4183 [shape=point, style=invis];
@@ -2444,10 +1972,6 @@ GRAPH_DUMMY4231 [shape=point, style=invis];
 4232 [style=solid,label="__init__"];
 4236 [style=solid,label="__call__"];
 }
-}
-subgraph cluster4240 {
-style=dashed;label="__init__.py";
-GRAPH_DUMMY4240 [shape=point, style=invis];
 subgraph cluster4241 {
 style=rounded;label="ItemLoader";
 GRAPH_DUMMY4241 [shape=point, style=invis];
@@ -2527,14 +2051,6 @@ GRAPH_DUMMY4377 [shape=point, style=invis];
 }
 4383 [style=solid,label="_get_cssvalues"];
 }
-}
-}
-subgraph cluster4940 {
-style=bold;label="pipelines";
-GRAPH_DUMMY4940 [shape=point, style=invis];
-subgraph cluster4549 {
-style=dashed;label="files.py";
-GRAPH_DUMMY4549 [shape=point, style=invis];
 subgraph cluster4551 {
 style=rounded;label="FileException";
 GRAPH_DUMMY4551 [shape=point, style=invis];
@@ -2653,10 +2169,6 @@ GRAPH_DUMMY4738 [shape=point, style=invis];
 }
 4747 [style=solid,label="file_key"];
 }
-}
-subgraph cluster4751 {
-style=dashed;label="images.py";
-GRAPH_DUMMY4751 [shape=point, style=invis];
 subgraph cluster4752 {
 style=rounded;label="NoimagesDrop";
 GRAPH_DUMMY4752 [shape=point, style=invis];
@@ -2710,10 +2222,6 @@ GRAPH_DUMMY4835 [shape=point, style=invis];
 4848 [style=solid,label="image_key"];
 4852 [style=solid,label="thumb_key"];
 }
-}
-subgraph cluster4857 {
-style=dashed;label="media.py";
-GRAPH_DUMMY4857 [shape=point, style=invis];
 subgraph cluster4859 {
 style=rounded;label="MediaPipeline";
 GRAPH_DUMMY4859 [shape=point, style=invis];
@@ -2752,10 +2260,6 @@ GRAPH_DUMMY4906 [shape=point, style=invis];
 4930 [style=solid,label="media_failed"];
 4935 [style=solid,label="item_completed"];
 }
-}
-subgraph cluster4941 {
-style=dashed;label="__init__.py";
-GRAPH_DUMMY4941 [shape=point, style=invis];
 subgraph cluster4942 {
 style=rounded;label="ItemPipelineManager";
 GRAPH_DUMMY4942 [shape=point, style=invis];
@@ -2764,23 +2268,7 @@ GRAPH_DUMMY4942 [shape=point, style=invis];
 4950 [style=solid,label="process_item"];
 4954 [style=solid,label="__init__"];
 }
-}
-}
-subgraph cluster5070 {
-style=bold;label="selector";
-GRAPH_DUMMY5070 [shape=point, style=invis];
-subgraph cluster5017 {
-style=dashed;label="csstranslator.py";
-GRAPH_DUMMY5017 [shape=point, style=invis];
-}
-subgraph cluster5021 {
-style=dashed;label="lxmlsel.py";
-GRAPH_DUMMY5021 [shape=point, style=invis];
 5023 [style=solid,label="_xpathselector_css"];
-}
-subgraph cluster5031 {
-style=dashed;label="unified.py";
-GRAPH_DUMMY5031 [shape=point, style=invis];
 5033 [style=solid,label="_st"];
 subgraph cluster5036 {
 style=solid;label="_response_from_text";
@@ -2805,27 +2293,10 @@ GRAPH_DUMMY5053 [shape=point, style=invis];
 5065 [style=solid,label="select"];
 5068 [style=solid,label="extract_unquoted"];
 }
-}
-5071 [style=dashed,label="__init__.py"];
-}
-subgraph cluster5218 {
-style=bold;label="settings";
-GRAPH_DUMMY5218 [shape=point, style=invis];
-subgraph cluster5072 {
-style=dashed;label="default_settings.py";
-GRAPH_DUMMY5072 [shape=point, style=invis];
-}
-subgraph cluster5212 {
-style=dashed;label="deprecated.py";
-GRAPH_DUMMY5212 [shape=point, style=invis];
 subgraph cluster5214 {
 style=solid;label="check_deprecated_settings";
 GRAPH_DUMMY5214 [shape=point, style=invis];
 }
-}
-subgraph cluster5219 {
-style=dashed;label="__init__.py";
-GRAPH_DUMMY5219 [shape=point, style=invis];
 5221 [style=solid,label="get_settings_priority"];
 subgraph cluster5223 {
 style=rounded;label="SettingsAttribute";
@@ -2904,14 +2375,6 @@ subgraph cluster5367 {
 style=solid;label="overridden_settings";
 GRAPH_DUMMY5367 [shape=point, style=invis];
 }
-}
-}
-subgraph cluster5772 {
-style=bold;label="spidermiddlewares";
-GRAPH_DUMMY5772 [shape=point, style=invis];
-subgraph cluster5524 {
-style=dashed;label="depth.py";
-GRAPH_DUMMY5524 [shape=point, style=invis];
 subgraph cluster5526 {
 style=rounded;label="DepthMiddleware";
 GRAPH_DUMMY5526 [shape=point, style=invis];
@@ -2926,10 +2389,6 @@ GRAPH_DUMMY5544 [shape=point, style=invis];
 5549 [style=solid,label="_filter"];
 }
 }
-}
-subgraph cluster5551 {
-style=dashed;label="httperror.py";
-GRAPH_DUMMY5551 [shape=point, style=invis];
 subgraph cluster5553 {
 style=rounded;label="HttpError";
 GRAPH_DUMMY5553 [shape=point, style=invis];
@@ -2946,10 +2405,6 @@ GRAPH_DUMMY5569 [shape=point, style=invis];
 }
 5575 [style=solid,label="process_spider_exception"];
 }
-}
-subgraph cluster5580 {
-style=dashed;label="offsite.py";
-GRAPH_DUMMY5580 [shape=point, style=invis];
 subgraph cluster5582 {
 style=rounded;label="OffsiteMiddleware";
 GRAPH_DUMMY5582 [shape=point, style=invis];
@@ -2977,10 +2432,6 @@ style=rounded;label="URLWarning";
 GRAPH_DUMMY5614 [shape=point, style=invis];
 5615 [style=solid,label="__init__"];
 }
-}
-subgraph cluster5616 {
-style=dashed;label="referer.py";
-GRAPH_DUMMY5616 [shape=point, style=invis];
 subgraph cluster5627 {
 style=rounded;label="ReferrerPolicy";
 GRAPH_DUMMY5627 [shape=point, style=invis];
@@ -3081,10 +2532,6 @@ style=solid;label="request_scheduled";
 GRAPH_DUMMY5746 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster5754 {
-style=dashed;label="urllength.py";
-GRAPH_DUMMY5754 [shape=point, style=invis];
 subgraph cluster5756 {
 style=rounded;label="UrlLengthMiddleware";
 GRAPH_DUMMY5756 [shape=point, style=invis];
@@ -3099,15 +2546,6 @@ GRAPH_DUMMY5765 [shape=point, style=invis];
 5770 [style=solid,label="_filter"];
 }
 }
-}
-5773 [style=dashed,label="__init__.py"];
-}
-subgraph cluster5939 {
-style=bold;label="spiders";
-GRAPH_DUMMY5939 [shape=point, style=invis];
-subgraph cluster5774 {
-style=dashed;label="crawl.py";
-GRAPH_DUMMY5774 [shape=point, style=invis];
 5775 [style=solid,label="identity"];
 subgraph cluster5777 {
 style=rounded;label="Rule";
@@ -3148,10 +2586,6 @@ GRAPH_DUMMY5835 [shape=point, style=invis];
 }
 5841 [style=solid,label="set_crawler"];
 }
-}
-subgraph cluster5844 {
-style=dashed;label="feed.py";
-GRAPH_DUMMY5844 [shape=point, style=invis];
 subgraph cluster5845 {
 style=rounded;label="XMLFeedSpider";
 GRAPH_DUMMY5845 [shape=point, style=invis];
@@ -3183,10 +2617,6 @@ GRAPH_DUMMY5892 [shape=point, style=invis];
 5896 [style=solid,label="parse"];
 5899 [style=solid,label="__init__"];
 }
-}
-subgraph cluster5900 {
-style=dashed;label="init.py";
-GRAPH_DUMMY5900 [shape=point, style=invis];
 subgraph cluster5901 {
 style=rounded;label="InitSpider";
 GRAPH_DUMMY5901 [shape=point, style=invis];
@@ -3195,10 +2625,6 @@ GRAPH_DUMMY5901 [shape=point, style=invis];
 5907 [style=solid,label="init_request"];
 5909 [style=solid,label="__init__"];
 }
-}
-subgraph cluster5910 {
-style=dashed;label="sitemap.py";
-GRAPH_DUMMY5910 [shape=point, style=invis];
 subgraph cluster5912 {
 style=rounded;label="SitemapSpider";
 GRAPH_DUMMY5912 [shape=point, style=invis];
@@ -3215,10 +2641,6 @@ GRAPH_DUMMY5926 [shape=point, style=invis];
 }
 5934 [style=solid,label="regex"];
 5936 [style=solid,label="iterloc"];
-}
-subgraph cluster5940 {
-style=dashed;label="__init__.py";
-GRAPH_DUMMY5940 [shape=point, style=invis];
 subgraph cluster5941 {
 style=rounded;label="Spider";
 GRAPH_DUMMY5941 [shape=point, style=invis];
@@ -3254,14 +2676,6 @@ GRAPH_DUMMY5993 [shape=point, style=invis];
 5994 [style=solid,label="__init__"];
 5998 [style=solid,label="__getattr__"];
 }
-}
-}
-subgraph cluster7168 {
-style=bold;label="utils";
-GRAPH_DUMMY7168 [shape=point, style=invis];
-subgraph cluster6119 {
-style=dashed;label="benchserver.py";
-GRAPH_DUMMY6119 [shape=point, style=invis];
 subgraph cluster6120 {
 style=rounded;label="Root";
 GRAPH_DUMMY6120 [shape=point, style=invis];
@@ -3278,15 +2692,7 @@ style=solid;label="__main__";
 GRAPH_DUMMY6141 [shape=point, style=invis];
 6145 [style=solid,label="_print_listening"];
 }
-}
-subgraph cluster6146 {
-style=dashed;label="boto.py";
-GRAPH_DUMMY6146 [shape=point, style=invis];
 6147 [style=solid,label="is_botocore"];
-}
-subgraph cluster6148 {
-style=dashed;label="conf.py";
-GRAPH_DUMMY6148 [shape=point, style=invis];
 subgraph cluster6149 {
 style=solid;label="build_component_list";
 GRAPH_DUMMY6149 [shape=point, style=invis];
@@ -3311,10 +2717,6 @@ subgraph cluster6175 {
 style=solid;label="get_sources";
 GRAPH_DUMMY6175 [shape=point, style=invis];
 }
-}
-subgraph cluster6179 {
-style=dashed;label="console.py";
-GRAPH_DUMMY6179 [shape=point, style=invis];
 subgraph cluster6180 {
 style=solid;label="_embed_ipython_shell";
 GRAPH_DUMMY6180 [shape=point, style=invis];
@@ -3340,10 +2742,6 @@ subgraph cluster6208 {
 style=solid;label="start_python_console";
 GRAPH_DUMMY6208 [shape=point, style=invis];
 }
-}
-subgraph cluster6213 {
-style=dashed;label="datatypes.py";
-GRAPH_DUMMY6213 [shape=point, style=invis];
 subgraph cluster6214 {
 style=rounded;label="MultiValueDictKeyError";
 GRAPH_DUMMY6214 [shape=point, style=invis];
@@ -3442,10 +2840,6 @@ GRAPH_DUMMY6376 [shape=point, style=invis];
 6377 [style=solid,label="__init__"];
 6381 [style=solid,label="__contains__"];
 }
-}
-subgraph cluster6384 {
-style=dashed;label="decorators.py";
-GRAPH_DUMMY6384 [shape=point, style=invis];
 subgraph cluster6385 {
 style=solid;label="deprecated";
 GRAPH_DUMMY6385 [shape=point, style=invis];
@@ -3461,10 +2855,6 @@ style=solid;label="inthread";
 GRAPH_DUMMY6395 [shape=point, style=invis];
 6397 [style=solid,label="wrapped"];
 }
-}
-subgraph cluster6400 {
-style=dashed;label="defer.py";
-GRAPH_DUMMY6400 [shape=point, style=invis];
 subgraph cluster6401 {
 style=solid;label="defer_fail";
 GRAPH_DUMMY6401 [shape=point, style=invis];
@@ -3498,10 +2888,6 @@ subgraph cluster6442 {
 style=solid;label="iter_errback";
 GRAPH_DUMMY6442 [shape=point, style=invis];
 }
-}
-subgraph cluster6448 {
-style=dashed;label="deprecate.py";
-GRAPH_DUMMY6448 [shape=point, style=invis];
 subgraph cluster6449 {
 style=solid;label="attribute";
 GRAPH_DUMMY6449 [shape=point, style=invis];
@@ -3520,17 +2906,9 @@ subgraph cluster6476 {
 style=solid;label="method_is_overridden";
 GRAPH_DUMMY6476 [shape=point, style=invis];
 }
-}
-subgraph cluster6482 {
-style=dashed;label="display.py";
-GRAPH_DUMMY6482 [shape=point, style=invis];
 6483 [style=solid,label="_colorize"];
 6486 [style=solid,label="pformat"];
 6490 [style=solid,label="pprint"];
-}
-subgraph cluster6494 {
-style=dashed;label="engine.py";
-GRAPH_DUMMY6494 [shape=point, style=invis];
 subgraph cluster6495 {
 style=solid;label="get_engine_status";
 GRAPH_DUMMY6495 [shape=point, style=invis];
@@ -3540,15 +2918,7 @@ style=solid;label="format_engine_status";
 GRAPH_DUMMY6499 [shape=point, style=invis];
 }
 6503 [style=solid,label="print_engine_status"];
-}
-subgraph cluster6505 {
-style=dashed;label="ftp.py";
-GRAPH_DUMMY6505 [shape=point, style=invis];
 6506 [style=solid,label="ftp_makedirs_cwd"];
-}
-subgraph cluster6510 {
-style=dashed;label="gz.py";
-GRAPH_DUMMY6510 [shape=point, style=invis];
 6511 [style=solid,label="read1"];
 6514 [style=solid,label="read1"];
 subgraph cluster6517 {
@@ -3560,26 +2930,14 @@ style=solid;label="is_gzipped";
 GRAPH_DUMMY6524 [shape=point, style=invis];
 }
 6528 [style=solid,label="gzip_magic_number"];
-}
-subgraph cluster6530 {
-style=dashed;label="http.py";
-GRAPH_DUMMY6530 [shape=point, style=invis];
 subgraph cluster6531 {
 style=solid;label="decode_chunked_transfer";
 GRAPH_DUMMY6531 [shape=point, style=invis];
 }
-}
-subgraph cluster6537 {
-style=dashed;label="httpobj.py";
-GRAPH_DUMMY6537 [shape=point, style=invis];
 subgraph cluster6539 {
 style=solid;label="urlparse_cached";
 GRAPH_DUMMY6539 [shape=point, style=invis];
 }
-}
-subgraph cluster6542 {
-style=dashed;label="iterators.py";
-GRAPH_DUMMY6542 [shape=point, style=invis];
 subgraph cluster6544 {
 style=solid;label="xmliter";
 GRAPH_DUMMY6544 [shape=point, style=invis];
@@ -3611,18 +2969,10 @@ subgraph cluster6602 {
 style=solid;label="_body_or_str";
 GRAPH_DUMMY6602 [shape=point, style=invis];
 }
-}
-subgraph cluster6606 {
-style=dashed;label="job.py";
-GRAPH_DUMMY6606 [shape=point, style=invis];
 subgraph cluster6607 {
 style=solid;label="job_dir";
 GRAPH_DUMMY6607 [shape=point, style=invis];
 }
-}
-subgraph cluster6610 {
-style=dashed;label="log.py";
-GRAPH_DUMMY6610 [shape=point, style=invis];
 6612 [style=solid,label="failure_to_exc_info"];
 subgraph cluster6614 {
 style=rounded;label="TopLevelFormatter";
@@ -3664,11 +3014,6 @@ subgraph cluster6664 {
 style=solid;label="logformatter_adapter";
 GRAPH_DUMMY6664 [shape=point, style=invis];
 }
-}
-6669 [style=dashed,label="markup.py"];
-subgraph cluster6670 {
-style=dashed;label="misc.py";
-GRAPH_DUMMY6670 [shape=point, style=invis];
 6672 [style=solid,label="arg_to_iter"];
 subgraph cluster6674 {
 style=solid;label="load_object";
@@ -3688,16 +3033,7 @@ GRAPH_DUMMY6692 [shape=point, style=invis];
 }
 6696 [style=solid,label="rel_has_nofollow"];
 6698 [style=solid,label="create_instance"];
-}
-6704 [style=dashed,label="multipart.py"];
-subgraph cluster6705 {
-style=dashed;label="ossignal.py";
-GRAPH_DUMMY6705 [shape=point, style=invis];
 6709 [style=solid,label="install_shutdown_handlers"];
-}
-subgraph cluster6712 {
-style=dashed;label="project.py";
-GRAPH_DUMMY6712 [shape=point, style=invis];
 subgraph cluster6715 {
 style=solid;label="inside_project";
 GRAPH_DUMMY6715 [shape=point, style=invis];
@@ -3711,10 +3047,6 @@ subgraph cluster6725 {
 style=solid;label="get_project_settings";
 GRAPH_DUMMY6725 [shape=point, style=invis];
 }
-}
-subgraph cluster6731 {
-style=dashed;label="python.py";
-GRAPH_DUMMY6731 [shape=point, style=invis];
 6732 [style=solid,label="flatten"];
 6734 [style=solid,label="iflatten"];
 6736 [style=solid,label="is_listlike"];
@@ -3769,10 +3101,6 @@ GRAPH_DUMMY6813 [shape=point, style=invis];
 6833 [style=solid,label="global_object_name"];
 6835 [style=solid,label="garbage_collect"];
 6836 [style=solid,label="garbage_collect"];
-}
-subgraph cluster6837 {
-style=dashed;label="reactor.py";
-GRAPH_DUMMY6837 [shape=point, style=invis];
 6838 [style=solid,label="listen_tcp"];
 subgraph cluster6842 {
 style=rounded;label="CallLaterOnce";
@@ -3782,10 +3110,6 @@ GRAPH_DUMMY6842 [shape=point, style=invis];
 6855 [style=solid,label="cancel"];
 6857 [style=solid,label="__call__"];
 }
-}
-subgraph cluster6859 {
-style=dashed;label="reqser.py";
-GRAPH_DUMMY6859 [shape=point, style=invis];
 subgraph cluster6860 {
 style=solid;label="request_to_dict";
 GRAPH_DUMMY6860 [shape=point, style=invis];
@@ -3799,10 +3123,6 @@ style=solid;label="_find_method";
 GRAPH_DUMMY6873 [shape=point, style=invis];
 }
 6877 [style=solid,label="_get_method"];
-}
-subgraph cluster6880 {
-style=dashed;label="request.py";
-GRAPH_DUMMY6880 [shape=point, style=invis];
 subgraph cluster6882 {
 style=solid;label="request_fingerprint";
 GRAPH_DUMMY6882 [shape=point, style=invis];
@@ -3816,10 +3136,6 @@ subgraph cluster6897 {
 style=solid;label="referer_str";
 GRAPH_DUMMY6897 [shape=point, style=invis];
 }
-}
-subgraph cluster6900 {
-style=dashed;label="response.py";
-GRAPH_DUMMY6900 [shape=point, style=invis];
 6901 [style=solid,label="body_or_str"];
 subgraph cluster6905 {
 style=solid;label="get_base_url";
@@ -3841,10 +3157,6 @@ subgraph cluster6920 {
 style=solid;label="open_in_browser";
 GRAPH_DUMMY6920 [shape=point, style=invis];
 }
-}
-subgraph cluster6928 {
-style=dashed;label="serialize.py";
-GRAPH_DUMMY6928 [shape=point, style=invis];
 subgraph cluster6929 {
 style=rounded;label="ScrapyJSONEncoder";
 GRAPH_DUMMY6929 [shape=point, style=invis];
@@ -3856,10 +3168,6 @@ style=rounded;label="ScrapyJSONDecoder";
 GRAPH_DUMMY6936 [shape=point, style=invis];
 6937 [style=solid,label="__init__"];
 }
-}
-subgraph cluster6938 {
-style=dashed;label="signal.py";
-GRAPH_DUMMY6938 [shape=point, style=invis];
 subgraph cluster6940 {
 style=rounded;label="_IgnoredException";
 GRAPH_DUMMY6940 [shape=point, style=invis];
@@ -3875,10 +3183,6 @@ GRAPH_DUMMY6952 [shape=point, style=invis];
 6957 [style=solid,label="logerror"];
 }
 6964 [style=solid,label="disconnect_all"];
-}
-subgraph cluster6967 {
-style=dashed;label="sitemap.py";
-GRAPH_DUMMY6967 [shape=point, style=invis];
 subgraph cluster6968 {
 style=rounded;label="Sitemap";
 GRAPH_DUMMY6968 [shape=point, style=invis];
@@ -3895,10 +3199,6 @@ subgraph cluster6982 {
 style=solid;label="sitemap_urls_from_robots";
 GRAPH_DUMMY6982 [shape=point, style=invis];
 }
-}
-subgraph cluster6986 {
-style=dashed;label="spider.py";
-GRAPH_DUMMY6986 [shape=point, style=invis];
 6988 [style=solid,label="iterate_spider_output"];
 6990 [style=solid,label="iter_spider_classes"];
 subgraph cluster6992 {
@@ -3910,19 +3210,11 @@ style=rounded;label="DefaultSpider";
 GRAPH_DUMMY6999 [shape=point, style=invis];
 7001 [style=solid,label="__init__"];
 }
-}
-subgraph cluster7002 {
-style=dashed;label="template.py";
-GRAPH_DUMMY7002 [shape=point, style=invis];
 subgraph cluster7003 {
 style=solid;label="render_templatefile";
 GRAPH_DUMMY7003 [shape=point, style=invis];
 }
 7010 [style=solid,label="string_camelcase"];
-}
-subgraph cluster7012 {
-style=dashed;label="test.py";
-GRAPH_DUMMY7012 [shape=point, style=invis];
 7013 [style=solid,label="assert_aws_environ"];
 7014 [style=solid,label="assert_gcs_environ"];
 7015 [style=solid,label="skip_if_no_boto"];
@@ -3947,10 +3239,6 @@ style=solid;label="get_testenv";
 GRAPH_DUMMY7037 [shape=point, style=invis];
 }
 7040 [style=solid,label="assert_samelines"];
-}
-subgraph cluster7045 {
-style=dashed;label="testproc.py";
-GRAPH_DUMMY7045 [shape=point, style=invis];
 subgraph cluster7046 {
 style=rounded;label="ProcessTest";
 GRAPH_DUMMY7046 [shape=point, style=invis];
@@ -3972,10 +3260,6 @@ GRAPH_DUMMY7066 [shape=point, style=invis];
 7076 [style=solid,label="errReceived"];
 7079 [style=solid,label="processEnded"];
 }
-}
-subgraph cluster7082 {
-style=dashed;label="testsite.py";
-GRAPH_DUMMY7082 [shape=point, style=invis];
 subgraph cluster7083 {
 style=rounded;label="SiteTest";
 GRAPH_DUMMY7083 [shape=point, style=invis];
@@ -4001,10 +3285,6 @@ subgraph cluster7100 {
 style=solid;label="__main__";
 GRAPH_DUMMY7100 [shape=point, style=invis];
 }
-}
-subgraph cluster7102 {
-style=dashed;label="trackref.py";
-GRAPH_DUMMY7102 [shape=point, style=invis];
 subgraph cluster7105 {
 style=rounded;label="object_ref";
 GRAPH_DUMMY7105 [shape=point, style=invis];
@@ -4021,10 +3301,6 @@ GRAPH_DUMMY7114 [shape=point, style=invis];
 7119 [style=solid,label="print_live_refs"];
 7122 [style=solid,label="get_oldest"];
 7124 [style=solid,label="iter_all"];
-}
-subgraph cluster7126 {
-style=dashed;label="url.py";
-GRAPH_DUMMY7126 [shape=point, style=invis];
 subgraph cluster7127 {
 style=solid;label="url_is_from_any_domain";
 GRAPH_DUMMY7127 [shape=point, style=invis];
@@ -4048,10 +3324,6 @@ subgraph cluster7152 {
 style=solid;label="strip_url";
 GRAPH_DUMMY7152 [shape=point, style=invis];
 }
-}
-subgraph cluster7160 {
-style=dashed;label="versions.py";
-GRAPH_DUMMY7160 [shape=point, style=invis];
 subgraph cluster7161 {
 style=solid;label="scrapy_components_versions";
 GRAPH_DUMMY7161 [shape=point, style=invis];
@@ -4060,22 +3332,6 @@ subgraph cluster7166 {
 style=solid;label="_get_openssl_version";
 GRAPH_DUMMY7166 [shape=point, style=invis];
 }
-}
-7169 [style=dashed,label="__init__.py"];
-}
-subgraph cluster7178 {
-style=bold;label="xlib";
-GRAPH_DUMMY7178 [shape=point, style=invis];
-7170 [style=dashed,label="pydispatch.py"];
-subgraph cluster7171 {
-style=dashed;label="tx.py";
-GRAPH_DUMMY7171 [shape=point, style=invis];
-}
-7179 [style=dashed,label="__init__.py"];
-}
-subgraph cluster165 {
-style=dashed;label="cmdline.py";
-GRAPH_DUMMY165 [shape=point, style=invis];
 166 [style=solid,label="_iter_command_classes"];
 subgraph cluster168 {
 style=solid;label="_get_commands_from_module";
@@ -4110,14 +3366,6 @@ style=solid;label="_run_command_profiled";
 GRAPH_DUMMY220 [shape=point, style=invis];
 }
 226 [style=solid,label="__main__"];
-}
-subgraph cluster701 {
-style=dashed;label="conf.py";
-GRAPH_DUMMY701 [shape=point, style=invis];
-}
-subgraph cluster1847 {
-style=dashed;label="crawler.py";
-GRAPH_DUMMY1847 [shape=point, style=invis];
 subgraph cluster1849 {
 style=rounded;label="Crawler";
 GRAPH_DUMMY1849 [shape=point, style=invis];
@@ -4183,10 +3431,6 @@ subgraph cluster1948 {
 style=solid;label="_get_spider_loader";
 GRAPH_DUMMY1948 [shape=point, style=invis];
 }
-}
-subgraph cluster2413 {
-style=dashed;label="dupefilters.py";
-GRAPH_DUMMY2413 [shape=point, style=invis];
 subgraph cluster2414 {
 style=rounded;label="BaseDupeFilter";
 GRAPH_DUMMY2414 [shape=point, style=invis];
@@ -4216,10 +3460,6 @@ style=solid;label="log";
 GRAPH_DUMMY2456 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster2461 {
-style=dashed;label="exceptions.py";
-GRAPH_DUMMY2461 [shape=point, style=invis];
 subgraph cluster2462 {
 style=rounded;label="NotConfigured";
 GRAPH_DUMMY2462 [shape=point, style=invis];
@@ -4265,10 +3505,6 @@ style=rounded;label="ContractFail";
 GRAPH_DUMMY2485 [shape=point, style=invis];
 2486 [style=solid,label="__init__"];
 }
-}
-subgraph cluster2487 {
-style=dashed;label="exporters.py";
-GRAPH_DUMMY2487 [shape=point, style=invis];
 subgraph cluster2489 {
 style=rounded;label="BaseItemExporter";
 GRAPH_DUMMY2489 [shape=point, style=invis];
@@ -4388,20 +3624,12 @@ GRAPH_DUMMY2667 [shape=point, style=invis];
 }
 2671 [style=solid,label="__init__"];
 }
-}
-subgraph cluster2672 {
-style=dashed;label="extension.py";
-GRAPH_DUMMY2672 [shape=point, style=invis];
 subgraph cluster2673 {
 style=rounded;label="ExtensionManager";
 GRAPH_DUMMY2673 [shape=point, style=invis];
 2675 [style=solid,label="_get_mwlist_from_settings"];
 2678 [style=solid,label="__init__"];
 }
-}
-subgraph cluster3840 {
-style=dashed;label="interfaces.py";
-GRAPH_DUMMY3840 [shape=point, style=invis];
 subgraph cluster3841 {
 style=rounded;label="ISpiderLoader";
 GRAPH_DUMMY3841 [shape=point, style=invis];
@@ -4411,10 +3639,6 @@ GRAPH_DUMMY3841 [shape=point, style=invis];
 3847 [style=solid,label="find_by_request"];
 3849 [style=solid,label="__init__"];
 }
-}
-subgraph cluster3850 {
-style=dashed;label="item.py";
-GRAPH_DUMMY3850 [shape=point, style=invis];
 subgraph cluster3851 {
 style=rounded;label="BaseItem";
 GRAPH_DUMMY3851 [shape=point, style=invis];
@@ -4457,10 +3681,6 @@ style=rounded;label="Item";
 GRAPH_DUMMY3906 [shape=point, style=invis];
 3907 [style=solid,label="__init__"];
 }
-}
-subgraph cluster3908 {
-style=dashed;label="link.py";
-GRAPH_DUMMY3908 [shape=point, style=invis];
 subgraph cluster3909 {
 style=rounded;label="Link";
 GRAPH_DUMMY3909 [shape=point, style=invis];
@@ -4472,10 +3692,6 @@ GRAPH_DUMMY3911 [shape=point, style=invis];
 3925 [style=solid,label="__hash__"];
 3927 [style=solid,label="__repr__"];
 }
-}
-subgraph cluster4388 {
-style=dashed;label="log.py";
-GRAPH_DUMMY4388 [shape=point, style=invis];
 subgraph cluster4397 {
 style=solid;label="msg";
 GRAPH_DUMMY4397 [shape=point, style=invis];
@@ -4484,10 +3700,6 @@ subgraph cluster4402 {
 style=solid;label="err";
 GRAPH_DUMMY4402 [shape=point, style=invis];
 }
-}
-subgraph cluster4409 {
-style=dashed;label="logformatter.py";
-GRAPH_DUMMY4409 [shape=point, style=invis];
 subgraph cluster4413 {
 style=rounded;label="LogFormatter";
 GRAPH_DUMMY4413 [shape=point, style=invis];
@@ -4503,10 +3715,6 @@ GRAPH_DUMMY4421 [shape=point, style=invis];
 4433 [style=solid,label="from_crawler"];
 4436 [style=solid,label="__init__"];
 }
-}
-subgraph cluster4437 {
-style=dashed;label="mail.py";
-GRAPH_DUMMY4437 [shape=point, style=invis];
 4439 [style=solid,label="_to_bytes_or_none"];
 subgraph cluster4441 {
 style=rounded;label="MailSender";
@@ -4527,10 +3735,6 @@ style=solid;label="_sendmail";
 GRAPH_DUMMY4493 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster4499 {
-style=dashed;label="middleware.py";
-GRAPH_DUMMY4499 [shape=point, style=invis];
 subgraph cluster4501 {
 style=rounded;label="MiddlewareManager";
 GRAPH_DUMMY4501 [shape=point, style=invis];
@@ -4548,10 +3752,6 @@ GRAPH_DUMMY4511 [shape=point, style=invis];
 4543 [style=solid,label="open_spider"];
 4546 [style=solid,label="close_spider"];
 }
-}
-subgraph cluster4955 {
-style=dashed;label="resolver.py";
-GRAPH_DUMMY4955 [shape=point, style=invis];
 subgraph cluster4957 {
 style=rounded;label="CachingThreadedResolver";
 GRAPH_DUMMY4957 [shape=point, style=invis];
@@ -4565,10 +3765,6 @@ style=solid;label="_cache_result";
 GRAPH_DUMMY4969 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster4974 {
-style=dashed;label="responsetypes.py";
-GRAPH_DUMMY4974 [shape=point, style=invis];
 subgraph cluster4975 {
 style=rounded;label="ResponseTypes";
 GRAPH_DUMMY4975 [shape=point, style=invis];
@@ -4605,10 +3801,6 @@ style=solid;label="from_args";
 GRAPH_DUMMY5009 [shape=point, style=invis];
 }
 }
-}
-subgraph cluster5370 {
-style=dashed;label="shell.py";
-GRAPH_DUMMY5370 [shape=point, style=invis];
 subgraph cluster5371 {
 style=rounded;label="Shell";
 GRAPH_DUMMY5371 [shape=point, style=invis];
@@ -4646,10 +3838,6 @@ GRAPH_DUMMY5438 [shape=point, style=invis];
 5439 [style=solid,label="__init__"];
 5443 [style=solid,label="__getattr__"];
 }
-}
-subgraph cluster5446 {
-style=dashed;label="signalmanager.py";
-GRAPH_DUMMY5446 [shape=point, style=invis];
 subgraph cluster5447 {
 style=rounded;label="SignalManager";
 GRAPH_DUMMY5447 [shape=point, style=invis];
@@ -4660,14 +3848,6 @@ GRAPH_DUMMY5447 [shape=point, style=invis];
 5466 [style=solid,label="send_catch_log_deferred"];
 5470 [style=solid,label="disconnect_all"];
 }
-}
-subgraph cluster5474 {
-style=dashed;label="signals.py";
-GRAPH_DUMMY5474 [shape=point, style=invis];
-}
-subgraph cluster5494 {
-style=dashed;label="spiderloader.py";
-GRAPH_DUMMY5494 [shape=point, style=invis];
 subgraph cluster5495 {
 style=rounded;label="SpiderLoader";
 GRAPH_DUMMY5495 [shape=point, style=invis];
@@ -4686,20 +3866,12 @@ GRAPH_DUMMY5510 [shape=point, style=invis];
 5519 [style=solid,label="find_by_request"];
 5522 [style=solid,label="list"];
 }
-}
-subgraph cluster6002 {
-style=dashed;label="squeues.py";
-GRAPH_DUMMY6002 [shape=point, style=invis];
 subgraph cluster6003 {
 style=solid;label="_serializable_queue";
 GRAPH_DUMMY6003 [shape=point, style=invis];
 6007 [style=rounded,label="SerializableQueue"];
 }
 6008 [style=solid,label="_pickle_serialize"];
-}
-subgraph cluster6016 {
-style=dashed;label="statscollectors.py";
-GRAPH_DUMMY6016 [shape=point, style=invis];
 subgraph cluster6018 {
 style=rounded;label="StatsCollector";
 GRAPH_DUMMY6018 [shape=point, style=invis];
@@ -4736,33 +3908,7 @@ GRAPH_DUMMY6082 [shape=point, style=invis];
 6108 [style=solid,label="min_value"];
 6113 [style=solid,label="__init__"];
 }
-}
-6114 [style=dashed,label="telnet.py"];
-7180 [style=dashed,label="_monkeypatches.py"];
-subgraph cluster7182 {
-style=dashed;label="__init__.py";
-GRAPH_DUMMY7182 [shape=point, style=invis];
-}
-subgraph cluster7187 {
-style=dashed;label="__main__.py";
-GRAPH_DUMMY7187 [shape=point, style=invis];
 7188 [style=solid,label="__main__"];
-}
-}
-subgraph cluster7189 {
-style=dashed;label="setup.py";
-GRAPH_DUMMY7189 [shape=point, style=invis];
-7191 [style=solid,label="has_environment_marker_platform_impl_support"];
-}
-subgraph cluster14361 {
-style=bold;label="tests";
-GRAPH_DUMMY14361 [shape=point, style=invis];
-subgraph cluster7205 {
-style=bold;label="mocks";
-GRAPH_DUMMY7205 [shape=point, style=invis];
-subgraph cluster7194 {
-style=dashed;label="dummydbm.py";
-GRAPH_DUMMY7194 [shape=point, style=invis];
 subgraph cluster7195 {
 style=rounded;label="DummyDB";
 GRAPH_DUMMY7195 [shape=point, style=invis];
@@ -4770,15 +3916,6 @@ GRAPH_DUMMY7195 [shape=point, style=invis];
 7198 [style=solid,label="__init__"];
 }
 7201 [style=solid,label="open"];
-}
-7206 [style=dashed,label="__init__.py"];
-}
-subgraph cluster7534 {
-style=bold;label="test_cmdline";
-GRAPH_DUMMY7534 [shape=point, style=invis];
-subgraph cluster7521 {
-style=dashed;label="extensions.py";
-GRAPH_DUMMY7521 [shape=point, style=invis];
 subgraph cluster7522 {
 style=rounded;label="TestExtension";
 GRAPH_DUMMY7522 [shape=point, style=invis];
@@ -4790,14 +3927,6 @@ style=rounded;label="DummyExtension";
 GRAPH_DUMMY7529 [shape=point, style=invis];
 7530 [style=solid,label="__init__"];
 }
-}
-subgraph cluster7531 {
-style=dashed;label="settings.py";
-GRAPH_DUMMY7531 [shape=point, style=invis];
-}
-subgraph cluster7535 {
-style=dashed;label="__init__.py";
-GRAPH_DUMMY7535 [shape=point, style=invis];
 subgraph cluster7536 {
 style=rounded;label="CmdlineTest";
 GRAPH_DUMMY7536 [shape=point, style=invis];
@@ -4819,18 +3948,6 @@ GRAPH_DUMMY7559 [shape=point, style=invis];
 }
 7565 [style=solid,label="__init__"];
 }
-}
-}
-subgraph cluster12333 {
-style=bold;label="test_settings";
-GRAPH_DUMMY12333 [shape=point, style=invis];
-subgraph cluster12330 {
-style=dashed;label="default_settings.py";
-GRAPH_DUMMY12330 [shape=point, style=invis];
-}
-subgraph cluster12334 {
-style=dashed;label="__init__.py";
-GRAPH_DUMMY12334 [shape=point, style=invis];
 subgraph cluster12335 {
 style=rounded;label="SettingsGlobalFuncsTest";
 GRAPH_DUMMY12335 [shape=point, style=invis];
@@ -4948,71 +4065,33 @@ GRAPH_DUMMY12444 [shape=point, style=invis];
 12448 [style=solid,label="__init__"];
 }
 12449 [style=solid,label="__main__"];
-}
-}
-subgraph cluster12633 {
-style=bold;label="test_spiderloader";
-GRAPH_DUMMY12633 [shape=point, style=invis];
-subgraph cluster12631 {
-style=bold;label="test_spiders";
-GRAPH_DUMMY12631 [shape=point, style=invis];
-subgraph cluster12607 {
-style=bold;label="nested";
-GRAPH_DUMMY12607 [shape=point, style=invis];
-subgraph cluster12599 {
-style=dashed;label="spider4.py";
-GRAPH_DUMMY12599 [shape=point, style=invis];
 subgraph cluster12600 {
 style=rounded;label="Spider4";
 GRAPH_DUMMY12600 [shape=point, style=invis];
 12603 [style=solid,label="handles_request"];
 12606 [style=solid,label="__init__"];
 }
-}
-12608 [style=dashed,label="__init__.py"];
-}
-subgraph cluster12609 {
-style=dashed;label="spider0.py";
-GRAPH_DUMMY12609 [shape=point, style=invis];
 subgraph cluster12610 {
 style=rounded;label="Spider0";
 GRAPH_DUMMY12610 [shape=point, style=invis];
 12612 [style=solid,label="__init__"];
 }
-}
-subgraph cluster12613 {
-style=dashed;label="spider1.py";
-GRAPH_DUMMY12613 [shape=point, style=invis];
 subgraph cluster12614 {
 style=rounded;label="Spider1";
 GRAPH_DUMMY12614 [shape=point, style=invis];
 12617 [style=solid,label="__init__"];
 }
-}
-subgraph cluster12618 {
-style=dashed;label="spider2.py";
-GRAPH_DUMMY12618 [shape=point, style=invis];
 subgraph cluster12619 {
 style=rounded;label="Spider2";
 GRAPH_DUMMY12619 [shape=point, style=invis];
 12622 [style=solid,label="__init__"];
 }
-}
-subgraph cluster12623 {
-style=dashed;label="spider3.py";
-GRAPH_DUMMY12623 [shape=point, style=invis];
 subgraph cluster12624 {
 style=rounded;label="Spider3";
 GRAPH_DUMMY12624 [shape=point, style=invis];
 12627 [style=solid,label="handles_request"];
 12630 [style=solid,label="__init__"];
 }
-}
-12632 [style=dashed,label="__init__.py"];
-}
-subgraph cluster12634 {
-style=dashed;label="__init__.py";
-GRAPH_DUMMY12634 [shape=point, style=invis];
 subgraph cluster12636 {
 style=rounded;label="SpiderLoaderTest";
 GRAPH_DUMMY12636 [shape=point, style=invis];
@@ -5072,26 +4151,6 @@ GRAPH_DUMMY12692 [shape=point, style=invis];
 }
 12697 [style=solid,label="__init__"];
 }
-}
-}
-subgraph cluster13729 {
-style=bold;label="test_utils_misc";
-GRAPH_DUMMY13729 [shape=point, style=invis];
-subgraph cluster13727 {
-style=bold;label="test_walk_modules";
-GRAPH_DUMMY13727 [shape=point, style=invis];
-subgraph cluster13724 {
-style=bold;label="mod";
-GRAPH_DUMMY13724 [shape=point, style=invis];
-13723 [style=dashed,label="mod0.py"];
-13725 [style=dashed,label="__init__.py"];
-}
-13726 [style=dashed,label="mod1.py"];
-13728 [style=dashed,label="__init__.py"];
-}
-subgraph cluster13730 {
-style=dashed;label="__init__.py";
-GRAPH_DUMMY13730 [shape=point, style=invis];
 subgraph cluster13732 {
 style=rounded;label="UtilsMiscTestCase";
 GRAPH_DUMMY13732 [shape=point, style=invis];
@@ -5117,11 +4176,6 @@ GRAPH_DUMMY13747 [shape=point, style=invis];
 13762 [style=solid,label="__init__"];
 }
 13763 [style=solid,label="__main__"];
-}
-}
-subgraph cluster7207 {
-style=dashed;label="mockserver.py";
-GRAPH_DUMMY7207 [shape=point, style=invis];
 subgraph cluster7208 {
 style=solid;label="getarg";
 GRAPH_DUMMY7208 [shape=point, style=invis];
@@ -5239,10 +4293,6 @@ style=solid;label="__main__";
 GRAPH_DUMMY7331 [shape=point, style=invis];
 7337 [style=solid,label="print_listening"];
 }
-}
-subgraph cluster7338 {
-style=dashed;label="pipelines.py";
-GRAPH_DUMMY7338 [shape=point, style=invis];
 subgraph cluster7339 {
 style=rounded;label="ZeroDivisionErrorPipeline";
 GRAPH_DUMMY7339 [shape=point, style=invis];
@@ -5259,10 +4309,6 @@ GRAPH_DUMMY7349 [shape=point, style=invis];
 7350 [style=solid,label="process_item"];
 7354 [style=solid,label="__init__"];
 }
-}
-subgraph cluster7355 {
-style=dashed;label="spiders.py";
-GRAPH_DUMMY7355 [shape=point, style=invis];
 subgraph cluster7356 {
 style=rounded;label="MockServerSpider";
 GRAPH_DUMMY7356 [shape=point, style=invis];
@@ -5346,10 +4392,6 @@ GRAPH_DUMMY7473 [shape=point, style=invis];
 7476 [style=solid,label="__init__"];
 7482 [style=solid,label="parse"];
 }
-}
-subgraph cluster7485 {
-style=dashed;label="test_closespider.py";
-GRAPH_DUMMY7485 [shape=point, style=invis];
 subgraph cluster7486 {
 style=rounded;label="TestCloseSpider";
 GRAPH_DUMMY7486 [shape=point, style=invis];
@@ -5373,10 +4415,6 @@ GRAPH_DUMMY7510 [shape=point, style=invis];
 }
 7520 [style=solid,label="__init__"];
 }
-}
-subgraph cluster7566 {
-style=dashed;label="test_commands.py";
-GRAPH_DUMMY7566 [shape=point, style=invis];
 subgraph cluster7567 {
 style=rounded;label="ProjectTest";
 GRAPH_DUMMY7567 [shape=point, style=invis];
@@ -5510,10 +4548,6 @@ GRAPH_DUMMY7701 [shape=point, style=invis];
 }
 7705 [style=solid,label="__init__"];
 }
-}
-subgraph cluster7706 {
-style=dashed;label="test_command_fetch.py";
-GRAPH_DUMMY7706 [shape=point, style=invis];
 subgraph cluster7707 {
 style=rounded;label="FetchTest";
 GRAPH_DUMMY7707 [shape=point, style=invis];
@@ -5535,10 +4569,6 @@ GRAPH_DUMMY7722 [shape=point, style=invis];
 }
 7726 [style=solid,label="__init__"];
 }
-}
-subgraph cluster7727 {
-style=dashed;label="test_command_parse.py";
-GRAPH_DUMMY7727 [shape=point, style=invis];
 7728 [style=solid,label="_textmode"];
 subgraph cluster7730 {
 style=rounded;label="ParseCommandTest";
@@ -5597,10 +4627,6 @@ GRAPH_DUMMY7787 [shape=point, style=invis];
 }
 7792 [style=solid,label="__init__"];
 }
-}
-subgraph cluster7793 {
-style=dashed;label="test_command_shell.py";
-GRAPH_DUMMY7793 [shape=point, style=invis];
 subgraph cluster7794 {
 style=rounded;label="ShellTest";
 GRAPH_DUMMY7794 [shape=point, style=invis];
@@ -5670,10 +4696,6 @@ GRAPH_DUMMY7872 [shape=point, style=invis];
 }
 7878 [style=solid,label="__init__"];
 }
-}
-subgraph cluster7879 {
-style=dashed;label="test_command_version.py";
-GRAPH_DUMMY7879 [shape=point, style=invis];
 subgraph cluster7880 {
 style=rounded;label="VersionTest";
 GRAPH_DUMMY7880 [shape=point, style=invis];
@@ -5687,10 +4709,6 @@ GRAPH_DUMMY7887 [shape=point, style=invis];
 }
 7893 [style=solid,label="__init__"];
 }
-}
-subgraph cluster7894 {
-style=dashed;label="test_contracts.py";
-GRAPH_DUMMY7894 [shape=point, style=invis];
 subgraph cluster7895 {
 style=rounded;label="TestItem";
 GRAPH_DUMMY7895 [shape=point, style=invis];
@@ -5796,10 +4814,6 @@ GRAPH_DUMMY8015 [shape=point, style=invis];
 }
 8019 [style=solid,label="__init__"];
 }
-}
-subgraph cluster8020 {
-style=dashed;label="test_crawl.py";
-GRAPH_DUMMY8020 [shape=point, style=invis];
 subgraph cluster8021 {
 style=rounded;label="CrawlTestCase";
 GRAPH_DUMMY8021 [shape=point, style=invis];
@@ -5887,10 +4901,6 @@ GRAPH_DUMMY8110 [shape=point, style=invis];
 8113 [style=solid,label="test_crawl_multiple"];
 8115 [style=solid,label="__init__"];
 }
-}
-subgraph cluster8116 {
-style=dashed;label="test_crawler.py";
-GRAPH_DUMMY8116 [shape=point, style=invis];
 subgraph cluster8117 {
 style=rounded;label="BaseCrawlerTest";
 GRAPH_DUMMY8117 [shape=point, style=invis];
@@ -6023,10 +5033,6 @@ GRAPH_DUMMY8217 [shape=point, style=invis];
 }
 8220 [style=solid,label="__init__"];
 }
-}
-subgraph cluster8221 {
-style=dashed;label="test_dependencies.py";
-GRAPH_DUMMY8221 [shape=point, style=invis];
 subgraph cluster8222 {
 style=rounded;label="ScrapyUtilsTest";
 GRAPH_DUMMY8222 [shape=point, style=invis];
@@ -6037,10 +5043,6 @@ GRAPH_DUMMY8223 [shape=point, style=invis];
 8227 [style=solid,label="__init__"];
 }
 8228 [style=solid,label="__main__"];
-}
-subgraph cluster8229 {
-style=dashed;label="test_downloadermiddleware.py";
-GRAPH_DUMMY8229 [shape=point, style=invis];
 subgraph cluster8230 {
 style=rounded;label="ManagerTestCase";
 GRAPH_DUMMY8230 [shape=point, style=invis];
@@ -6079,10 +5081,6 @@ GRAPH_DUMMY8265 [shape=point, style=invis];
 }
 8272 [style=solid,label="__init__"];
 }
-}
-subgraph cluster8273 {
-style=dashed;label="test_downloadermiddleware_ajaxcrawlable.py";
-GRAPH_DUMMY8273 [shape=point, style=invis];
 subgraph cluster8275 {
 style=rounded;label="AjaxCrawlMiddlewareTest";
 GRAPH_DUMMY8275 [shape=point, style=invis];
@@ -6117,10 +5115,6 @@ GRAPH_DUMMY8310 [shape=point, style=invis];
 }
 8315 [style=solid,label="__init__"];
 }
-}
-subgraph cluster8316 {
-style=dashed;label="test_downloadermiddleware_cookies.py";
-GRAPH_DUMMY8316 [shape=point, style=invis];
 subgraph cluster8317 {
 style=rounded;label="CookiesMiddlewareTest";
 GRAPH_DUMMY8317 [shape=point, style=invis];
@@ -6171,10 +5165,6 @@ GRAPH_DUMMY8389 [shape=point, style=invis];
 }
 8392 [style=solid,label="__init__"];
 }
-}
-subgraph cluster8393 {
-style=dashed;label="test_downloadermiddleware_decompression.py";
-GRAPH_DUMMY8393 [shape=point, style=invis];
 subgraph cluster8394 {
 style=solid;label="_test_data";
 GRAPH_DUMMY8394 [shape=point, style=invis];
@@ -6199,10 +5189,6 @@ GRAPH_DUMMY8414 [shape=point, style=invis];
 8420 [style=solid,label="__init__"];
 }
 8421 [style=solid,label="__main__"];
-}
-subgraph cluster8422 {
-style=dashed;label="test_downloadermiddleware_defaultheaders.py";
-GRAPH_DUMMY8422 [shape=point, style=invis];
 subgraph cluster8423 {
 style=rounded;label="TestDefaultHeadersMiddleware";
 GRAPH_DUMMY8423 [shape=point, style=invis];
@@ -6220,10 +5206,6 @@ GRAPH_DUMMY8435 [shape=point, style=invis];
 }
 8443 [style=solid,label="__init__"];
 }
-}
-subgraph cluster8444 {
-style=dashed;label="test_downloadermiddleware_downloadtimeout.py";
-GRAPH_DUMMY8444 [shape=point, style=invis];
 subgraph cluster8445 {
 style=rounded;label="DownloadTimeoutMiddlewareTest";
 GRAPH_DUMMY8445 [shape=point, style=invis];
@@ -6249,10 +5231,6 @@ GRAPH_DUMMY8467 [shape=point, style=invis];
 }
 8472 [style=solid,label="__init__"];
 }
-}
-subgraph cluster8473 {
-style=dashed;label="test_downloadermiddleware_httpauth.py";
-GRAPH_DUMMY8473 [shape=point, style=invis];
 subgraph cluster8474 {
 style=rounded;label="TestSpider";
 GRAPH_DUMMY8474 [shape=point, style=invis];
@@ -6273,10 +5251,6 @@ GRAPH_DUMMY8486 [shape=point, style=invis];
 }
 8489 [style=solid,label="__init__"];
 }
-}
-subgraph cluster8490 {
-style=dashed;label="test_downloadermiddleware_httpcache.py";
-GRAPH_DUMMY8490 [shape=point, style=invis];
 subgraph cluster8491 {
 style=rounded;label="_BaseTest";
 GRAPH_DUMMY8491 [shape=point, style=invis];
@@ -6395,10 +5369,6 @@ GRAPH_DUMMY8641 [shape=point, style=invis];
 8648 [style=solid,label="__init__"];
 }
 8649 [style=solid,label="__main__"];
-}
-subgraph cluster8650 {
-style=dashed;label="test_downloadermiddleware_httpcompression.py";
-GRAPH_DUMMY8650 [shape=point, style=invis];
 subgraph cluster8653 {
 style=rounded;label="HttpCompressionTest";
 GRAPH_DUMMY8653 [shape=point, style=invis];
@@ -6469,10 +5439,6 @@ GRAPH_DUMMY8749 [shape=point, style=invis];
 }
 8754 [style=solid,label="__init__"];
 }
-}
-subgraph cluster8755 {
-style=dashed;label="test_downloadermiddleware_httpproxy.py";
-GRAPH_DUMMY8755 [shape=point, style=invis];
 subgraph cluster8757 {
 style=rounded;label="TestHttpProxyMiddleware";
 GRAPH_DUMMY8757 [shape=point, style=invis];
@@ -6516,10 +5482,6 @@ GRAPH_DUMMY8795 [shape=point, style=invis];
 }
 8799 [style=solid,label="__init__"];
 }
-}
-subgraph cluster8800 {
-style=dashed;label="test_downloadermiddleware_redirect.py";
-GRAPH_DUMMY8800 [shape=point, style=invis];
 subgraph cluster8801 {
 style=rounded;label="RedirectMiddlewareTest";
 GRAPH_DUMMY8801 [shape=point, style=invis];
@@ -6618,10 +5580,6 @@ GRAPH_DUMMY8916 [shape=point, style=invis];
 8923 [style=solid,label="__init__"];
 }
 8924 [style=solid,label="__main__"];
-}
-subgraph cluster8925 {
-style=dashed;label="test_downloadermiddleware_retry.py";
-GRAPH_DUMMY8925 [shape=point, style=invis];
 subgraph cluster8926 {
 style=rounded;label="RetryTest";
 GRAPH_DUMMY8926 [shape=point, style=invis];
@@ -6685,10 +5643,6 @@ GRAPH_DUMMY8984 [shape=point, style=invis];
 8993 [style=solid,label="__init__"];
 }
 8994 [style=solid,label="__main__"];
-}
-subgraph cluster8995 {
-style=dashed;label="test_downloadermiddleware_robotstxt.py";
-GRAPH_DUMMY8995 [shape=point, style=invis];
 subgraph cluster8996 {
 style=rounded;label="RobotsTxtMiddlewareTest";
 GRAPH_DUMMY8996 [shape=point, style=invis];
@@ -6755,10 +5709,6 @@ GRAPH_DUMMY9071 [shape=point, style=invis];
 }
 9076 [style=solid,label="__init__"];
 }
-}
-subgraph cluster9077 {
-style=dashed;label="test_downloadermiddleware_stats.py";
-GRAPH_DUMMY9077 [shape=point, style=invis];
 subgraph cluster9078 {
 style=rounded;label="MyException";
 GRAPH_DUMMY9078 [shape=point, style=invis];
@@ -6775,10 +5725,6 @@ GRAPH_DUMMY9080 [shape=point, style=invis];
 9093 [style=solid,label="tearDown"];
 9095 [style=solid,label="__init__"];
 }
-}
-subgraph cluster9096 {
-style=dashed;label="test_downloadermiddleware_useragent.py";
-GRAPH_DUMMY9096 [shape=point, style=invis];
 subgraph cluster9097 {
 style=rounded;label="UserAgentMiddlewareTest";
 GRAPH_DUMMY9097 [shape=point, style=invis];
@@ -6808,10 +5754,6 @@ GRAPH_DUMMY9123 [shape=point, style=invis];
 }
 9128 [style=solid,label="__init__"];
 }
-}
-subgraph cluster9129 {
-style=dashed;label="test_downloader_handlers.py";
-GRAPH_DUMMY9129 [shape=point, style=invis];
 subgraph cluster9130 {
 style=rounded;label="DummyDH";
 GRAPH_DUMMY9130 [shape=point, style=invis];
@@ -7276,10 +6218,6 @@ GRAPH_DUMMY9603 [shape=point, style=invis];
 }
 9608 [style=solid,label="__init__"];
 }
-}
-subgraph cluster9609 {
-style=dashed;label="test_dupefilters.py";
-GRAPH_DUMMY9609 [shape=point, style=invis];
 subgraph cluster9610 {
 style=rounded;label="FromCrawlerRFPDupeFilter";
 GRAPH_DUMMY9610 [shape=point, style=invis];
@@ -7332,10 +6270,6 @@ GRAPH_DUMMY9656 [shape=point, style=invis];
 }
 9662 [style=solid,label="__init__"];
 }
-}
-subgraph cluster9663 {
-style=dashed;label="test_engine.py";
-GRAPH_DUMMY9663 [shape=point, style=invis];
 subgraph cluster9664 {
 style=rounded;label="TestItem";
 GRAPH_DUMMY9664 [shape=point, style=invis];
@@ -7431,10 +6365,6 @@ GRAPH_DUMMY9794 [shape=point, style=invis];
 9797 [style=solid,label="__init__"];
 }
 9798 [style=solid,label="__main__"];
-}
-subgraph cluster9799 {
-style=dashed;label="test_exporters.py";
-GRAPH_DUMMY9799 [shape=point, style=invis];
 subgraph cluster9800 {
 style=rounded;label="TestItem";
 GRAPH_DUMMY9800 [shape=point, style=invis];
@@ -7645,10 +6575,6 @@ GRAPH_DUMMY10050 [shape=point, style=invis];
 10055 [style=solid,label="__init__"];
 }
 10056 [style=solid,label="__main__"];
-}
-subgraph cluster10057 {
-style=dashed;label="test_feedexport.py";
-GRAPH_DUMMY10057 [shape=point, style=invis];
 subgraph cluster10058 {
 style=rounded;label="FileFeedStorageTest";
 GRAPH_DUMMY10058 [shape=point, style=invis];
@@ -7829,10 +6755,6 @@ GRAPH_DUMMY10280 [shape=point, style=invis];
 }
 10283 [style=solid,label="__init__"];
 }
-}
-subgraph cluster10284 {
-style=dashed;label="test_http_cookies.py";
-GRAPH_DUMMY10284 [shape=point, style=invis];
 subgraph cluster10285 {
 style=rounded;label="WrappedRequestTest";
 GRAPH_DUMMY10285 [shape=point, style=invis];
@@ -7858,10 +6780,6 @@ GRAPH_DUMMY10309 [shape=point, style=invis];
 10316 [style=solid,label="test_get_all"];
 10318 [style=solid,label="__init__"];
 }
-}
-subgraph cluster10319 {
-style=dashed;label="test_http_headers.py";
-GRAPH_DUMMY10319 [shape=point, style=invis];
 subgraph cluster10320 {
 style=rounded;label="HeadersTest";
 GRAPH_DUMMY10320 [shape=point, style=invis];
@@ -7933,10 +6851,6 @@ GRAPH_DUMMY10385 [shape=point, style=invis];
 10389 [style=solid,label="test_invalid_value"];
 10391 [style=solid,label="__init__"];
 }
-}
-subgraph cluster10392 {
-style=dashed;label="test_http_request.py";
-GRAPH_DUMMY10392 [shape=point, style=invis];
 subgraph cluster10393 {
 style=rounded;label="RequestTest";
 GRAPH_DUMMY10393 [shape=point, style=invis];
@@ -8293,10 +7207,6 @@ GRAPH_DUMMY10790 [shape=point, style=invis];
 10798 [style=solid,label="__init__"];
 }
 10799 [style=solid,label="__main__"];
-}
-subgraph cluster10800 {
-style=dashed;label="test_http_response.py";
-GRAPH_DUMMY10800 [shape=point, style=invis];
 subgraph cluster10801 {
 style=rounded;label="BaseResponseTest";
 GRAPH_DUMMY10801 [shape=point, style=invis];
@@ -8479,10 +7389,6 @@ GRAPH_DUMMY10996 [shape=point, style=invis];
 }
 11000 [style=solid,label="__init__"];
 }
-}
-subgraph cluster11001 {
-style=dashed;label="test_item.py";
-GRAPH_DUMMY11001 [shape=point, style=invis];
 subgraph cluster11003 {
 style=rounded;label="ItemTest";
 GRAPH_DUMMY11003 [shape=point, style=invis];
@@ -8563,10 +7469,6 @@ GRAPH_DUMMY11079 [shape=point, style=invis];
 11082 [style=solid,label="__init__"];
 }
 11083 [style=solid,label="__main__"];
-}
-subgraph cluster11084 {
-style=dashed;label="test_link.py";
-GRAPH_DUMMY11084 [shape=point, style=invis];
 subgraph cluster11085 {
 style=rounded;label="LinkTest";
 GRAPH_DUMMY11085 [shape=point, style=invis];
@@ -8586,10 +7488,6 @@ GRAPH_DUMMY11110 [shape=point, style=invis];
 }
 11113 [style=solid,label="__init__"];
 }
-}
-subgraph cluster11114 {
-style=dashed;label="test_linkextractors.py";
-GRAPH_DUMMY11114 [shape=point, style=invis];
 subgraph cluster11115 {
 style=rounded;label="Base";
 GRAPH_DUMMY11115 [shape=point, style=invis];
@@ -8606,10 +7504,6 @@ GRAPH_DUMMY11120 [shape=point, style=invis];
 11125 [style=solid,label="test_restrict_xpaths_with_html_entities"];
 11127 [style=solid,label="__init__"];
 }
-}
-subgraph cluster11128 {
-style=dashed;label="test_linkextractors_deprecated.py";
-GRAPH_DUMMY11128 [shape=point, style=invis];
 subgraph cluster11129 {
 style=rounded;label="BaseSgmlLinkExtractorTestCase";
 GRAPH_DUMMY11129 [shape=point, style=invis];
@@ -8691,10 +7585,6 @@ GRAPH_DUMMY11202 [shape=point, style=invis];
 11207 [style=solid,label="test_extraction"];
 11209 [style=solid,label="__init__"];
 }
-}
-subgraph cluster11210 {
-style=dashed;label="test_loader.py";
-GRAPH_DUMMY11210 [shape=point, style=invis];
 subgraph cluster11211 {
 style=rounded;label="NameItem";
 GRAPH_DUMMY11211 [shape=point, style=invis];
@@ -8985,10 +7875,6 @@ GRAPH_DUMMY11456 [shape=point, style=invis];
 11462 [style=solid,label="__init__"];
 }
 11463 [style=solid,label="__main__"];
-}
-subgraph cluster11464 {
-style=dashed;label="test_logformatter.py";
-GRAPH_DUMMY11464 [shape=point, style=invis];
 subgraph cluster11465 {
 style=rounded;label="CustomItem";
 GRAPH_DUMMY11465 [shape=point, style=invis];
@@ -9034,10 +7920,6 @@ GRAPH_DUMMY11511 [shape=point, style=invis];
 11516 [style=solid,label="__init__"];
 }
 11517 [style=solid,label="__main__"];
-}
-subgraph cluster11518 {
-style=dashed;label="test_mail.py";
-GRAPH_DUMMY11518 [shape=point, style=invis];
 subgraph cluster11519 {
 style=rounded;label="MailSenderTest";
 GRAPH_DUMMY11519 [shape=point, style=invis];
@@ -9069,10 +7951,6 @@ GRAPH_DUMMY11548 [shape=point, style=invis];
 11558 [style=solid,label="__init__"];
 }
 11559 [style=solid,label="__main__"];
-}
-subgraph cluster11560 {
-style=dashed;label="test_middleware.py";
-GRAPH_DUMMY11560 [shape=point, style=invis];
 subgraph cluster11561 {
 style=rounded;label="M1";
 GRAPH_DUMMY11561 [shape=point, style=invis];
@@ -9129,10 +8007,6 @@ GRAPH_DUMMY11622 [shape=point, style=invis];
 }
 11627 [style=solid,label="__init__"];
 }
-}
-subgraph cluster11628 {
-style=dashed;label="test_pipeline_crawl.py";
-GRAPH_DUMMY11628 [shape=point, style=invis];
 subgraph cluster11629 {
 style=rounded;label="MediaDownloadSpider";
 GRAPH_DUMMY11629 [shape=point, style=invis];
@@ -9196,10 +8070,6 @@ style=rounded;label="ImageDownloadCrawlTestCase";
 GRAPH_DUMMY11696 [shape=point, style=invis];
 11702 [style=solid,label="__init__"];
 }
-}
-subgraph cluster11703 {
-style=dashed;label="test_pipeline_files.py";
-GRAPH_DUMMY11703 [shape=point, style=invis];
 subgraph cluster11704 {
 style=solid;label="_mocked_download_func";
 GRAPH_DUMMY11704 [shape=point, style=invis];
@@ -9333,10 +8203,6 @@ GRAPH_DUMMY11862 [shape=point, style=invis];
 }
 11866 [style=solid,label="_prepare_request_object"];
 11868 [style=solid,label="__main__"];
-}
-subgraph cluster11869 {
-style=dashed;label="test_pipeline_images.py";
-GRAPH_DUMMY11869 [shape=point, style=invis];
 subgraph cluster11872 {
 style=solid;label="_mocked_download_func";
 GRAPH_DUMMY11872 [shape=point, style=invis];
@@ -9450,10 +8316,6 @@ style=solid;label="_create_image";
 GRAPH_DUMMY12007 [shape=point, style=invis];
 }
 12012 [style=solid,label="__main__"];
-}
-subgraph cluster12013 {
-style=dashed;label="test_pipeline_media.py";
-GRAPH_DUMMY12013 [shape=point, style=invis];
 subgraph cluster12014 {
 style=solid;label="_mocked_download_func";
 GRAPH_DUMMY12014 [shape=point, style=invis];
@@ -9559,10 +8421,6 @@ GRAPH_DUMMY12154 [shape=point, style=invis];
 12164 [style=solid,label="test_subclass_specific_setting"];
 12166 [style=solid,label="__init__"];
 }
-}
-subgraph cluster12167 {
-style=dashed;label="test_proxy_connect.py";
-GRAPH_DUMMY12167 [shape=point, style=invis];
 subgraph cluster12168 {
 style=rounded;label="HTTPSProxy";
 GRAPH_DUMMY12168 [shape=point, style=invis];
@@ -9609,20 +8467,12 @@ GRAPH_DUMMY12205 [shape=point, style=invis];
 12212 [style=solid,label="_assert_got_tunnel_error"];
 12215 [style=solid,label="__init__"];
 }
-}
-subgraph cluster12216 {
-style=dashed;label="test_pydispatch_deprecated.py";
-GRAPH_DUMMY12216 [shape=point, style=invis];
 subgraph cluster12217 {
 style=rounded;label="DeprecatedPydispatchTest";
 GRAPH_DUMMY12217 [shape=point, style=invis];
 12218 [style=solid,label="test_import_xlib_pydispatch_show_warning"];
 12220 [style=solid,label="__init__"];
 }
-}
-subgraph cluster12221 {
-style=dashed;label="test_responsetypes.py";
-GRAPH_DUMMY12221 [shape=point, style=invis];
 subgraph cluster12222 {
 style=rounded;label="ResponseTypesTest";
 GRAPH_DUMMY12222 [shape=point, style=invis];
@@ -9654,10 +8504,6 @@ GRAPH_DUMMY12244 [shape=point, style=invis];
 12250 [style=solid,label="__init__"];
 }
 12251 [style=solid,label="__main__"];
-}
-subgraph cluster12252 {
-style=dashed;label="test_selector.py";
-GRAPH_DUMMY12252 [shape=point, style=invis];
 subgraph cluster12253 {
 style=rounded;label="SelectorTestCase";
 GRAPH_DUMMY12253 [shape=point, style=invis];
@@ -9721,10 +8567,6 @@ GRAPH_DUMMY12318 [shape=point, style=invis];
 }
 12323 [style=solid,label="__init__"];
 }
-}
-subgraph cluster12324 {
-style=dashed;label="test_selector_csstranslator.py";
-GRAPH_DUMMY12324 [shape=point, style=invis];
 subgraph cluster12325 {
 style=rounded;label="DeprecatedClassesTest";
 GRAPH_DUMMY12325 [shape=point, style=invis];
@@ -9734,10 +8576,6 @@ GRAPH_DUMMY12326 [shape=point, style=invis];
 }
 12329 [style=solid,label="__init__"];
 }
-}
-subgraph cluster12450 {
-style=dashed;label="test_spider.py";
-GRAPH_DUMMY12450 [shape=point, style=invis];
 subgraph cluster12451 {
 style=rounded;label="SpiderTest";
 GRAPH_DUMMY12451 [shape=point, style=invis];
@@ -9882,10 +8720,6 @@ GRAPH_DUMMY12592 [shape=point, style=invis];
 }
 12598 [style=solid,label="__init__"];
 }
-}
-subgraph cluster12698 {
-style=dashed;label="test_spidermiddleware_depth.py";
-GRAPH_DUMMY12698 [shape=point, style=invis];
 subgraph cluster12699 {
 style=rounded;label="TestDepthMiddleware";
 GRAPH_DUMMY12699 [shape=point, style=invis];
@@ -9900,10 +8734,6 @@ GRAPH_DUMMY12703 [shape=point, style=invis];
 12712 [style=solid,label="tearDown"];
 12714 [style=solid,label="__init__"];
 }
-}
-subgraph cluster12715 {
-style=dashed;label="test_spidermiddleware_httperror.py";
-GRAPH_DUMMY12715 [shape=point, style=invis];
 subgraph cluster12716 {
 style=rounded;label="_HttpErrorSpider";
 GRAPH_DUMMY12716 [shape=point, style=invis];
@@ -9976,10 +8806,6 @@ GRAPH_DUMMY12789 [shape=point, style=invis];
 }
 12792 [style=solid,label="__init__"];
 }
-}
-subgraph cluster12793 {
-style=dashed;label="test_spidermiddleware_offsite.py";
-GRAPH_DUMMY12793 [shape=point, style=invis];
 subgraph cluster12794 {
 style=rounded;label="TestOffsiteMiddleware";
 GRAPH_DUMMY12794 [shape=point, style=invis];
@@ -10029,10 +8855,6 @@ GRAPH_DUMMY12831 [shape=point, style=invis];
 12832 [style=solid,label="test_get_host_regex"];
 12834 [style=solid,label="__init__"];
 }
-}
-subgraph cluster12835 {
-style=dashed;label="test_spidermiddleware_referer.py";
-GRAPH_DUMMY12835 [shape=point, style=invis];
 subgraph cluster12836 {
 style=rounded;label="TestRefererMiddleware";
 GRAPH_DUMMY12836 [shape=point, style=invis];
@@ -10296,10 +9118,6 @@ style=rounded;label="TestReferrerOnRedirectStrictOriginWhenCrossOrigin";
 GRAPH_DUMMY13029 [shape=point, style=invis];
 13032 [style=solid,label="__init__"];
 }
-}
-subgraph cluster13033 {
-style=dashed;label="test_spidermiddleware_urllength.py";
-GRAPH_DUMMY13033 [shape=point, style=invis];
 subgraph cluster13034 {
 style=rounded;label="TestUrlLengthMiddleware";
 GRAPH_DUMMY13034 [shape=point, style=invis];
@@ -10309,10 +9127,6 @@ GRAPH_DUMMY13035 [shape=point, style=invis];
 }
 13044 [style=solid,label="__init__"];
 }
-}
-subgraph cluster13045 {
-style=dashed;label="test_spiderstate.py";
-GRAPH_DUMMY13045 [shape=point, style=invis];
 subgraph cluster13046 {
 style=rounded;label="SpiderStateTest";
 GRAPH_DUMMY13046 [shape=point, style=invis];
@@ -10330,10 +9144,6 @@ GRAPH_DUMMY13059 [shape=point, style=invis];
 }
 13062 [style=solid,label="__init__"];
 }
-}
-subgraph cluster13063 {
-style=dashed;label="test_squeues.py";
-GRAPH_DUMMY13063 [shape=point, style=invis];
 subgraph cluster13064 {
 style=rounded;label="TestItem";
 GRAPH_DUMMY13064 [shape=point, style=invis];
@@ -10446,10 +9256,6 @@ GRAPH_DUMMY13153 [shape=point, style=invis];
 }
 13158 [style=solid,label="__init__"];
 }
-}
-subgraph cluster13159 {
-style=dashed;label="test_stats.py";
-GRAPH_DUMMY13159 [shape=point, style=invis];
 subgraph cluster13160 {
 style=rounded;label="StatsCollectorTest";
 GRAPH_DUMMY13160 [shape=point, style=invis];
@@ -10464,10 +9270,6 @@ GRAPH_DUMMY13166 [shape=point, style=invis];
 }
 13169 [style=solid,label="__init__"];
 }
-}
-subgraph cluster13170 {
-style=dashed;label="test_toplevel.py";
-GRAPH_DUMMY13170 [shape=point, style=invis];
 subgraph cluster13171 {
 style=rounded;label="ToplevelTestCase";
 GRAPH_DUMMY13171 [shape=point, style=invis];
@@ -10479,10 +9281,6 @@ GRAPH_DUMMY13171 [shape=point, style=invis];
 13182 [style=solid,label="test_item_shortcut"];
 13184 [style=solid,label="__init__"];
 }
-}
-subgraph cluster13185 {
-style=dashed;label="test_urlparse_monkeypatches.py";
-GRAPH_DUMMY13185 [shape=point, style=invis];
 subgraph cluster13186 {
 style=rounded;label="UrlparseTestCase";
 GRAPH_DUMMY13186 [shape=point, style=invis];
@@ -10492,10 +9290,6 @@ GRAPH_DUMMY13187 [shape=point, style=invis];
 }
 13190 [style=solid,label="__init__"];
 }
-}
-subgraph cluster13191 {
-style=dashed;label="test_utils_conf.py";
-GRAPH_DUMMY13191 [shape=point, style=invis];
 subgraph cluster13192 {
 style=rounded;label="BuildComponentListTest";
 GRAPH_DUMMY13192 [shape=point, style=invis];
@@ -10544,10 +9338,6 @@ GRAPH_DUMMY13222 [shape=point, style=invis];
 13225 [style=solid,label="__init__"];
 }
 13226 [style=solid,label="__main__"];
-}
-subgraph cluster13227 {
-style=dashed;label="test_utils_console.py";
-GRAPH_DUMMY13227 [shape=point, style=invis];
 subgraph cluster13230 {
 style=rounded;label="UtilsConsoleTestCase";
 GRAPH_DUMMY13230 [shape=point, style=invis];
@@ -10566,10 +9356,6 @@ GRAPH_DUMMY13237 [shape=point, style=invis];
 13240 [style=solid,label="__init__"];
 }
 13241 [style=solid,label="__main__"];
-}
-subgraph cluster13242 {
-style=dashed;label="test_utils_datatypes.py";
-GRAPH_DUMMY13242 [shape=point, style=invis];
 subgraph cluster13244 {
 style=rounded;label="CaselessDictTest";
 GRAPH_DUMMY13244 [shape=point, style=invis];
@@ -10665,10 +9451,6 @@ GRAPH_DUMMY13330 [shape=point, style=invis];
 13334 [style=solid,label="__init__"];
 }
 13335 [style=solid,label="__main__"];
-}
-subgraph cluster13336 {
-style=dashed;label="test_utils_defer.py";
-GRAPH_DUMMY13336 [shape=point, style=invis];
 subgraph cluster13337 {
 style=rounded;label="MustbeDeferredTest";
 GRAPH_DUMMY13337 [shape=point, style=invis];
@@ -10725,10 +9507,6 @@ GRAPH_DUMMY13393 [shape=point, style=invis];
 }
 13398 [style=solid,label="__init__"];
 }
-}
-subgraph cluster13399 {
-style=dashed;label="test_utils_deprecate.py";
-GRAPH_DUMMY13399 [shape=point, style=invis];
 subgraph cluster13400 {
 style=rounded;label="MyWarning";
 GRAPH_DUMMY13400 [shape=point, style=invis];
@@ -10819,10 +9597,6 @@ GRAPH_DUMMY13472 [shape=point, style=invis];
 }
 13475 [style=solid,label="__init__"];
 }
-}
-subgraph cluster13476 {
-style=dashed;label="test_utils_gz.py";
-GRAPH_DUMMY13476 [shape=point, style=invis];
 subgraph cluster13478 {
 style=rounded;label="GunzipTest";
 GRAPH_DUMMY13478 [shape=point, style=invis];
@@ -10873,10 +9647,6 @@ GRAPH_DUMMY13517 [shape=point, style=invis];
 }
 13521 [style=solid,label="__init__"];
 }
-}
-subgraph cluster13522 {
-style=dashed;label="test_utils_http.py";
-GRAPH_DUMMY13522 [shape=point, style=invis];
 subgraph cluster13523 {
 style=rounded;label="ChunkedTest";
 GRAPH_DUMMY13523 [shape=point, style=invis];
@@ -10886,10 +9656,6 @@ GRAPH_DUMMY13524 [shape=point, style=invis];
 }
 13528 [style=solid,label="__init__"];
 }
-}
-subgraph cluster13529 {
-style=dashed;label="test_utils_httpobj.py";
-GRAPH_DUMMY13529 [shape=point, style=invis];
 subgraph cluster13530 {
 style=rounded;label="HttpobjUtilsTest";
 GRAPH_DUMMY13530 [shape=point, style=invis];
@@ -10900,10 +9666,6 @@ GRAPH_DUMMY13531 [shape=point, style=invis];
 13540 [style=solid,label="__init__"];
 }
 13541 [style=solid,label="__main__"];
-}
-subgraph cluster13542 {
-style=dashed;label="test_utils_iterators.py";
-GRAPH_DUMMY13542 [shape=point, style=invis];
 subgraph cluster13544 {
 style=rounded;label="XmliterTestCase";
 GRAPH_DUMMY13544 [shape=point, style=invis];
@@ -11010,10 +9772,6 @@ GRAPH_DUMMY13663 [shape=point, style=invis];
 13673 [style=solid,label="__init__"];
 }
 13674 [style=solid,label="__main__"];
-}
-subgraph cluster13675 {
-style=dashed;label="test_utils_log.py";
-GRAPH_DUMMY13675 [shape=point, style=invis];
 subgraph cluster13676 {
 style=rounded;label="FailureToExcInfoTest";
 GRAPH_DUMMY13676 [shape=point, style=invis];
@@ -11070,10 +9828,6 @@ GRAPH_DUMMY13715 [shape=point, style=invis];
 13720 [style=solid,label="test_redirect"];
 13722 [style=solid,label="__init__"];
 }
-}
-subgraph cluster13764 {
-style=dashed;label="test_utils_project.py";
-GRAPH_DUMMY13764 [shape=point, style=invis];
 subgraph cluster13765 {
 style=solid;label="inside_a_project";
 GRAPH_DUMMY13765 [shape=point, style=invis];
@@ -11091,10 +9845,6 @@ GRAPH_DUMMY13772 [shape=point, style=invis];
 }
 13776 [style=solid,label="__init__"];
 }
-}
-subgraph cluster13777 {
-style=dashed;label="test_utils_python.py";
-GRAPH_DUMMY13777 [shape=point, style=invis];
 subgraph cluster13779 {
 style=rounded;label="ToUnicodeTest";
 GRAPH_DUMMY13779 [shape=point, style=invis];
@@ -11166,10 +9916,6 @@ GRAPH_DUMMY13848 [shape=point, style=invis];
 13866 [style=solid,label="__init__"];
 }
 13867 [style=solid,label="__main__"];
-}
-subgraph cluster13868 {
-style=dashed;label="test_utils_reqser.py";
-GRAPH_DUMMY13868 [shape=point, style=invis];
 subgraph cluster13869 {
 style=rounded;label="RequestSerializationTest";
 GRAPH_DUMMY13869 [shape=point, style=invis];
@@ -11225,10 +9971,6 @@ style=rounded;label="CustomRequest";
 GRAPH_DUMMY13916 [shape=point, style=invis];
 13917 [style=solid,label="__init__"];
 }
-}
-subgraph cluster13918 {
-style=dashed;label="test_utils_request.py";
-GRAPH_DUMMY13918 [shape=point, style=invis];
 subgraph cluster13919 {
 style=rounded;label="UtilsRequestTest";
 GRAPH_DUMMY13919 [shape=point, style=invis];
@@ -11248,10 +9990,6 @@ GRAPH_DUMMY13930 [shape=point, style=invis];
 13935 [style=solid,label="__init__"];
 }
 13936 [style=solid,label="__main__"];
-}
-subgraph cluster13937 {
-style=dashed;label="test_utils_response.py";
-GRAPH_DUMMY13937 [shape=point, style=invis];
 subgraph cluster13939 {
 style=rounded;label="ResponseUtilsTest";
 GRAPH_DUMMY13939 [shape=point, style=invis];
@@ -11275,10 +10013,6 @@ GRAPH_DUMMY13957 [shape=point, style=invis];
 13961 [style=solid,label="test_response_status_message"];
 13963 [style=solid,label="__init__"];
 }
-}
-subgraph cluster13964 {
-style=dashed;label="test_utils_serialize.py";
-GRAPH_DUMMY13964 [shape=point, style=invis];
 subgraph cluster13965 {
 style=rounded;label="JsonEncoderTestCase";
 GRAPH_DUMMY13965 [shape=point, style=invis];
@@ -11298,10 +10032,6 @@ GRAPH_DUMMY13988 [shape=point, style=invis];
 }
 13992 [style=solid,label="__init__"];
 }
-}
-subgraph cluster13993 {
-style=dashed;label="test_utils_signal.py";
-GRAPH_DUMMY13993 [shape=point, style=invis];
 subgraph cluster13994 {
 style=rounded;label="SendCatchLogTest";
 GRAPH_DUMMY13994 [shape=point, style=invis];
@@ -11342,10 +10072,6 @@ GRAPH_DUMMY14036 [shape=point, style=invis];
 }
 14040 [style=solid,label="__init__"];
 }
-}
-subgraph cluster14041 {
-style=dashed;label="test_utils_sitemap.py";
-GRAPH_DUMMY14041 [shape=point, style=invis];
 subgraph cluster14042 {
 style=rounded;label="SitemapTest";
 GRAPH_DUMMY14042 [shape=point, style=invis];
@@ -11392,10 +10118,6 @@ GRAPH_DUMMY14070 [shape=point, style=invis];
 14073 [style=solid,label="__init__"];
 }
 14074 [style=solid,label="__main__"];
-}
-subgraph cluster14075 {
-style=dashed;label="test_utils_spider.py";
-GRAPH_DUMMY14075 [shape=point, style=invis];
 subgraph cluster14076 {
 style=rounded;label="MyBaseSpider";
 GRAPH_DUMMY14076 [shape=point, style=invis];
@@ -11425,10 +10147,6 @@ GRAPH_DUMMY14090 [shape=point, style=invis];
 14093 [style=solid,label="__init__"];
 }
 14094 [style=solid,label="__main__"];
-}
-subgraph cluster14095 {
-style=dashed;label="test_utils_template.py";
-GRAPH_DUMMY14095 [shape=point, style=invis];
 subgraph cluster14097 {
 style=rounded;label="UtilsRenderTemplateFileTestCase";
 GRAPH_DUMMY14097 [shape=point, style=invis];
@@ -11440,10 +10158,6 @@ GRAPH_DUMMY14102 [shape=point, style=invis];
 }
 14109 [style=solid,label="__init__"];
 }
-}
-subgraph cluster14110 {
-style=dashed;label="test_utils_trackref.py";
-GRAPH_DUMMY14110 [shape=point, style=invis];
 subgraph cluster14111 {
 style=rounded;label="Foo";
 GRAPH_DUMMY14111 [shape=point, style=invis];
@@ -11477,10 +10191,6 @@ GRAPH_DUMMY14135 [shape=point, style=invis];
 }
 14140 [style=solid,label="__init__"];
 }
-}
-subgraph cluster14141 {
-style=dashed;label="test_utils_url.py";
-GRAPH_DUMMY14141 [shape=point, style=invis];
 subgraph cluster14143 {
 style=rounded;label="UrlUtilsTest";
 GRAPH_DUMMY14143 [shape=point, style=invis];
@@ -11562,10 +10272,6 @@ GRAPH_DUMMY14223 [shape=point, style=invis];
 14244 [style=solid,label="__init__"];
 }
 14245 [style=solid,label="__main__"];
-}
-subgraph cluster14246 {
-style=dashed;label="test_webclient.py";
-GRAPH_DUMMY14246 [shape=point, style=invis];
 subgraph cluster14247 {
 style=solid;label="getPage";
 GRAPH_DUMMY14247 [shape=point, style=invis];
@@ -11666,15 +10372,9 @@ GRAPH_DUMMY14355 [shape=point, style=invis];
 }
 14360 [style=solid,label="__init__"];
 }
-}
-subgraph cluster14362 {
-style=dashed;label="__init__.py";
-GRAPH_DUMMY14362 [shape=point, style=invis];
 subgraph cluster14365 {
 style=solid;label="get_testdata";
 GRAPH_DUMMY14365 [shape=point, style=invis];
-}
-}
 }
 
 }

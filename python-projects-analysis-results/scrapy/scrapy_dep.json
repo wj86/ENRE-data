@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "scrapy-sdsm",
-  "variables" : [ "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\conftest.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\docs\\conf.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\docs\\utils\\linkfix.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\docs\\_ext\\scrapydocs.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\extras\\qps-bench-server.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\extras\\qpsclient.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\cmdline.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\commands\\bench.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\commands\\check.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\commands\\crawl.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\commands\\edit.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\commands\\fetch.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\commands\\genspider.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\commands\\list.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\commands\\parse.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\commands\\runspider.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\commands\\settings.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\commands\\shell.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\commands\\startproject.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\commands\\version.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\commands\\view.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\commands\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\conf.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\contracts\\default.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\contracts\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\contextfactory.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\handlers\\datauri.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\handlers\\file.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\handlers\\ftp.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\handlers\\http.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\handlers\\http10.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\handlers\\http11.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\handlers\\s3.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\handlers\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\middleware.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\tls.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\webclient.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\core\\engine.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\core\\scheduler.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\core\\scraper.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\core\\spidermw.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\core\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\crawler.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\ajaxcrawl.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\chunked.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\cookies.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\decompression.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\defaultheaders.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\downloadtimeout.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\httpauth.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\httpcache.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\httpcompression.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\httpproxy.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\redirect.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\retry.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\robotstxt.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\stats.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\useragent.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\dupefilters.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\exceptions.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\exporters.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\extension.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\extensions\\closespider.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\extensions\\corestats.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\extensions\\debug.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\extensions\\feedexport.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\extensions\\httpcache.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\extensions\\logstats.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\extensions\\memdebug.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\extensions\\memusage.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\extensions\\spiderstate.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\extensions\\statsmailer.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\extensions\\telnet.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\extensions\\throttle.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\extensions\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\http\\common.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\http\\cookies.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\http\\headers.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\http\\request\\form.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\http\\request\\rpc.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\http\\request\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\http\\response\\html.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\http\\response\\text.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\http\\response\\xml.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\http\\response\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\http\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\interfaces.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\item.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\link.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\linkextractors\\htmlparser.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\linkextractors\\lxmlhtml.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\linkextractors\\regex.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\linkextractors\\sgml.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\linkextractors\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\loader\\common.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\loader\\processors.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\loader\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\log.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\logformatter.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\mail.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\middleware.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\pipelines\\files.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\pipelines\\images.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\pipelines\\media.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\pipelines\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\resolver.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\responsetypes.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\selector\\csstranslator.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\selector\\lxmlsel.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\selector\\unified.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\selector\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\settings\\default_settings.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\settings\\deprecated.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\settings\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\shell.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\signalmanager.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\signals.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\spiderloader.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\spidermiddlewares\\depth.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\spidermiddlewares\\httperror.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\spidermiddlewares\\offsite.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\spidermiddlewares\\referer.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\spidermiddlewares\\urllength.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\spidermiddlewares\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\spiders\\crawl.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\spiders\\feed.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\spiders\\init.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\spiders\\sitemap.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\spiders\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\squeues.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\statscollectors.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\telnet.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\templates\\project\\module\\spiders\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\templates\\project\\module\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\benchserver.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\boto.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\conf.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\console.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\datatypes.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\decorators.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\defer.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\deprecate.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\display.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\engine.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\ftp.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\gz.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\http.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\httpobj.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\iterators.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\job.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\log.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\markup.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\misc.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\multipart.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\ossignal.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\project.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\python.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\reactor.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\reqser.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\request.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\response.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\serialize.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\signal.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\sitemap.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\spider.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\template.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\testproc.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\testsite.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\trackref.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\url.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\versions.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\utils\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\xlib\\pydispatch.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\xlib\\tx.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\xlib\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\_monkeypatches.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\scrapy\\__main__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\setup.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\mocks\\dummydbm.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\mocks\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\mockserver.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\pipelines.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\spiders.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_closespider.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_cmdline\\extensions.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_cmdline\\settings.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_cmdline\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_commands.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_command_fetch.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_command_parse.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_command_shell.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_command_version.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_contracts.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_crawl.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_crawler.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_dependencies.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_ajaxcrawlable.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_cookies.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_decompression.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_defaultheaders.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_downloadtimeout.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_httpauth.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_httpcache.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_httpcompression.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_httpproxy.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_redirect.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_retry.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_robotstxt.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_stats.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_useragent.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_downloader_handlers.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_dupefilters.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_engine.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_exporters.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_feedexport.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_http_cookies.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_http_headers.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_http_request.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_http_response.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_item.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_link.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_linkextractors.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_linkextractors_deprecated.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_loader.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_logformatter.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_mail.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_middleware.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_pipeline_crawl.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_pipeline_files.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_pipeline_images.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_pipeline_media.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_proxy_connect.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_pydispatch_deprecated.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_responsetypes.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_selector.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_selector_csstranslator.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_settings\\default_settings.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_settings\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_spider.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_spiderloader\\test_spiders\\nested\\spider4.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_spiderloader\\test_spiders\\nested\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_spiderloader\\test_spiders\\spider0.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_spiderloader\\test_spiders\\spider1.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_spiderloader\\test_spiders\\spider2.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_spiderloader\\test_spiders\\spider3.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_spiderloader\\test_spiders\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_spiderloader\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_spidermiddleware_depth.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_spidermiddleware_httperror.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_spidermiddleware_offsite.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_spidermiddleware_referer.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_spidermiddleware_urllength.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_spiderstate.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_squeues.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_stats.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_toplevel.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_urlparse_monkeypatches.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_conf.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_console.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_datatypes.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_defer.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_deprecate.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_gz.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_http.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_httpobj.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_iterators.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_log.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_misc\\test_walk_modules\\mod\\mod0.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_misc\\test_walk_modules\\mod\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_misc\\test_walk_modules\\mod1.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_misc\\test_walk_modules\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_misc\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_project.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_python.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_reqser.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_request.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_response.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_serialize.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_signal.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_sitemap.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_spider.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_template.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_trackref.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_utils_url.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\test_webclient.py", "C:\\Users\\wj86\\Documents\\gitrepo\\eRESC\\..\\python-workspace\\scrapy\\tests\\__init__.py" ],
+  "variables" : [ "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\conftest.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\docs\\conf.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\docs\\utils\\linkfix.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\docs\\_ext\\scrapydocs.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\extras\\qps-bench-server.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\extras\\qpsclient.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\cmdline.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\commands\\bench.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\commands\\check.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\commands\\crawl.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\commands\\edit.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\commands\\fetch.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\commands\\genspider.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\commands\\list.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\commands\\parse.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\commands\\runspider.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\commands\\settings.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\commands\\shell.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\commands\\startproject.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\commands\\version.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\commands\\view.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\commands\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\conf.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\contracts\\default.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\contracts\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\contextfactory.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\handlers\\datauri.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\handlers\\file.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\handlers\\ftp.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\handlers\\http.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\handlers\\http10.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\handlers\\http11.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\handlers\\s3.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\handlers\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\middleware.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\tls.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\webclient.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\core\\downloader\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\core\\engine.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\core\\scheduler.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\core\\scraper.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\core\\spidermw.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\core\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\crawler.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\ajaxcrawl.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\chunked.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\cookies.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\decompression.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\defaultheaders.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\downloadtimeout.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\httpauth.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\httpcache.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\httpcompression.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\httpproxy.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\redirect.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\retry.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\robotstxt.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\stats.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\useragent.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\downloadermiddlewares\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\dupefilters.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\exceptions.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\exporters.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\extension.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\extensions\\closespider.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\extensions\\corestats.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\extensions\\debug.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\extensions\\feedexport.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\extensions\\httpcache.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\extensions\\logstats.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\extensions\\memdebug.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\extensions\\memusage.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\extensions\\spiderstate.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\extensions\\statsmailer.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\extensions\\telnet.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\extensions\\throttle.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\extensions\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\http\\common.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\http\\cookies.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\http\\headers.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\http\\request\\form.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\http\\request\\rpc.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\http\\request\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\http\\response\\html.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\http\\response\\text.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\http\\response\\xml.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\http\\response\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\http\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\interfaces.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\item.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\link.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\linkextractors\\htmlparser.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\linkextractors\\lxmlhtml.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\linkextractors\\regex.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\linkextractors\\sgml.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\linkextractors\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\loader\\common.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\loader\\processors.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\loader\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\log.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\logformatter.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\mail.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\middleware.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\pipelines\\files.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\pipelines\\images.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\pipelines\\media.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\pipelines\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\resolver.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\responsetypes.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\selector\\csstranslator.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\selector\\lxmlsel.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\selector\\unified.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\selector\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\settings\\default_settings.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\settings\\deprecated.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\settings\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\shell.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\signalmanager.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\signals.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\spiderloader.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\spidermiddlewares\\depth.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\spidermiddlewares\\httperror.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\spidermiddlewares\\offsite.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\spidermiddlewares\\referer.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\spidermiddlewares\\urllength.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\spidermiddlewares\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\spiders\\crawl.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\spiders\\feed.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\spiders\\init.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\spiders\\sitemap.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\spiders\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\squeues.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\statscollectors.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\telnet.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\templates\\project\\module\\spiders\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\templates\\project\\module\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\benchserver.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\boto.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\conf.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\console.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\datatypes.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\decorators.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\defer.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\deprecate.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\display.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\engine.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\ftp.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\gz.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\http.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\httpobj.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\iterators.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\job.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\log.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\markup.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\misc.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\multipart.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\ossignal.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\project.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\python.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\reactor.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\reqser.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\request.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\response.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\serialize.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\signal.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\sitemap.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\spider.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\template.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\test.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\testproc.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\testsite.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\trackref.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\url.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\versions.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\utils\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\xlib\\pydispatch.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\xlib\\tx.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\xlib\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\_monkeypatches.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\scrapy\\__main__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\setup.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\mocks\\dummydbm.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\mocks\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\mockserver.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\pipelines.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\spiders.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_closespider.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_cmdline\\extensions.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_cmdline\\settings.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_cmdline\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_commands.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_command_fetch.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_command_parse.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_command_shell.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_command_version.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_contracts.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_crawl.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_crawler.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_dependencies.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_ajaxcrawlable.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_cookies.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_decompression.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_defaultheaders.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_downloadtimeout.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_httpauth.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_httpcache.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_httpcompression.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_httpproxy.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_redirect.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_retry.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_robotstxt.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_stats.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_downloadermiddleware_useragent.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_downloader_handlers.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_dupefilters.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_engine.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_exporters.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_feedexport.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_http_cookies.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_http_headers.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_http_request.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_http_response.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_item.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_link.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_linkextractors.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_linkextractors_deprecated.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_loader.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_logformatter.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_mail.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_middleware.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_pipeline_crawl.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_pipeline_files.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_pipeline_images.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_pipeline_media.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_proxy_connect.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_pydispatch_deprecated.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_responsetypes.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_selector.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_selector_csstranslator.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_settings\\default_settings.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_settings\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_spider.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_spiderloader\\test_spiders\\nested\\spider4.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_spiderloader\\test_spiders\\nested\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_spiderloader\\test_spiders\\spider0.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_spiderloader\\test_spiders\\spider1.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_spiderloader\\test_spiders\\spider2.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_spiderloader\\test_spiders\\spider3.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_spiderloader\\test_spiders\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_spiderloader\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_spidermiddleware_depth.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_spidermiddleware_httperror.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_spidermiddleware_offsite.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_spidermiddleware_referer.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_spidermiddleware_urllength.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_spiderstate.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_squeues.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_stats.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_toplevel.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_urlparse_monkeypatches.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_conf.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_console.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_datatypes.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_defer.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_deprecate.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_gz.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_http.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_httpobj.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_iterators.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_log.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_misc\\test_walk_modules\\mod\\mod0.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_misc\\test_walk_modules\\mod\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_misc\\test_walk_modules\\mod1.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_misc\\test_walk_modules\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_misc\\__init__.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_project.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_python.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_reqser.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_request.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_response.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_serialize.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_signal.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_sitemap.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_spider.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_template.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_trackref.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_utils_url.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\test_webclient.py", "C:\\Users\\wj86\\Documents\\gitrepo\\ENRE\\..\\python-workspace\\scrapy\\tests\\__init__.py" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 179,
@@ -103,7 +103,7 @@
     "src" : 9,
     "dest" : 61,
     "values" : {
-      "Call" : 4.0,
+      "Call" : 3.0,
       "Import" : 1.0
     }
   }, {
@@ -215,7 +215,7 @@
     "src" : 15,
     "dest" : 61,
     "values" : {
-      "Call" : 6.0,
+      "Call" : 5.0,
       "Import" : 1.0
     }
   }, {
@@ -229,7 +229,7 @@
     "src" : 17,
     "dest" : 116,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
@@ -306,7 +306,7 @@
     "src" : 21,
     "dest" : 61,
     "values" : {
-      "Call" : 1.0,
+      "Call" : 2.0,
       "Import" : 1.0
     }
   }, {
@@ -360,7 +360,6 @@
     "src" : 26,
     "dest" : 108,
     "values" : {
-      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
@@ -373,7 +372,6 @@
     "src" : 27,
     "dest" : 108,
     "values" : {
-      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
@@ -393,7 +391,6 @@
     "src" : 28,
     "dest" : 108,
     "values" : {
-      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
@@ -460,7 +457,6 @@
     "src" : 31,
     "dest" : 108,
     "values" : {
-      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
@@ -558,7 +554,6 @@
     "src" : 36,
     "dest" : 108,
     "values" : {
-      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
@@ -612,14 +607,14 @@
     "src" : 38,
     "dest" : 40,
     "values" : {
-      "Call" : 4.0,
+      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
     "src" : 38,
     "dest" : 152,
     "values" : {
-      "Call" : 4.0,
+      "Call" : 2.0,
       "Import" : 2.0
     }
   }, {
@@ -689,7 +684,7 @@
     "src" : 40,
     "dest" : 152,
     "values" : {
-      "Call" : 6.0,
+      "Call" : 5.0,
       "Import" : 2.0
     }
   }, {
@@ -756,7 +751,7 @@
     "src" : 43,
     "dest" : 117,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
@@ -866,7 +861,6 @@
     "src" : 47,
     "dest" : 108,
     "values" : {
-      "Call" : 4.0,
       "Import" : 1.0
     }
   }, {
@@ -901,7 +895,7 @@
     "src" : 51,
     "dest" : 154,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
@@ -923,7 +917,6 @@
     "src" : 52,
     "dest" : 108,
     "values" : {
-      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
@@ -1231,7 +1224,6 @@
     "src" : 68,
     "dest" : 108,
     "values" : {
-      "Call" : 3.0,
       "Import" : 1.0
     }
   }, {
@@ -2516,7 +2508,7 @@
     "src" : 168,
     "dest" : 43,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
@@ -2753,7 +2745,7 @@
     "src" : 196,
     "dest" : 43,
     "values" : {
-      "Call" : 3.0,
+      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
@@ -2780,14 +2772,14 @@
     "src" : 197,
     "dest" : 43,
     "values" : {
-      "Call" : 17.0,
+      "Call" : 12.0,
       "Import" : 1.0
     }
   }, {
     "src" : 197,
     "dest" : 158,
     "values" : {
-      "Call" : 4.0,
+      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
@@ -2820,7 +2812,7 @@
     "src" : 198,
     "dest" : 152,
     "values" : {
-      "Call" : 5.0,
+      "Call" : 6.0,
       "Import" : 2.0
     }
   }, {
@@ -2840,7 +2832,7 @@
     "src" : 198,
     "dest" : 43,
     "values" : {
-      "Call" : 23.0,
+      "Call" : 18.0,
       "Import" : 3.0,
       "Use" : 11.0
     }
@@ -2967,7 +2959,7 @@
     "src" : 207,
     "dest" : 51,
     "values" : {
-      "Call" : 3.0,
+      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
@@ -3003,14 +2995,13 @@
     "src" : 208,
     "dest" : 108,
     "values" : {
-      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
     "src" : 209,
     "dest" : 53,
     "values" : {
-      "Call" : 25.0,
+      "Call" : 14.0,
       "Import" : 1.0,
       "Use" : 1.0
     }
@@ -3067,7 +3058,7 @@
     "src" : 212,
     "dest" : 56,
     "values" : {
-      "Call" : 9.0,
+      "Call" : 8.0,
       "Import" : 2.0,
       "Set" : 1.0,
       "Use" : 2.0
@@ -3159,7 +3150,7 @@
     "src" : 215,
     "dest" : 27,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
@@ -3226,7 +3217,7 @@
     "src" : 216,
     "dest" : 60,
     "values" : {
-      "Call" : 19.0,
+      "Call" : 3.0,
       "Import" : 1.0,
       "Use" : 1.0
     }
@@ -3254,7 +3245,7 @@
     "src" : 217,
     "dest" : 38,
     "values" : {
-      "Call" : 9.0,
+      "Call" : 3.0,
       "Import" : 1.0,
       "Use" : 3.0
     }
@@ -3289,7 +3280,7 @@
     "src" : 218,
     "dest" : 62,
     "values" : {
-      "Call" : 28.0,
+      "Call" : 17.0,
       "Import" : 9.0,
       "Use" : 2.0
     }
@@ -3303,7 +3294,7 @@
     "src" : 219,
     "dest" : 67,
     "values" : {
-      "Call" : 19.0,
+      "Call" : 16.0,
       "Import" : 6.0,
       "Use" : 6.0
     }
@@ -3337,7 +3328,7 @@
     "src" : 219,
     "dest" : 43,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
@@ -3399,7 +3390,7 @@
     "src" : 225,
     "dest" : 90,
     "values" : {
-      "Call" : 13.0,
+      "Call" : 12.0,
       "Import" : 1.0,
       "Use" : 1.0
     }
@@ -3407,7 +3398,7 @@
     "src" : 226,
     "dest" : 90,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
@@ -3427,14 +3418,14 @@
     "src" : 227,
     "dest" : 90,
     "values" : {
-      "Call" : 38.0,
+      "Call" : 26.0,
       "Import" : 1.0
     }
   }, {
     "src" : 227,
     "dest" : 91,
     "values" : {
-      "Call" : 4.0,
+      "Call" : 3.0,
       "Import" : 1.0
     }
   }, {
@@ -3448,14 +3439,14 @@
     "src" : 227,
     "dest" : 94,
     "values" : {
-      "Call" : 21.0,
+      "Call" : 13.0,
       "Import" : 2.0
     }
   }, {
     "src" : 228,
     "dest" : 97,
     "values" : {
-      "Call" : 22.0,
+      "Call" : 17.0,
       "Import" : 6.0
     }
   }, {
@@ -3481,7 +3472,7 @@
     "src" : 230,
     "dest" : 101,
     "values" : {
-      "Call" : 12.0,
+      "Call" : 7.0,
       "Import" : 1.0
     }
   }, {
@@ -3530,7 +3521,7 @@
     "src" : 233,
     "dest" : 103,
     "values" : {
-      "Call" : 11.0,
+      "Call" : 9.0,
       "Import" : 4.0,
       "Set" : 1.0,
       "Use" : 12.0
@@ -3652,7 +3643,6 @@
     "src" : 238,
     "dest" : 108,
     "values" : {
-      "Call" : 6.0,
       "Import" : 1.0
     }
   }, {
@@ -3720,7 +3710,7 @@
     "src" : 251,
     "dest" : 119,
     "values" : {
-      "Call" : 7.0,
+      "Call" : 8.0,
       "Import" : 1.0,
       "Use" : 1.0
     }
@@ -3735,7 +3725,7 @@
     "src" : 251,
     "dest" : 43,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 1.0,
       "Import" : 1.0,
       "Use" : 1.0
     }
@@ -3814,7 +3804,7 @@
     "src" : 255,
     "dest" : 123,
     "values" : {
-      "Call" : 7.0,
+      "Call" : 6.0,
       "Import" : 20.0,
       "Use" : 38.0
     }
@@ -3828,14 +3818,14 @@
     "src" : 256,
     "dest" : 124,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 1.0,
       "Import" : 1.0
     }
   }, {
     "src" : 257,
     "dest" : 72,
     "values" : {
-      "Call" : 9.0,
+      "Call" : 2.0,
       "Import" : 1.0,
       "Use" : 1.0
     }
@@ -3870,7 +3860,7 @@
     "src" : 259,
     "dest" : 132,
     "values" : {
-      "Call" : 33.0,
+      "Call" : 7.0,
       "Import" : 2.0
     }
   }, {
@@ -3898,7 +3888,7 @@
     "src" : 262,
     "dest" : 138,
     "values" : {
-      "Call" : 10.0,
+      "Call" : 11.0,
       "Import" : 2.0,
       "Use" : 4.0
     }
@@ -3913,7 +3903,7 @@
     "src" : 264,
     "dest" : 140,
     "values" : {
-      "Call" : 31.0,
+      "Call" : 28.0,
       "Import" : 2.0,
       "Use" : 6.0
     }
@@ -3935,14 +3925,14 @@
     "src" : 266,
     "dest" : 143,
     "values" : {
-      "Call" : 17.0,
+      "Call" : 20.0,
       "Import" : 2.0
     }
   }, {
     "src" : 267,
     "dest" : 147,
     "values" : {
-      "Call" : 12.0,
+      "Call" : 11.0,
       "Import" : 2.0,
       "Use" : 1.0
     }
@@ -3957,7 +3947,7 @@
     "src" : 269,
     "dest" : 149,
     "values" : {
-      "Call" : 3.0,
+      "Call" : 2.0,
       "Import" : 1.0
     }
   }, {
@@ -3999,7 +3989,7 @@
     "src" : 276,
     "dest" : 154,
     "values" : {
-      "Call" : 19.0,
+      "Call" : 15.0,
       "Import" : 4.0,
       "Use" : 2.0
     }
@@ -4014,7 +4004,7 @@
     "src" : 278,
     "dest" : 158,
     "values" : {
-      "Call" : 43.0,
+      "Call" : 37.0,
       "Import" : 9.0,
       "Use" : 3.0
     }
@@ -4030,14 +4020,14 @@
     "src" : 280,
     "dest" : 161,
     "values" : {
-      "Call" : 30.0,
+      "Call" : 11.0,
       "Import" : 4.0
     }
   }, {
     "src" : 281,
     "dest" : 162,
     "values" : {
-      "Call" : 12.0,
+      "Call" : 9.0,
       "Import" : 5.0,
       "Use" : 1.0
     }
@@ -4094,7 +4084,7 @@
     "src" : 287,
     "dest" : 171,
     "values" : {
-      "Call" : 8.0,
+      "Call" : 7.0,
       "Import" : 1.0,
       "Inherit" : 2.0
     }
@@ -4102,14 +4092,14 @@
     "src" : 288,
     "dest" : 172,
     "values" : {
-      "Call" : 68.0,
+      "Call" : 45.0,
       "Import" : 6.0
     }
   }, {
     "src" : 289,
     "dest" : 36,
     "values" : {
-      "Call" : 13.0,
+      "Call" : 15.0,
       "Import" : 1.0
     }
   }, {

@@ -17,8 +17,6 @@ Extend,examples.cipher.cipher_test.CipherTest,CipherTest,fire.testutils.BaseTest
 Call,examples.cipher.cipher_test.CipherTest.testCipher,testCipher,examples.cipher.cipher.rot13,rot13
 Call,examples.cipher.cipher_test.CipherTest.testCipher,testCipher,examples.cipher.cipher.caesar_encode,caesar_encode
 Call,examples.cipher.cipher_test.CipherTest.testCipher,testCipher,examples.cipher.cipher.caesar_decode,caesar_decode
-Call,examples.cipher.cipher_test.CipherTest.testCipher,testCipher,examples.cipher.cipher.caesar_encode,caesar_encode
-Call,examples.cipher.cipher_test.CipherTest.testCipher,testCipher,examples.cipher.cipher.caesar_decode,caesar_decode
 Call,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\cipher\cipher_test.py,cipher_test.py,fire.testutils.main,main
 Import,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\diff\diff.py,diff.py,fire,fire
 Use,examples.diff.diff.DiffLibWrapper.__init__,__init__,fromfile,fromfile
@@ -57,14 +55,18 @@ Import,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\dif
 Extend,examples.diff.diff_test.DiffTest,DiffTest,fire.testutils.BaseTestCase,BaseTestCase
 Call,examples.diff.diff_test.DiffTest.setUp,setUp,examples.diff.diff.DiffLibWrapper,DiffLibWrapper
 Set,examples.diff.diff_test.DiffTest.setUp,setUp,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\diff\diff.py,diff.py
+Implicit External Call,examples.diff.diff_test.DiffTest.testUnifiedDiff,testUnifiedDiff,examples.diff.diff.DiffLibWrapper.unified_diff,unified_diff
 Set,examples.diff.diff_test.DiffTest.testUnifiedDiff,testUnifiedDiff,examples.diff.diff_test.DiffTest.testUnifiedDiff.results,results
+Implicit External Call,examples.diff.diff_test.DiffTest.testContextDiff,testContextDiff,examples.diff.diff.DiffLibWrapper.context_diff,context_diff
 Use,examples.diff.diff_test.DiffTest.testContextDiff,testContextDiff,examples.diff.diff_test.DiffTest.testContextDiff.expected_lines,expected_lines
 Set,examples.diff.diff_test.DiffTest.testContextDiff,testContextDiff,examples.diff.diff_test.DiffTest.testContextDiff.expected_lines,expected_lines
 Set,examples.diff.diff_test.DiffTest.testContextDiff,testContextDiff,examples.diff.diff_test.DiffTest.testContextDiff.results,results
+Implicit External Call,examples.diff.diff_test.DiffTest.testNDiff,testNDiff,examples.diff.diff.DiffLibWrapper.ndiff,ndiff
 Use,examples.diff.diff_test.DiffTest.testNDiff,testNDiff,examples.diff.diff_test.DiffTest.testNDiff.expected_lines,expected_lines
 Use,examples.diff.diff_test.DiffTest.testNDiff,testNDiff,examples.diff.diff_test.DiffTest.testNDiff.results,results
 Set,examples.diff.diff_test.DiffTest.testNDiff,testNDiff,examples.diff.diff_test.DiffTest.testNDiff.expected_lines,expected_lines
 Set,examples.diff.diff_test.DiffTest.testNDiff,testNDiff,examples.diff.diff_test.DiffTest.testNDiff.results,results
+Implicit External Call,examples.diff.diff_test.DiffTest.testMakeDiff,testMakeDiff,examples.diff.diff.DiffLibWrapper.make_file,make_file
 Use,examples.diff.diff_test.DiffTest.testDiffFull,testDiffFull,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\diff\difffull.py,difffull.py
 Call,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\diff\diff_test.py,diff_test.py,fire.testutils.main,main
 Import,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\identity\identity.py,identity.py,fire,fire
@@ -90,6 +92,7 @@ Set,examples.widget.collector_test.CollectorTest.testCollectorHasWidget,testColl
 Call,examples.widget.collector_test.CollectorTest.testCollectorWantsMoreWidgets,testCollectorWantsMoreWidgets,examples.widget.collector.Collector,Collector
 Set,examples.widget.collector_test.CollectorTest.testCollectorWantsMoreWidgets,testCollectorWantsMoreWidgets,examples.widget.collector_test.CollectorTest.testCollectorWantsMoreWidgets.col,col
 Call,examples.widget.collector_test.CollectorTest.testCollectorGetsWantedWidgets,testCollectorGetsWantedWidgets,examples.widget.collector.Collector,Collector
+Implicit External Call,examples.widget.collector_test.CollectorTest.testCollectorGetsWantedWidgets,testCollectorGetsWantedWidgets,examples.widget.collector.Collector.collect_widgets,collect_widgets
 Set,examples.widget.collector_test.CollectorTest.testCollectorGetsWantedWidgets,testCollectorGetsWantedWidgets,examples.widget.collector_test.CollectorTest.testCollectorGetsWantedWidgets.col,col
 Call,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\widget\collector_test.py,collector_test.py,fire.testutils.main,main
 Import,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\widget\widget.py,widget.py,fire,fire
@@ -102,8 +105,10 @@ Import,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\wid
 Import,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\widget\widget_test.py,widget_test.py,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\widget\widget.py,widget.py
 Extend,examples.widget.widget_test.WidgetTest,WidgetTest,fire.testutils.BaseTestCase,BaseTestCase
 Call,examples.widget.widget_test.WidgetTest.testWidgetWhack,testWidgetWhack,examples.widget.widget.Widget,Widget
+Implicit External Call,examples.widget.widget_test.WidgetTest.testWidgetWhack,testWidgetWhack,examples.widget.widget.Widget.whack,whack
 Set,examples.widget.widget_test.WidgetTest.testWidgetWhack,testWidgetWhack,examples.widget.widget_test.WidgetTest.testWidgetWhack.toy,toy
 Call,examples.widget.widget_test.WidgetTest.testWidgetBang,testWidgetBang,examples.widget.widget.Widget,Widget
+Implicit External Call,examples.widget.widget_test.WidgetTest.testWidgetBang,testWidgetBang,examples.widget.widget.Widget.bang,bang
 Set,examples.widget.widget_test.WidgetTest.testWidgetBang,testWidgetBang,examples.widget.widget_test.WidgetTest.testWidgetBang.toy,toy
 Call,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\examples\widget\widget_test.py,widget_test.py,fire.testutils.main,main
 Import,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\completion.py,completion.py,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\inspectutils.py,inspectutils.py
@@ -265,11 +270,10 @@ Import,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\core.py
 Import,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\core.py,core.py,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\parser.py,parser.py
 Import,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\core.py,core.py,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\trace.py,trace.py
 Call,fire.core.Fire,Fire,fire.core._Fire,_Fire
-Call,fire.core.Fire,Fire,fire.helputils.HelpString,HelpString
-Call,fire.core.Fire,Fire,fire.core.FireExit,FireExit
-Call,fire.core.Fire,Fire,fire.helputils.HelpString,HelpString
-Call,fire.core.Fire,Fire,fire.core.FireExit,FireExit
-Call,fire.core.Fire,Fire,fire.core.FireExit,FireExit
+Implicit External Call,fire.core.Fire,Fire,fire.trace.FireTrace.HasError,HasError
+Implicit External Call,fire.core.Fire,Fire,fire.trace.FireTraceElement.HasError,HasError
+Implicit External Call,fire.core.Fire,Fire,fire.trace.FireTrace.GetCommand,GetCommand
+Implicit External Call,fire.core.Fire,Fire,fire.trace.FireTrace.GetResult,GetResult
 Call,fire.core.Fire,Fire,fire.helputils.HelpString,HelpString
 Call,fire.core.Fire,Fire,fire.core.FireExit,FireExit
 Call,fire.core.Fire,Fire,fire.core._PrintResult,_PrintResult
@@ -300,8 +304,10 @@ Use,fire.core.CompletionScript,CompletionScript,shell,shell
 Use,fire.core.FireExit.__init__,__init__,component_trace,component_trace
 Use,fire.core.FireExit.__init__,__init__,fire.core.FireExit,FireExit
 Use,fire.core.FireExit.__init__,__init__,code,code
+Implicit External Call,fire.core._IsHelpShortcut,_IsHelpShortcut,fire.trace.FireTrace.GetResult,GetResult
 Call,fire.core._IsHelpShortcut,_IsHelpShortcut,fire.inspectutils.GetFullArgSpec,GetFullArgSpec
 Call,fire.core._IsHelpShortcut,_IsHelpShortcut,fire.core._ParseKeywordArgs,_ParseKeywordArgs
+Implicit External Call,fire.core._IsHelpShortcut,_IsHelpShortcut,fire.trace.FireTrace.GetCommand,GetCommand
 Use,fire.core._IsHelpShortcut,_IsHelpShortcut,remaining_args,remaining_args
 Use,fire.core._IsHelpShortcut,_IsHelpShortcut,fire.core._IsHelpShortcut.show_help,show_help
 Use,fire.core._IsHelpShortcut,_IsHelpShortcut,fire.core._IsHelpShortcut.target,target
@@ -318,6 +324,7 @@ Set,fire.core._IsHelpShortcut,_IsHelpShortcut,fire.core._IsHelpShortcut._,_
 Set,fire.core._IsHelpShortcut,_IsHelpShortcut,fire.core._IsHelpShortcut.remaining_kwargs,remaining_kwargs
 Set,fire.core._IsHelpShortcut,_IsHelpShortcut,fire.core._IsHelpShortcut.members,members
 Set,fire.core._IsHelpShortcut,_IsHelpShortcut,fire.core._IsHelpShortcut.command,command
+Implicit External Call,fire.core._PrintResult,_PrintResult,fire.trace.FireTrace.GetResult,GetResult
 Call,fire.core._PrintResult,_PrintResult,fire.core._OneLineResult,_OneLineResult
 Call,fire.core._PrintResult,_PrintResult,fire.core._DictAsString,_DictAsString
 Call,fire.core._PrintResult,_PrintResult,fire.core._OneLineResult,_OneLineResult
@@ -347,14 +354,23 @@ Call,fire.core._Fire,_Fire,fire.parser.CreateParser,CreateParser
 Call,fire.core._Fire,_Fire,fire.trace.FireTrace,FireTrace
 Call,fire.core._Fire,_Fire,fire.core._IsHelpShortcut,_IsHelpShortcut
 Call,fire.core._Fire,_Fire,fire.core._CallAndUpdateTrace,_CallAndUpdateTrace
+Implicit External Call,fire.core._Fire,_Fire,fire.trace.FireTrace.AddError,AddError
 Call,fire.core._Fire,_Fire,fire.core.FireError,FireError
+Implicit External Call,fire.core._Fire,_Fire,fire.trace.FireTrace.AddAccessedProperty,AddAccessedProperty
 Call,fire.core._Fire,_Fire,fire.core.FireError,FireError
+Implicit External Call,fire.core._Fire,_Fire,fire.trace.FireTrace.AddAccessedProperty,AddAccessedProperty
 Call,fire.core._Fire,_Fire,fire.core._GetMember,_GetMember
 Call,fire.core._Fire,_Fire,fire.inspectutils.GetFileAndLine,GetFileAndLine
+Implicit External Call,fire.core._Fire,_Fire,fire.trace.FireTrace.AddAccessedProperty,AddAccessedProperty
 Call,fire.core._Fire,_Fire,fire.core._CallAndUpdateTrace,_CallAndUpdateTrace
+Implicit External Call,fire.core._Fire,_Fire,fire.trace.FireTrace.AddSeparator,AddSeparator
+Implicit External Call,fire.core._Fire,_Fire,fire.trace.FireTraceElement.AddSeparator,AddSeparator
 Call,fire.core._Fire,_Fire,fire.core.FireError,FireError
+Implicit External Call,fire.core._Fire,_Fire,fire.trace.FireTrace.AddError,AddError
 Call,fire.core._Fire,_Fire,fire.core.CompletionScript,CompletionScript
+Implicit External Call,fire.core._Fire,_Fire,fire.trace.FireTrace.AddCompletionScript,AddCompletionScript
 Call,fire.core._Fire,_Fire,fire.interact.Embed,Embed
+Implicit External Call,fire.core._Fire,_Fire,fire.trace.FireTrace.AddInteractiveMode,AddInteractiveMode
 Use,fire.core._Fire,_Fire,fire.core._Fire.remaining_args,remaining_args
 Use,fire.core._Fire,_Fire,fire.core._Fire.last_component,last_component
 Use,fire.core._Fire,_Fire,fire.core._Fire.initial_args,initial_args
@@ -430,6 +446,7 @@ Set,fire.core._GetMember,_GetMember,fire.core._GetMember.arg,arg
 Set,fire.core._GetMember,_GetMember,fire.core._GetMember.arg_names,arg_names
 Call,fire.core._CallAndUpdateTrace,_CallAndUpdateTrace,fire.inspectutils.GetFileAndLine,GetFileAndLine
 Call,fire.core._CallAndUpdateTrace,_CallAndUpdateTrace,fire.core._CallCallable,_CallCallable
+Implicit External Call,fire.core._CallAndUpdateTrace,_CallAndUpdateTrace,fire.trace.FireTrace.AddCalledComponent,AddCalledComponent
 Use,fire.core._CallAndUpdateTrace,_CallAndUpdateTrace,fire.core._CallAndUpdateTrace.consumed_args,consumed_args
 Use,fire.core._CallAndUpdateTrace,_CallAndUpdateTrace,fire.trace.INSTANTIATED_CLASS,INSTANTIATED_CLASS
 Use,fire.core._CallAndUpdateTrace,_CallAndUpdateTrace,fire.core._CallAndUpdateTrace.remaining_args,remaining_args
@@ -473,7 +490,6 @@ Set,fire.core._MakeParseFn,_MakeParseFn,fire.core._MakeParseFn.num_required_args
 Set,fire.core._MakeParseFn,_MakeParseFn,fire.core._MakeParseFn.required_kwonly,required_kwonly
 Set,fire.core._MakeParseFn,_MakeParseFn,fire.core._MakeParseFn.fn_spec,fn_spec
 Set,fire.core._MakeParseFn,_MakeParseFn,fire.core._MakeParseFn.metadata,metadata
-Call,fire.core._ParseArgs,_ParseArgs,fire.core._ParseValue,_ParseValue
 Call,fire.core._ParseArgs,_ParseArgs,fire.core._ParseValue,_ParseValue
 Call,fire.core._ParseArgs,_ParseArgs,fire.core.FireError,FireError
 Call,fire.core._ParseArgs,_ParseArgs,fire.core._ParseValue,_ParseValue
@@ -542,9 +558,8 @@ Import,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\core_te
 Extend,fire.core_test.CoreTest,CoreTest,fire.testutils.BaseTestCase,BaseTestCase
 Call,fire.core_test.CoreTest.testOneLineResult,testOneLineResult,fire.core._OneLineResult,_OneLineResult
 Call,fire.core_test.CoreTest.testOneLineResult,testOneLineResult,fire.core._OneLineResult,_OneLineResult
-Call,fire.core_test.CoreTest.testOneLineResult,testOneLineResult,fire.core._OneLineResult,_OneLineResult
-Call,fire.core_test.CoreTest.testOneLineResult,testOneLineResult,fire.core._OneLineResult,_OneLineResult
 Call,fire.core_test.CoreTest.testOneLineResultCircularRef,testOneLineResultCircularRef,fire.test_components.CircularReference,CircularReference
+Implicit External Call,fire.core_test.CoreTest.testOneLineResultCircularRef,testOneLineResultCircularRef,fire.test_components.CircularReference.create,create
 Call,fire.core_test.CoreTest.testOneLineResultCircularRef,testOneLineResultCircularRef,fire.core._OneLineResult,_OneLineResult
 Set,fire.core_test.CoreTest.testOneLineResultCircularRef,testOneLineResultCircularRef,fire.core_test.CoreTest.testOneLineResultCircularRef.circular_reference,circular_reference
 Call,fire.core_test.CoreTest.testInteractiveMode,testInteractiveMode,fire.core.Fire,Fire
@@ -560,14 +575,14 @@ Call,fire.core_test.CoreTest.testInteractiveModeVariablesWithName,testInteractiv
 Use,fire.core_test.CoreTest.testInteractiveModeVariablesWithName,testInteractiveModeVariablesWithName,fire.trace.FireTrace,FireTrace
 Use,fire.core_test.CoreTest.testInteractiveModeVariablesWithName,testInteractiveModeVariablesWithName,fire.test_components.WithDefaults,WithDefaults
 Set,fire.core_test.CoreTest.testInteractiveModeVariablesWithName,testInteractiveModeVariablesWithName,fire.core_test.CoreTest.testInteractiveModeVariablesWithName.unused_kwargs,unused_kwargs
-Call,fire.core_test.CoreTest.testHelpWithClass,testHelpWithClass,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
+Implicit Internal Call,fire.core_test.CoreTest.testHelpWithClass,testHelpWithClass,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.core_test.CoreTest.testHelpWithClass,testHelpWithClass,fire.core.Fire,Fire
 Call,fire.core_test.CoreTest.testHelpWithClass,testHelpWithClass,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.core_test.CoreTest.testHelpWithClass,testHelpWithClass,fire.core.Fire,Fire
 Call,fire.core_test.CoreTest.testHelpWithClass,testHelpWithClass,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.core_test.CoreTest.testHelpWithClass,testHelpWithClass,fire.core.Fire,Fire
 Use,fire.core_test.CoreTest.testHelpWithClass,testHelpWithClass,fire.test_components.InstanceVars,InstanceVars
-Call,fire.core_test.CoreTest.testHelpWithMember,testHelpWithMember,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
+Implicit Internal Call,fire.core_test.CoreTest.testHelpWithMember,testHelpWithMember,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.core_test.CoreTest.testHelpWithMember,testHelpWithMember,fire.core.Fire,Fire
 Call,fire.core_test.CoreTest.testHelpWithMember,testHelpWithMember,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.core_test.CoreTest.testHelpWithMember,testHelpWithMember,fire.core.Fire,Fire
@@ -578,12 +593,12 @@ Call,fire.core_test.CoreTest.testHelpWithMember,testHelpWithMember,fire.core.Fir
 Call,fire.core_test.CoreTest.testHelpWithMember,testHelpWithMember,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.core_test.CoreTest.testHelpWithMember,testHelpWithMember,fire.core.Fire,Fire
 Use,fire.core_test.CoreTest.testHelpWithMember,testHelpWithMember,fire.test_components.TypedProperties,TypedProperties
-Call,fire.core_test.CoreTest.testHelpOnErrorInConstructor,testHelpOnErrorInConstructor,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
+Implicit Internal Call,fire.core_test.CoreTest.testHelpOnErrorInConstructor,testHelpOnErrorInConstructor,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.core_test.CoreTest.testHelpOnErrorInConstructor,testHelpOnErrorInConstructor,fire.core.Fire,Fire
 Call,fire.core_test.CoreTest.testHelpOnErrorInConstructor,testHelpOnErrorInConstructor,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.core_test.CoreTest.testHelpOnErrorInConstructor,testHelpOnErrorInConstructor,fire.core.Fire,Fire
 Use,fire.core_test.CoreTest.testHelpOnErrorInConstructor,testHelpOnErrorInConstructor,fire.test_components.ErrorInConstructor,ErrorInConstructor
-Call,fire.core_test.CoreTest.testHelpWithNamespaceCollision,testHelpWithNamespaceCollision,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
+Implicit Internal Call,fire.core_test.CoreTest.testHelpWithNamespaceCollision,testHelpWithNamespaceCollision,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
 Call,fire.core_test.CoreTest.testHelpWithNamespaceCollision,testHelpWithNamespaceCollision,fire.core.Fire,Fire
 Call,fire.core_test.CoreTest.testHelpWithNamespaceCollision,testHelpWithNamespaceCollision,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
 Call,fire.core_test.CoreTest.testHelpWithNamespaceCollision,testHelpWithNamespaceCollision,fire.core.Fire,Fire
@@ -593,7 +608,7 @@ Call,fire.core_test.CoreTest.testHelpWithNamespaceCollision,testHelpWithNamespac
 Call,fire.core_test.CoreTest.testHelpWithNamespaceCollision,testHelpWithNamespaceCollision,fire.core.Fire,Fire
 Use,fire.core_test.CoreTest.testHelpWithNamespaceCollision,testHelpWithNamespaceCollision,fire.test_components.function_with_help,function_with_help
 Use,fire.core_test.CoreTest.testHelpWithNamespaceCollision,testHelpWithNamespaceCollision,fire.test_components.WithHelpArg,WithHelpArg
-Call,fire.core_test.CoreTest.testInvalidParameterRaisesFireExit,testInvalidParameterRaisesFireExit,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
+Implicit Internal Call,fire.core_test.CoreTest.testInvalidParameterRaisesFireExit,testInvalidParameterRaisesFireExit,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.core_test.CoreTest.testInvalidParameterRaisesFireExit,testInvalidParameterRaisesFireExit,fire.core.Fire,Fire
 Use,fire.core_test.CoreTest.testInvalidParameterRaisesFireExit,testInvalidParameterRaisesFireExit,fire.test_components.Kwargs,Kwargs
 Call,fire.core_test.CoreTest.testErrorRaising,testErrorRaising,fire.core.Fire,Fire
@@ -604,17 +619,17 @@ Set,fire.core_test.CoreTest.testFireError,testFireError,fire.core_test.CoreTest.
 Call,fire.core_test.CoreTest.testFireErrorMultipleValues,testFireErrorMultipleValues,fire.core.FireError,FireError
 Use,fire.core_test.CoreTest.testFireErrorMultipleValues,testFireErrorMultipleValues,fire.core_test.CoreTest.testFireErrorMultipleValues.error,error
 Set,fire.core_test.CoreTest.testFireErrorMultipleValues,testFireErrorMultipleValues,fire.core_test.CoreTest.testFireErrorMultipleValues.error,error
-Call,fire.core_test.CoreTest.testPrintEmptyDict,testPrintEmptyDict,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
+Implicit Internal Call,fire.core_test.CoreTest.testPrintEmptyDict,testPrintEmptyDict,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
 Call,fire.core_test.CoreTest.testPrintEmptyDict,testPrintEmptyDict,fire.core.Fire,Fire
 Call,fire.core_test.CoreTest.testPrintEmptyDict,testPrintEmptyDict,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
 Call,fire.core_test.CoreTest.testPrintEmptyDict,testPrintEmptyDict,fire.core.Fire,Fire
 Use,fire.core_test.CoreTest.testPrintEmptyDict,testPrintEmptyDict,fire.test_components.EmptyDictOutput,EmptyDictOutput
-Call,fire.core_test.CoreTest.testPrintOrderedDict,testPrintOrderedDict,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
+Implicit Internal Call,fire.core_test.CoreTest.testPrintOrderedDict,testPrintOrderedDict,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
 Call,fire.core_test.CoreTest.testPrintOrderedDict,testPrintOrderedDict,fire.core.Fire,Fire
-Call,fire.core_test.CoreTest.testPrintOrderedDict,testPrintOrderedDict,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
+Implicit Internal Call,fire.core_test.CoreTest.testPrintOrderedDict,testPrintOrderedDict,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
 Call,fire.core_test.CoreTest.testPrintOrderedDict,testPrintOrderedDict,fire.core.Fire,Fire
 Use,fire.core_test.CoreTest.testPrintOrderedDict,testPrintOrderedDict,fire.test_components.OrderedDictionary,OrderedDictionary
-Call,fire.core_test.CoreTest.testCallable,testCallable,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
+Implicit Internal Call,fire.core_test.CoreTest.testCallable,testCallable,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
 Call,fire.core_test.CoreTest.testCallable,testCallable,fire.test_components.CallableWithKeywordArgument,CallableWithKeywordArgument
 Call,fire.core_test.CoreTest.testCallable,testCallable,fire.core.Fire,Fire
 Call,fire.core_test.CoreTest.testCallable,testCallable,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
@@ -675,22 +690,16 @@ Use,fire.decorators_test.FireDecoratorsTest.testSetParseFnsFnWithPositionalArgs,
 Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsDefaultsFromPython,testSetParseFnsDefaultsFromPython,fire.decorators_test.WithDefaults,WithDefaults
 Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsDefaultsFromPython,testSetParseFnsDefaultsFromPython,fire.decorators_test.WithDefaults.example1,example1
 Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsDefaultsFromPython,testSetParseFnsDefaultsFromPython,fire.decorators_test.WithDefaults,WithDefaults
-Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsDefaultsFromPython,testSetParseFnsDefaultsFromPython,fire.decorators_test.WithDefaults.example1,example1
-Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsDefaultsFromPython,testSetParseFnsDefaultsFromPython,fire.decorators_test.WithDefaults,WithDefaults
-Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsDefaultsFromPython,testSetParseFnsDefaultsFromPython,fire.decorators_test.WithDefaults.example1,example1
-Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsDefaultsFromFire,testSetParseFnsDefaultsFromFire,fire.core.Fire,Fire
-Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsDefaultsFromFire,testSetParseFnsDefaultsFromFire,fire.core.Fire,Fire
+Implicit External Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsDefaultsFromPython,testSetParseFnsDefaultsFromPython,fire.decorators_test.WithDefaults.example1,example1
+Implicit External Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsDefaultsFromPython,testSetParseFnsDefaultsFromPython,fire.decorators_test.WithDefaults.example1,example1
 Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsDefaultsFromFire,testSetParseFnsDefaultsFromFire,fire.core.Fire,Fire
 Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsDefaultsFromFire,testSetParseFnsDefaultsFromFire,fire.core.Fire,Fire
 Use,fire.decorators_test.FireDecoratorsTest.testSetParseFnsDefaultsFromFire,testSetParseFnsDefaultsFromFire,fire.decorators_test.WithDefaults,WithDefaults
 Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsNamedDefaultsFromPython,testSetParseFnsNamedDefaultsFromPython,fire.decorators_test.WithDefaults,WithDefaults
 Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsNamedDefaultsFromPython,testSetParseFnsNamedDefaultsFromPython,fire.decorators_test.WithDefaults.example2,example2
 Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsNamedDefaultsFromPython,testSetParseFnsNamedDefaultsFromPython,fire.decorators_test.WithDefaults,WithDefaults
-Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsNamedDefaultsFromPython,testSetParseFnsNamedDefaultsFromPython,fire.decorators_test.WithDefaults.example2,example2
-Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsNamedDefaultsFromPython,testSetParseFnsNamedDefaultsFromPython,fire.decorators_test.WithDefaults,WithDefaults
-Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsNamedDefaultsFromPython,testSetParseFnsNamedDefaultsFromPython,fire.decorators_test.WithDefaults.example2,example2
-Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsNamedDefaultsFromFire,testSetParseFnsNamedDefaultsFromFire,fire.core.Fire,Fire
-Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsNamedDefaultsFromFire,testSetParseFnsNamedDefaultsFromFire,fire.core.Fire,Fire
+Implicit External Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsNamedDefaultsFromPython,testSetParseFnsNamedDefaultsFromPython,fire.decorators_test.WithDefaults.example2,example2
+Implicit External Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsNamedDefaultsFromPython,testSetParseFnsNamedDefaultsFromPython,fire.decorators_test.WithDefaults.example2,example2
 Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsNamedDefaultsFromFire,testSetParseFnsNamedDefaultsFromFire,fire.core.Fire,Fire
 Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsNamedDefaultsFromFire,testSetParseFnsNamedDefaultsFromFire,fire.core.Fire,Fire
 Use,fire.decorators_test.FireDecoratorsTest.testSetParseFnsNamedDefaultsFromFire,testSetParseFnsNamedDefaultsFromFire,fire.decorators_test.WithDefaults,WithDefaults
@@ -699,10 +708,6 @@ Use,fire.decorators_test.FireDecoratorsTest.testSetParseFnsPositionalAndNamed,te
 Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsOnlySomeTypes,testSetParseFnsOnlySomeTypes,fire.core.Fire,Fire
 Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsOnlySomeTypes,testSetParseFnsOnlySomeTypes,fire.core.Fire,Fire
 Use,fire.decorators_test.FireDecoratorsTest.testSetParseFnsOnlySomeTypes,testSetParseFnsOnlySomeTypes,fire.decorators_test.PartialParseFn,PartialParseFn
-Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsForKeywordArgs,testSetParseFnsForKeywordArgs,fire.core.Fire,Fire
-Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsForKeywordArgs,testSetParseFnsForKeywordArgs,fire.core.Fire,Fire
-Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsForKeywordArgs,testSetParseFnsForKeywordArgs,fire.core.Fire,Fire
-Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsForKeywordArgs,testSetParseFnsForKeywordArgs,fire.core.Fire,Fire
 Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsForKeywordArgs,testSetParseFnsForKeywordArgs,fire.core.Fire,Fire
 Call,fire.decorators_test.FireDecoratorsTest.testSetParseFnsForKeywordArgs,testSetParseFnsForKeywordArgs,fire.core.Fire,Fire
 Use,fire.decorators_test.FireDecoratorsTest.testSetParseFnsForKeywordArgs,testSetParseFnsForKeywordArgs,fire.decorators_test.WithKwargs,WithKwargs
@@ -726,8 +731,6 @@ Call,fire.fire_test.FireTest.testFire,testFire,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFire,testFire,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFire,testFire,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFire,testFire,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFire,testFire,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFire,testFire,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testFire,testFire,fire.test_components.Empty,Empty
 Use,fire.fire_test.FireTest.testFire,testFire,fire.test_components.OldStyleEmpty,OldStyleEmpty
 Use,fire.fire_test.FireTest.testFire,testFire,fire.test_components.NoDefaults,NoDefaults
@@ -739,12 +742,12 @@ Call,fire.fire_test.FireTest.testFirePositionalCommand,testFirePositionalCommand
 Use,fire.fire_test.FireTest.testFirePositionalCommand,testFirePositionalCommand,fire.test_components.NoDefaults,NoDefaults
 Call,fire.fire_test.FireTest.testFireInvalidCommandArg,testFireInvalidCommandArg,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testFireInvalidCommandArg,testFireInvalidCommandArg,fire.test_components.WithDefaults,WithDefaults
-Call,fire.fire_test.FireTest.testFireDefaultName,testFireDefaultName,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
+Implicit Internal Call,fire.fire_test.FireTest.testFireDefaultName,testFireDefaultName,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
 Call,fire.fire_test.FireTest.testFireDefaultName,testFireDefaultName,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testFireDefaultName,testFireDefaultName,fire.test_components.Empty,Empty
 Call,fire.fire_test.FireTest.testFireNoArgs,testFireNoArgs,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testFireNoArgs,testFireNoArgs,fire.test_components.MixedDefaults,MixedDefaults
-Call,fire.fire_test.FireTest.testFireExceptions,testFireExceptions,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
+Implicit Internal Call,fire.fire_test.FireTest.testFireExceptions,testFireExceptions,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.fire_test.FireTest.testFireExceptions,testFireExceptions,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFireExceptions,testFireExceptions,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.fire_test.FireTest.testFireExceptions,testFireExceptions,fire.core.Fire,Fire
@@ -758,7 +761,6 @@ Use,fire.fire_test.FireTest.testFireExceptions,testFireExceptions,fire.test_comp
 Call,fire.fire_test.FireTest.testFireNamedArgs,testFireNamedArgs,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFireNamedArgs,testFireNamedArgs,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFireNamedArgs,testFireNamedArgs,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFireNamedArgs,testFireNamedArgs,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testFireNamedArgs,testFireNamedArgs,fire.test_components.OldStyleWithDefaults,OldStyleWithDefaults
 Use,fire.fire_test.FireTest.testFireNamedArgs,testFireNamedArgs,fire.test_components.WithDefaults,WithDefaults
 Call,fire.fire_test.FireTest.testFireNamedArgsWithEquals,testFireNamedArgsWithEquals,fire.core.Fire,Fire
@@ -766,26 +768,14 @@ Call,fire.fire_test.FireTest.testFireNamedArgsWithEquals,testFireNamedArgsWithEq
 Use,fire.fire_test.FireTest.testFireNamedArgsWithEquals,testFireNamedArgsWithEquals,fire.test_components.WithDefaults,WithDefaults
 Call,fire.fire_test.FireTest.testFireAllNamedArgs,testFireAllNamedArgs,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFireAllNamedArgs,testFireAllNamedArgs,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFireAllNamedArgs,testFireAllNamedArgs,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFireAllNamedArgs,testFireAllNamedArgs,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFireAllNamedArgs,testFireAllNamedArgs,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFireAllNamedArgs,testFireAllNamedArgs,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFireAllNamedArgs,testFireAllNamedArgs,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testFireAllNamedArgs,testFireAllNamedArgs,fire.test_components.MixedDefaults,MixedDefaults
-Call,fire.fire_test.FireTest.testFireAllNamedArgsOneMissing,testFireAllNamedArgsOneMissing,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFireAllNamedArgsOneMissing,testFireAllNamedArgsOneMissing,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFireAllNamedArgsOneMissing,testFireAllNamedArgsOneMissing,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFireAllNamedArgsOneMissing,testFireAllNamedArgsOneMissing,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testFireAllNamedArgsOneMissing,testFireAllNamedArgsOneMissing,fire.test_components.MixedDefaults,MixedDefaults
 Call,fire.fire_test.FireTest.testFirePartialNamedArgs,testFirePartialNamedArgs,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFirePartialNamedArgs,testFirePartialNamedArgs,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFirePartialNamedArgs,testFirePartialNamedArgs,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFirePartialNamedArgs,testFirePartialNamedArgs,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFirePartialNamedArgs,testFirePartialNamedArgs,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFirePartialNamedArgs,testFirePartialNamedArgs,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFirePartialNamedArgs,testFirePartialNamedArgs,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testFirePartialNamedArgs,testFirePartialNamedArgs,fire.test_components.MixedDefaults,MixedDefaults
-Call,fire.fire_test.FireTest.testFirePartialNamedArgsOneMissing,testFirePartialNamedArgsOneMissing,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
+Implicit Internal Call,fire.fire_test.FireTest.testFirePartialNamedArgsOneMissing,testFirePartialNamedArgsOneMissing,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.fire_test.FireTest.testFirePartialNamedArgsOneMissing,testFirePartialNamedArgsOneMissing,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFirePartialNamedArgsOneMissing,testFirePartialNamedArgsOneMissing,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.fire_test.FireTest.testFirePartialNamedArgsOneMissing,testFirePartialNamedArgsOneMissing,fire.core.Fire,Fire
@@ -795,7 +785,7 @@ Use,fire.fire_test.FireTest.testFirePartialNamedArgsOneMissing,testFirePartialNa
 Call,fire.fire_test.FireTest.testFireAnnotatedArgs,testFireAnnotatedArgs,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFireAnnotatedArgs,testFireAnnotatedArgs,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testFireAnnotatedArgs,testFireAnnotatedArgs,fire.test_components.Annotations,Annotations
-Call,fire.fire_test.FireTest.testFireKeywordOnlyArgs,testFireKeywordOnlyArgs,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
+Implicit Internal Call,fire.fire_test.FireTest.testFireKeywordOnlyArgs,testFireKeywordOnlyArgs,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.fire_test.FireTest.testFireKeywordOnlyArgs,testFireKeywordOnlyArgs,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFireKeywordOnlyArgs,testFireKeywordOnlyArgs,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFireKeywordOnlyArgs,testFireKeywordOnlyArgs,fire.core.Fire,Fire
@@ -814,10 +804,6 @@ Call,fire.fire_test.FireTest.testFireVarArgsWithNamedArgs,testFireVarArgsWithNam
 Use,fire.fire_test.FireTest.testFireVarArgsWithNamedArgs,testFireVarArgsWithNamedArgs,fire.test_components.VarArgs,VarArgs
 Call,fire.fire_test.FireTest.testFireKeywordArgs,testFireKeywordArgs,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFireKeywordArgs,testFireKeywordArgs,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFireKeywordArgs,testFireKeywordArgs,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFireKeywordArgs,testFireKeywordArgs,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFireKeywordArgs,testFireKeywordArgs,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFireKeywordArgs,testFireKeywordArgs,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testFireKeywordArgs,testFireKeywordArgs,fire.test_components.Kwargs,Kwargs
 Call,fire.fire_test.FireTest.testFireKeywordArgsWithMissingPositionalArgs,testFireKeywordArgsWithMissingPositionalArgs,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFireKeywordArgsWithMissingPositionalArgs,testFireKeywordArgsWithMissingPositionalArgs,fire.core.Fire,Fire
@@ -832,10 +818,7 @@ Use,fire.fire_test.FireTest.testFireDict,testFireDict,fire.fire_test.FireTest.te
 Set,fire.fire_test.FireTest.testFireDict,testFireDict,fire.fire_test.FireTest.testFireDict.component,component
 Call,fire.fire_test.FireTest.testFireObjectWithDict,testFireObjectWithDict,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFireObjectWithDict,testFireObjectWithDict,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFireObjectWithDict,testFireObjectWithDict,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFireObjectWithDict,testFireObjectWithDict,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testFireObjectWithDict,testFireObjectWithDict,fire.test_components.TypedProperties,TypedProperties
-Call,fire.fire_test.FireTest.testFireList,testFireList,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFireList,testFireList,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFireList,testFireList,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testFireList,testFireList,fire.fire_test.FireTest.testFireList.component,component
@@ -848,8 +831,6 @@ Call,fire.fire_test.FireTest.testFireObjectWithTuple,testFireObjectWithTuple,fir
 Use,fire.fire_test.FireTest.testFireObjectWithTuple,testFireObjectWithTuple,fire.test_components.TypedProperties,TypedProperties
 Call,fire.fire_test.FireTest.testFireNoComponent,testFireNoComponent,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFireNoComponent,testFireNoComponent,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFireNoComponent,testFireNoComponent,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFireNoComponent,testFireNoComponent,fire.core.Fire,Fire
 Set,fire.fire_test.FireTest.testFireNoComponent,testFireNoComponent,fire.fire_test.FireTest.testFireNoComponent.last_char,last_char
 Set,fire.fire_test.FireTest.testFireNoComponent,testFireNoComponent,fire.fire_test.FireTest.testFireNoComponent.rset,rset
 Call,fire.fire_test.FireTest.testFireUnderscores,testFireUnderscores,fire.core.Fire,Fire
@@ -857,61 +838,42 @@ Call,fire.fire_test.FireTest.testFireUnderscores,testFireUnderscores,fire.core.F
 Use,fire.fire_test.FireTest.testFireUnderscores,testFireUnderscores,fire.test_components.Underscores,Underscores
 Call,fire.fire_test.FireTest.testFireUnderscoresInArg,testFireUnderscoresInArg,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFireUnderscoresInArg,testFireUnderscoresInArg,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testFireUnderscoresInArg,testFireUnderscoresInArg,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testFireUnderscoresInArg,testFireUnderscoresInArg,fire.test_components.Underscores,Underscores
-Call,fire.fire_test.FireTest.testBoolParsing,testBoolParsing,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testBoolParsing,testBoolParsing,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testBoolParsing,testBoolParsing,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testBoolParsing,testBoolParsing,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testBoolParsing,testBoolParsing,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testBoolParsing,testBoolParsing,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testBoolParsing,testBoolParsing,fire.test_components.BoolConverter,BoolConverter
 Call,fire.fire_test.FireTest.testBoolParsingContinued,testBoolParsingContinued,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testBoolParsingContinued,testBoolParsingContinued,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testBoolParsingContinued,testBoolParsingContinued,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testBoolParsingContinued,testBoolParsingContinued,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testBoolParsingContinued,testBoolParsingContinued,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testBoolParsingContinued,testBoolParsingContinued,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testBoolParsingContinued,testBoolParsingContinued,fire.test_components.MixedDefaults,MixedDefaults
 Call,fire.fire_test.FireTest.testBoolParsingLessExpectedCases,testBoolParsingLessExpectedCases,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testBoolParsingLessExpectedCases,testBoolParsingLessExpectedCases,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testBoolParsingLessExpectedCases,testBoolParsingLessExpectedCases,fire.core.Fire,Fire
+Implicit Internal Call,fire.fire_test.FireTest.testBoolParsingLessExpectedCases,testBoolParsingLessExpectedCases,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.fire_test.FireTest.testBoolParsingLessExpectedCases,testBoolParsingLessExpectedCases,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
-Call,fire.fire_test.FireTest.testBoolParsingLessExpectedCases,testBoolParsingLessExpectedCases,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testBoolParsingLessExpectedCases,testBoolParsingLessExpectedCases,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testBoolParsingLessExpectedCases,testBoolParsingLessExpectedCases,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testBoolParsingLessExpectedCases,testBoolParsingLessExpectedCases,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testBoolParsingLessExpectedCases,testBoolParsingLessExpectedCases,fire.test_components.MixedDefaults,MixedDefaults
 Call,fire.fire_test.FireTest.testBoolParsingWithNo,testBoolParsingWithNo,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testBoolParsingWithNo,testBoolParsingWithNo,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testBoolParsingWithNo,testBoolParsingWithNo,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
-Call,fire.fire_test.FireTest.testBoolParsingWithNo,testBoolParsingWithNo,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testBoolParsingWithNo,testBoolParsingWithNo,fire.core.Fire,Fire
+Implicit Internal Call,fire.fire_test.FireTest.testBoolParsingWithNo,testBoolParsingWithNo,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.fire_test.FireTest.testBoolParsingWithNo,testBoolParsingWithNo,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testBoolParsingWithNo,testBoolParsingWithNo,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
-Call,fire.fire_test.FireTest.testBoolParsingWithNo,testBoolParsingWithNo,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testBoolParsingWithNo,testBoolParsingWithNo,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testBoolParsingWithNo,testBoolParsingWithNo,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testBoolParsingWithNo,testBoolParsingWithNo,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testBoolParsingWithNo,testBoolParsingWithNo,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testBoolParsingWithNo,testBoolParsingWithNo,fire.fire_test.FireTest.testBoolParsingWithNo.fn1,fn1
 Use,fire.fire_test.FireTest.testBoolParsingWithNo,testBoolParsingWithNo,fire.fire_test.FireTest.testBoolParsingWithNo.fn2,fn2
 Use,fire.fire_test.FireTest.testBoolParsingWithNo,testBoolParsingWithNo,fire.fire_test.FireTest.testBoolParsingWithNo.fn3,fn3
-Call,fire.fire_test.FireTest.testTraceFlag,testTraceFlag,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
+Implicit Internal Call,fire.fire_test.FireTest.testTraceFlag,testTraceFlag,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.fire_test.FireTest.testTraceFlag,testTraceFlag,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testTraceFlag,testTraceFlag,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.fire_test.FireTest.testTraceFlag,testTraceFlag,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testTraceFlag,testTraceFlag,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.fire_test.FireTest.testTraceFlag,testTraceFlag,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testTraceFlag,testTraceFlag,fire.test_components.BoolConverter,BoolConverter
-Call,fire.fire_test.FireTest.testHelpFlag,testHelpFlag,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
+Implicit Internal Call,fire.fire_test.FireTest.testHelpFlag,testHelpFlag,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.fire_test.FireTest.testHelpFlag,testHelpFlag,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testHelpFlag,testHelpFlag,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.fire_test.FireTest.testHelpFlag,testHelpFlag,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testHelpFlag,testHelpFlag,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.fire_test.FireTest.testHelpFlag,testHelpFlag,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testHelpFlag,testHelpFlag,fire.test_components.BoolConverter,BoolConverter
-Call,fire.fire_test.FireTest.testHelpFlagAndTraceFlag,testHelpFlagAndTraceFlag,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
+Implicit Internal Call,fire.fire_test.FireTest.testHelpFlagAndTraceFlag,testHelpFlagAndTraceFlag,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.fire_test.FireTest.testHelpFlagAndTraceFlag,testHelpFlagAndTraceFlag,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testHelpFlagAndTraceFlag,testHelpFlagAndTraceFlag,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.fire_test.FireTest.testHelpFlagAndTraceFlag,testHelpFlagAndTraceFlag,fire.core.Fire,Fire
@@ -933,11 +895,8 @@ Set,fire.fire_test.FireTest.testTabCompletionWithDict,testTabCompletionWithDict,
 Set,fire.fire_test.FireTest.testTabCompletionWithDict,testTabCompletionWithDict,fire.fire_test.FireTest.testTabCompletionWithDict.completion_script,completion_script
 Call,fire.fire_test.FireTest.testBasicSeparator,testBasicSeparator,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testBasicSeparator,testBasicSeparator,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testBasicSeparator,testBasicSeparator,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testBasicSeparator,testBasicSeparator,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
-Call,fire.fire_test.FireTest.testBasicSeparator,testBasicSeparator,fire.core.Fire,Fire
+Implicit Internal Call,fire.fire_test.FireTest.testBasicSeparator,testBasicSeparator,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Use,fire.fire_test.FireTest.testBasicSeparator,testBasicSeparator,fire.test_components.MixedDefaults,MixedDefaults
-Call,fire.fire_test.FireTest.testNonComparable,testNonComparable,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testNonComparable,testNonComparable,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testNonComparable,testNonComparable,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testNonComparable,testNonComparable,fire.test_components.NonComparable,NonComparable
@@ -946,20 +905,17 @@ Call,fire.fire_test.FireTest.testExtraSeparators,testExtraSeparators,fire.core.F
 Use,fire.fire_test.FireTest.testExtraSeparators,testExtraSeparators,fire.test_components.ReturnsObj,ReturnsObj
 Call,fire.fire_test.FireTest.testSeparatorForChaining,testSeparatorForChaining,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testSeparatorForChaining,testSeparatorForChaining,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testSeparatorForChaining,testSeparatorForChaining,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testSeparatorForChaining,testSeparatorForChaining,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testSeparatorForChaining,testSeparatorForChaining,fire.test_components.BoolConverter,BoolConverter
 Use,fire.fire_test.FireTest.testSeparatorForChaining,testSeparatorForChaining,fire.test_components.ReturnsObj,ReturnsObj
-Call,fire.fire_test.FireTest.testFloatForExpectedInt,testFloatForExpectedInt,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFloatForExpectedInt,testFloatForExpectedInt,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testFloatForExpectedInt,testFloatForExpectedInt,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testFloatForExpectedInt,testFloatForExpectedInt,fire.test_components.NumberDefaults,NumberDefaults
 Use,fire.fire_test.FireTest.testFloatForExpectedInt,testFloatForExpectedInt,fire.test_components.MixedDefaults,MixedDefaults
 Call,fire.fire_test.FireTest.testClassInstantiation,testClassInstantiation,fire.core.Fire,Fire
-Call,fire.fire_test.FireTest.testClassInstantiation,testClassInstantiation,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
+Implicit Internal Call,fire.fire_test.FireTest.testClassInstantiation,testClassInstantiation,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.fire_test.FireTest.testClassInstantiation,testClassInstantiation,fire.core.Fire,Fire
 Use,fire.fire_test.FireTest.testClassInstantiation,testClassInstantiation,fire.test_components.InstanceVars,InstanceVars
-Call,fire.fire_test.FireTest.testTraceErrors,testTraceErrors,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
+Implicit Internal Call,fire.fire_test.FireTest.testTraceErrors,testTraceErrors,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.fire_test.FireTest.testTraceErrors,testTraceErrors,fire.core.Fire,Fire
 Call,fire.fire_test.FireTest.testTraceErrors,testTraceErrors,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit
 Call,fire.fire_test.FireTest.testTraceErrors,testTraceErrors,fire.core.Fire,Fire
@@ -979,6 +935,7 @@ Use,fire.fire_test.FireTest.testTraceErrors,testTraceErrors,fire.test_components
 Call,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\fire_test.py,fire_test.py,fire.testutils.main,main
 Import,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\helputils.py,helputils.py,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\completion.py,completion.py
 Import,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\helputils.py,helputils.py,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\inspectutils.py,inspectutils.py
+Implicit External Call,fire.helputils._NormalizeField,_NormalizeField,fire.test_components.Kwargs.upper,upper
 Use,fire.helputils._NormalizeField,_NormalizeField,field,field
 Set,fire.helputils._NormalizeField,_NormalizeField,field,field
 Use,fire.helputils._DisplayValue,_DisplayValue,field,field
@@ -1012,6 +969,9 @@ Set,fire.helputils.HelpString,HelpString,fire.helputils.HelpString.infonull,info
 Set,fire.helputils.HelpString,HelpString,fire.helputils.HelpString.fields,fields
 Set,fire.helputils.HelpString,HelpString,fire.helputils.HelpString.max_size,max_size
 Set,fire.helputils.HelpString,HelpString,fire.helputils.HelpString.format_string,format_string
+Implicit External Call,fire.helputils._UsageStringFromFullArgSpec,_UsageStringFromFullArgSpec,fire.test_components.Kwargs.upper,upper
+Implicit External Call,fire.helputils._UsageStringFromFullArgSpec,_UsageStringFromFullArgSpec,fire.test_components.Kwargs.upper,upper
+Implicit External Call,fire.helputils._UsageStringFromFullArgSpec,_UsageStringFromFullArgSpec,fire.test_components.Kwargs.upper,upper
 Use,fire.helputils._UsageStringFromFullArgSpec,_UsageStringFromFullArgSpec,command,command
 Use,fire.helputils._UsageStringFromFullArgSpec,_UsageStringFromFullArgSpec,fire.helputils._UsageStringFromFullArgSpec.num_required_args,num_required_args
 Use,fire.helputils._UsageStringFromFullArgSpec,_UsageStringFromFullArgSpec,fire.helputils._UsageStringFromFullArgSpec.help_flags,help_flags
@@ -1029,6 +989,7 @@ Set,fire.helputils._UsageStringFromFullArgSpec,_UsageStringFromFullArgSpec,fire.
 Set,fire.helputils._UsageStringFromFullArgSpec,_UsageStringFromFullArgSpec,fire.helputils._UsageStringFromFullArgSpec.commands_flags,commands_flags
 Set,fire.helputils._UsageStringFromFullArgSpec,_UsageStringFromFullArgSpec,fire.helputils._UsageStringFromFullArgSpec.commands_positional,commands_positional
 Set,fire.helputils._UsageStringFromFullArgSpec,_UsageStringFromFullArgSpec,fire.helputils._UsageStringFromFullArgSpec.commands,commands
+Implicit External Call,fire.helputils.UsageString,UsageString,fire.trace.FireTrace.GetCommand,GetCommand
 Call,fire.helputils.UsageString,UsageString,fire.inspectutils.GetFullArgSpec,GetFullArgSpec
 Call,fire.helputils.UsageString,UsageString,fire.helputils._UsageStringFromFullArgSpec,_UsageStringFromFullArgSpec
 Call,fire.helputils.UsageString,UsageString,fire.completion.Completions,Completions
@@ -1244,46 +1205,18 @@ Extend,fire.parser_test.ParserTest,ParserTest,fire.testutils.BaseTestCase,BaseTe
 Call,fire.parser_test.ParserTest.testCreateParser,testCreateParser,fire.parser.CreateParser,CreateParser
 Call,fire.parser_test.ParserTest.testSeparateFlagArgs,testSeparateFlagArgs,fire.parser.SeparateFlagArgs,SeparateFlagArgs
 Call,fire.parser_test.ParserTest.testSeparateFlagArgs,testSeparateFlagArgs,fire.parser.SeparateFlagArgs,SeparateFlagArgs
-Call,fire.parser_test.ParserTest.testSeparateFlagArgs,testSeparateFlagArgs,fire.parser.SeparateFlagArgs,SeparateFlagArgs
-Call,fire.parser_test.ParserTest.testSeparateFlagArgs,testSeparateFlagArgs,fire.parser.SeparateFlagArgs,SeparateFlagArgs
-Call,fire.parser_test.ParserTest.testSeparateFlagArgs,testSeparateFlagArgs,fire.parser.SeparateFlagArgs,SeparateFlagArgs
-Call,fire.parser_test.ParserTest.testSeparateFlagArgs,testSeparateFlagArgs,fire.parser.SeparateFlagArgs,SeparateFlagArgs
-Call,fire.parser_test.ParserTest.testSeparateFlagArgs,testSeparateFlagArgs,fire.parser.SeparateFlagArgs,SeparateFlagArgs
-Call,fire.parser_test.ParserTest.testSeparateFlagArgs,testSeparateFlagArgs,fire.parser.SeparateFlagArgs,SeparateFlagArgs
-Call,fire.parser_test.ParserTest.testSeparateFlagArgs,testSeparateFlagArgs,fire.parser.SeparateFlagArgs,SeparateFlagArgs
-Call,fire.parser_test.ParserTest.testDefaultParseValueStrings,testDefaultParseValueStrings,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueStrings,testDefaultParseValueStrings,fire.parser.DefaultParseValue,DefaultParseValue
 Call,fire.parser_test.ParserTest.testDefaultParseValueStrings,testDefaultParseValueStrings,fire.parser.DefaultParseValue,DefaultParseValue
 Call,fire.parser_test.ParserTest.testDefaultParseValueStrings,testDefaultParseValueStrings,fire.parser.DefaultParseValue,DefaultParseValue
 Call,fire.parser_test.ParserTest.testDefaultParseValueQuotedStrings,testDefaultParseValueQuotedStrings,fire.parser.DefaultParseValue,DefaultParseValue
 Call,fire.parser_test.ParserTest.testDefaultParseValueQuotedStrings,testDefaultParseValueQuotedStrings,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueQuotedStrings,testDefaultParseValueQuotedStrings,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueQuotedStrings,testDefaultParseValueQuotedStrings,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueQuotedStrings,testDefaultParseValueQuotedStrings,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueQuotedStrings,testDefaultParseValueQuotedStrings,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueSpecialStrings,testDefaultParseValueSpecialStrings,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueSpecialStrings,testDefaultParseValueSpecialStrings,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueSpecialStrings,testDefaultParseValueSpecialStrings,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueSpecialStrings,testDefaultParseValueSpecialStrings,fire.parser.DefaultParseValue,DefaultParseValue
 Call,fire.parser_test.ParserTest.testDefaultParseValueSpecialStrings,testDefaultParseValueSpecialStrings,fire.parser.DefaultParseValue,DefaultParseValue
 Call,fire.parser_test.ParserTest.testDefaultParseValueSpecialStrings,testDefaultParseValueSpecialStrings,fire.parser.DefaultParseValue,DefaultParseValue
 Call,fire.parser_test.ParserTest.testDefaultParseValueNumbers,testDefaultParseValueNumbers,fire.parser.DefaultParseValue,DefaultParseValue
 Call,fire.parser_test.ParserTest.testDefaultParseValueNumbers,testDefaultParseValueNumbers,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueNumbers,testDefaultParseValueNumbers,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueNumbers,testDefaultParseValueNumbers,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueNumbers,testDefaultParseValueNumbers,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueNumbers,testDefaultParseValueNumbers,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueNumbers,testDefaultParseValueNumbers,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueStringNumbers,testDefaultParseValueStringNumbers,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueStringNumbers,testDefaultParseValueStringNumbers,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueStringNumbers,testDefaultParseValueStringNumbers,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueStringNumbers,testDefaultParseValueStringNumbers,fire.parser.DefaultParseValue,DefaultParseValue
 Call,fire.parser_test.ParserTest.testDefaultParseValueStringNumbers,testDefaultParseValueStringNumbers,fire.parser.DefaultParseValue,DefaultParseValue
 Call,fire.parser_test.ParserTest.testDefaultParseValueStringNumbers,testDefaultParseValueStringNumbers,fire.parser.DefaultParseValue,DefaultParseValue
 Call,fire.parser_test.ParserTest.testDefaultParseValueQuotedStringNumbers,testDefaultParseValueQuotedStringNumbers,fire.parser.DefaultParseValue,DefaultParseValue
 Call,fire.parser_test.ParserTest.testDefaultParseValueOtherNumbers,testDefaultParseValueOtherNumbers,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueLists,testDefaultParseValueLists,fire.parser.DefaultParseValue,DefaultParseValue
-Call,fire.parser_test.ParserTest.testDefaultParseValueLists,testDefaultParseValueLists,fire.parser.DefaultParseValue,DefaultParseValue
 Call,fire.parser_test.ParserTest.testDefaultParseValueLists,testDefaultParseValueLists,fire.parser.DefaultParseValue,DefaultParseValue
 Call,fire.parser_test.ParserTest.testDefaultParseValueLists,testDefaultParseValueLists,fire.parser.DefaultParseValue,DefaultParseValue
 Call,fire.parser_test.ParserTest.testDefaultParseValueBareWordsLists,testDefaultParseValueBareWordsLists,fire.parser.DefaultParseValue,DefaultParseValue
@@ -1313,18 +1246,18 @@ Use,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches,fire.tes
 Set,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches,fire.testutils.BaseTestCase.assertOutputMatches.stdout_fp,stdout_fp
 Set,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches,fire.testutils.BaseTestCase.assertOutputMatches.stderr_fp,stderr_fp
 Set,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches,fire.testutils.BaseTestCase.assertOutputMatches.value,value
-Call,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
+Implicit Internal Call,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
 Use,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit,fire.trace.FireTrace,FireTrace
 Use,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit,code,code
 Use,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit,regexp,regexp
 Use,fire.testutils.BaseTestCase.assertRaisesFireExit,assertRaisesFireExit,fire.core.FireExit,FireExit
 Import,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\testutils_test.py,testutils_test.py,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\testutils.py,testutils.py
 Extend,fire.testutils_test.TestTestUtils,TestTestUtils,fire.testutils.BaseTestCase,BaseTestCase
-Call,fire.testutils_test.TestTestUtils.testNoCheckOnException,testNoCheckOnException,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
+Implicit Internal Call,fire.testutils_test.TestTestUtils.testNoCheckOnException,testNoCheckOnException,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
+Implicit Internal Call,fire.testutils_test.TestTestUtils.testCheckStdoutOrStderrNone,testCheckStdoutOrStderrNone,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
+Implicit Internal Call,fire.testutils_test.TestTestUtils.testCheckStdoutOrStderrNone,testCheckStdoutOrStderrNone,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
 Call,fire.testutils_test.TestTestUtils.testCheckStdoutOrStderrNone,testCheckStdoutOrStderrNone,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
-Call,fire.testutils_test.TestTestUtils.testCheckStdoutOrStderrNone,testCheckStdoutOrStderrNone,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
-Call,fire.testutils_test.TestTestUtils.testCheckStdoutOrStderrNone,testCheckStdoutOrStderrNone,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
-Call,fire.testutils_test.TestTestUtils.testCorrectOrderingOfAssertRaises,testCorrectOrderingOfAssertRaises,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
+Implicit Internal Call,fire.testutils_test.TestTestUtils.testCorrectOrderingOfAssertRaises,testCorrectOrderingOfAssertRaises,fire.testutils.BaseTestCase.assertOutputMatches,assertOutputMatches
 Call,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\testutils_test.py,testutils_test.py,fire.testutils.main,main
 Import,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\test_components.py,test_components.py,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\test_components_py3.py,test_components_py3.py
 Use,fire.test_components.identity,identity,arg6,arg6
@@ -1370,6 +1303,7 @@ Use,fire.test_components.InstanceVars.run,run,fire.test_components.InstanceVars.
 Use,fire.test_components.InstanceVars.run,run,arg1,arg1
 Use,fire.test_components.InstanceVars.run,run,arg2,arg2
 Use,fire.test_components.Kwargs.props,props,kwargs,kwargs
+Implicit External Call,fire.test_components.Kwargs.upper,upper,fire.test_components.Kwargs.upper,upper
 Use,fire.test_components.Kwargs.run,run,positional,positional
 Use,fire.test_components.Kwargs.run,run,named,named
 Use,fire.test_components.Kwargs.run,run,kwargs,kwargs
@@ -1398,7 +1332,6 @@ Extend,fire.test_components_test.TestComponentsTest,TestComponentsTest,fire.test
 Use,fire.test_components_test.TestComponentsTest.testTestComponents,testTestComponents,fire.test_components.Empty,Empty
 Use,fire.test_components_test.TestComponentsTest.testTestComponents,testTestComponents,fire.test_components.OldStyleEmpty,OldStyleEmpty
 Call,fire.test_components_test.TestComponentsTest.testNonComparable,testNonComparable,fire.test_components.NonComparable,NonComparable
-Call,fire.test_components_test.TestComponentsTest.testNonComparable,testNonComparable,fire.test_components.NonComparable,NonComparable
 Call,C:\Users\wj86\Documents\gitrepo\python-workspace\python-fire\fire\test_components_test.py,test_components_test.py,fire.testutils.main,main
 Call,fire.trace.FireTrace.__init__,__init__,fire.trace.FireTraceElement,FireTraceElement
 Use,fire.trace.FireTrace.__init__,__init__,initial_component,initial_component
@@ -1410,8 +1343,12 @@ Use,fire.trace.FireTrace.__init__,__init__,show_trace,show_trace
 Use,fire.trace.FireTrace.__init__,__init__,fire.trace.FireTrace.__init__.initial_trace_element,initial_trace_element
 Use,fire.trace.FireTrace.__init__,__init__,fire.trace.INITIAL_COMPONENT,INITIAL_COMPONENT
 Set,fire.trace.FireTrace.__init__,__init__,fire.trace.FireTrace.__init__.initial_trace_element,initial_trace_element
-Call,fire.trace.FireTrace.GetResult,GetResult,fire.trace.FireTrace.GetLastHealthyElement,GetLastHealthyElement
+Implicit Internal Call,fire.trace.FireTrace.GetResult,GetResult,fire.trace.FireTrace.GetLastHealthyElement,GetLastHealthyElement
+Implicit External Call,fire.trace.FireTrace.GetLastHealthyElement,GetLastHealthyElement,fire.trace.FireTrace.HasError,HasError
+Implicit External Call,fire.trace.FireTrace.GetLastHealthyElement,GetLastHealthyElement,fire.trace.FireTraceElement.HasError,HasError
 Use,fire.trace.FireTrace.GetLastHealthyElement,GetLastHealthyElement,fire.trace.FireTrace.elements,elements
+Implicit External Call,fire.trace.FireTrace.HasError,HasError,fire.trace.FireTrace.HasError,HasError
+Implicit External Call,fire.trace.FireTrace.HasError,HasError,fire.trace.FireTraceElement.HasError,HasError
 Call,fire.trace.FireTrace.AddAccessedProperty,AddAccessedProperty,fire.trace.FireTraceElement,FireTraceElement
 Use,fire.trace.FireTrace.AddAccessedProperty,AddAccessedProperty,args,args
 Use,fire.trace.FireTrace.AddAccessedProperty,AddAccessedProperty,filename,filename
@@ -1445,19 +1382,26 @@ Use,fire.trace.FireTrace.AddError,AddError,error,error
 Use,fire.trace.FireTrace.AddError,AddError,args,args
 Use,fire.trace.FireTrace.AddError,AddError,fire.trace.FireTrace.AddError.element,element
 Set,fire.trace.FireTrace.AddError,AddError,fire.trace.FireTrace.AddError.element,element
+Implicit External Call,fire.trace.FireTrace.AddSeparator,AddSeparator,fire.trace.FireTrace.AddSeparator,AddSeparator
+Implicit External Call,fire.trace.FireTrace.AddSeparator,AddSeparator,fire.trace.FireTraceElement.AddSeparator,AddSeparator
 Use,fire.trace.FireTrace._Quote,_Quote,fire.trace.FireTrace._Quote.value,value
 Use,fire.trace.FireTrace._Quote,_Quote,arg,arg
 Use,fire.trace.FireTrace._Quote,_Quote,fire.trace.FireTrace._Quote.prefix,prefix
 Set,fire.trace.FireTrace._Quote,_Quote,fire.trace.FireTrace._Quote.value,value
 Set,fire.trace.FireTrace._Quote,_Quote,fire.trace.FireTrace._Quote.prefix,prefix
-Call,fire.trace.FireTrace.GetCommand,GetCommand,fire.trace.FireTrace.NeedsSeparator,NeedsSeparator
-Call,fire.trace.FireTrace.GetCommand,GetCommand,fire.trace.FireTrace._Quote,_Quote
+Implicit External Call,fire.trace.FireTrace.GetCommand,GetCommand,fire.trace.FireTrace.HasError,HasError
+Implicit External Call,fire.trace.FireTrace.GetCommand,GetCommand,fire.trace.FireTraceElement.HasError,HasError
+Implicit External Call,fire.trace.FireTrace.GetCommand,GetCommand,fire.trace.FireTraceElement.HasSeparator,HasSeparator
+Implicit Internal Call,fire.trace.FireTrace.GetCommand,GetCommand,fire.trace.FireTrace.NeedsSeparator,NeedsSeparator
+Implicit Internal Call,fire.trace.FireTrace.GetCommand,GetCommand,fire.trace.FireTrace._Quote,_Quote
 Use,fire.trace.FireTrace.GetCommand,GetCommand,fire.trace.FireTrace.name,name
 Use,fire.trace.FireTrace.GetCommand,GetCommand,fire.trace.FireTrace.separator,separator
 Use,fire.trace.FireTrace.GetCommand,GetCommand,fire.trace.FireTrace.elements,elements
 Use,fire.trace.FireTrace.GetCommand,GetCommand,fire.trace.FireTrace.GetCommand.args,args
 Set,fire.trace.FireTrace.GetCommand,GetCommand,fire.trace.FireTrace.GetCommand.args,args
-Call,fire.trace.FireTrace.NeedsSeparator,NeedsSeparator,fire.trace.FireTrace.GetLastHealthyElement,GetLastHealthyElement
+Implicit Internal Call,fire.trace.FireTrace.NeedsSeparator,NeedsSeparator,fire.trace.FireTrace.GetLastHealthyElement,GetLastHealthyElement
+Implicit External Call,fire.trace.FireTrace.NeedsSeparator,NeedsSeparator,fire.trace.FireTraceElement.HasCapacity,HasCapacity
+Implicit External Call,fire.trace.FireTrace.NeedsSeparator,NeedsSeparator,fire.trace.FireTraceElement.HasSeparator,HasSeparator
 Set,fire.trace.FireTrace.NeedsSeparator,NeedsSeparator,fire.trace.FireTrace.NeedsSeparator.element,element
 Use,fire.trace.FireTrace.__str__,__str__,fire.trace.FireTrace.elements,elements
 Use,fire.trace.FireTraceElement.__init__,__init__,filename,filename
@@ -1472,7 +1416,7 @@ Use,fire.trace.FireTraceElement.HasError,HasError,fire.trace.FireTraceElement._e
 Use,fire.trace.FireTraceElement.HasCapacity,HasCapacity,fire.trace.FireTraceElement._capacity,_capacity
 Use,fire.trace.FireTraceElement.HasSeparator,HasSeparator,fire.trace.FireTraceElement._separator,_separator
 Set,fire.trace.FireTraceElement.AddSeparator,AddSeparator,fire.trace.FireTraceElement._separator,_separator
-Call,fire.trace.FireTraceElement.__str__,__str__,fire.trace.FireTraceElement.HasError,HasError
+Implicit Internal Call,fire.trace.FireTraceElement.__str__,__str__,fire.trace.FireTraceElement.HasError,HasError
 Use,fire.trace.FireTraceElement.__str__,__str__,fire.trace.FireTraceElement._action,_action
 Use,fire.trace.FireTraceElement.__str__,__str__,fire.trace.FireTraceElement._target,_target
 Use,fire.trace.FireTraceElement.__str__,__str__,fire.trace.FireTraceElement.__str__.string,string
@@ -1489,10 +1433,17 @@ Call,fire.trace_test.FireTraceTest.testFireTraceInitialization,testFireTraceInit
 Use,fire.trace_test.FireTraceTest.testFireTraceInitialization,testFireTraceInitialization,fire.trace_test.FireTraceTest.testFireTraceInitialization.t,t
 Set,fire.trace_test.FireTraceTest.testFireTraceInitialization,testFireTraceInitialization,fire.trace_test.FireTraceTest.testFireTraceInitialization.t,t
 Call,fire.trace_test.FireTraceTest.testFireTraceGetResult,testFireTraceGetResult,fire.trace.FireTrace,FireTrace
+Implicit External Call,fire.trace_test.FireTraceTest.testFireTraceGetResult,testFireTraceGetResult,fire.trace.FireTrace.GetResult,GetResult
+Implicit External Call,fire.trace_test.FireTraceTest.testFireTraceGetResult,testFireTraceGetResult,fire.trace.FireTrace.AddAccessedProperty,AddAccessedProperty
 Set,fire.trace_test.FireTraceTest.testFireTraceGetResult,testFireTraceGetResult,fire.trace_test.FireTraceTest.testFireTraceGetResult.t,t
 Call,fire.trace_test.FireTraceTest.testFireTraceHasError,testFireTraceHasError,fire.trace.FireTrace,FireTrace
+Implicit External Call,fire.trace_test.FireTraceTest.testFireTraceHasError,testFireTraceHasError,fire.trace.FireTrace.HasError,HasError
+Implicit External Call,fire.trace_test.FireTraceTest.testFireTraceHasError,testFireTraceHasError,fire.trace.FireTraceElement.HasError,HasError
+Implicit External Call,fire.trace_test.FireTraceTest.testFireTraceHasError,testFireTraceHasError,fire.trace.FireTrace.AddAccessedProperty,AddAccessedProperty
+Implicit External Call,fire.trace_test.FireTraceTest.testFireTraceHasError,testFireTraceHasError,fire.trace.FireTrace.AddError,AddError
 Set,fire.trace_test.FireTraceTest.testFireTraceHasError,testFireTraceHasError,fire.trace_test.FireTraceTest.testFireTraceHasError.t,t
 Call,fire.trace_test.FireTraceTest.testAddAccessedProperty,testAddAccessedProperty,fire.trace.FireTrace,FireTrace
+Implicit External Call,fire.trace_test.FireTraceTest.testAddAccessedProperty,testAddAccessedProperty,fire.trace.FireTrace.AddAccessedProperty,AddAccessedProperty
 Use,fire.trace_test.FireTraceTest.testAddAccessedProperty,testAddAccessedProperty,fire.trace_test.FireTraceTest.testAddAccessedProperty.t,t
 Use,fire.trace_test.FireTraceTest.testAddAccessedProperty,testAddAccessedProperty,fire.trace_test.FireTraceTest.testAddAccessedProperty.args,args
 Set,fire.trace_test.FireTraceTest.testAddAccessedProperty,testAddAccessedProperty,fire.trace_test.FireTraceTest.testAddAccessedProperty.t,t
@@ -1518,28 +1469,35 @@ Set,fire.trace_test.FireTraceTest.testAddInstantiatedClass,testAddInstantiatedCl
 Set,fire.trace_test.FireTraceTest.testAddInstantiatedClass,testAddInstantiatedClass,fire.trace_test.FireTraceTest.testAddInstantiatedClass.args,args
 Set,fire.trace_test.FireTraceTest.testAddInstantiatedClass,testAddInstantiatedClass,fire.trace_test.FireTraceTest.testAddInstantiatedClass.target,target
 Call,fire.trace_test.FireTraceTest.testAddCompletionScript,testAddCompletionScript,fire.trace.FireTrace,FireTrace
+Implicit External Call,fire.trace_test.FireTraceTest.testAddCompletionScript,testAddCompletionScript,fire.trace.FireTrace.AddCompletionScript,AddCompletionScript
 Use,fire.trace_test.FireTraceTest.testAddCompletionScript,testAddCompletionScript,fire.trace_test.FireTraceTest.testAddCompletionScript.t,t
 Set,fire.trace_test.FireTraceTest.testAddCompletionScript,testAddCompletionScript,fire.trace_test.FireTraceTest.testAddCompletionScript.t,t
 Call,fire.trace_test.FireTraceTest.testAddInteractiveMode,testAddInteractiveMode,fire.trace.FireTrace,FireTrace
+Implicit External Call,fire.trace_test.FireTraceTest.testAddInteractiveMode,testAddInteractiveMode,fire.trace.FireTrace.AddInteractiveMode,AddInteractiveMode
 Use,fire.trace_test.FireTraceTest.testAddInteractiveMode,testAddInteractiveMode,fire.trace_test.FireTraceTest.testAddInteractiveMode.t,t
 Set,fire.trace_test.FireTraceTest.testAddInteractiveMode,testAddInteractiveMode,fire.trace_test.FireTraceTest.testAddInteractiveMode.t,t
 Call,fire.trace_test.FireTraceTest.testGetCommand,testGetCommand,fire.trace.FireTrace,FireTrace
+Implicit External Call,fire.trace_test.FireTraceTest.testGetCommand,testGetCommand,fire.trace.FireTrace.GetCommand,GetCommand
 Use,fire.trace_test.FireTraceTest.testGetCommand,testGetCommand,fire.trace.CALLED_ROUTINE,CALLED_ROUTINE
 Use,fire.trace_test.FireTraceTest.testGetCommand,testGetCommand,fire.trace_test.FireTraceTest.testGetCommand.args,args
 Set,fire.trace_test.FireTraceTest.testGetCommand,testGetCommand,fire.trace_test.FireTraceTest.testGetCommand.t,t
 Set,fire.trace_test.FireTraceTest.testGetCommand,testGetCommand,fire.trace_test.FireTraceTest.testGetCommand.args,args
 Call,fire.trace_test.FireTraceTest.testGetCommandWithQuotes,testGetCommandWithQuotes,fire.trace.FireTrace,FireTrace
+Implicit External Call,fire.trace_test.FireTraceTest.testGetCommandWithQuotes,testGetCommandWithQuotes,fire.trace.FireTrace.GetCommand,GetCommand
 Use,fire.trace_test.FireTraceTest.testGetCommandWithQuotes,testGetCommandWithQuotes,fire.trace.CALLED_ROUTINE,CALLED_ROUTINE
 Use,fire.trace_test.FireTraceTest.testGetCommandWithQuotes,testGetCommandWithQuotes,fire.trace_test.FireTraceTest.testGetCommandWithQuotes.args,args
 Set,fire.trace_test.FireTraceTest.testGetCommandWithQuotes,testGetCommandWithQuotes,fire.trace_test.FireTraceTest.testGetCommandWithQuotes.t,t
 Set,fire.trace_test.FireTraceTest.testGetCommandWithQuotes,testGetCommandWithQuotes,fire.trace_test.FireTraceTest.testGetCommandWithQuotes.args,args
 Call,fire.trace_test.FireTraceTest.testGetCommandWithFlagQuotes,testGetCommandWithFlagQuotes,fire.trace.FireTrace,FireTrace
+Implicit External Call,fire.trace_test.FireTraceTest.testGetCommandWithFlagQuotes,testGetCommandWithFlagQuotes,fire.trace.FireTrace.GetCommand,GetCommand
 Use,fire.trace_test.FireTraceTest.testGetCommandWithFlagQuotes,testGetCommandWithFlagQuotes,fire.trace.CALLED_ROUTINE,CALLED_ROUTINE
 Use,fire.trace_test.FireTraceTest.testGetCommandWithFlagQuotes,testGetCommandWithFlagQuotes,fire.trace_test.FireTraceTest.testGetCommandWithFlagQuotes.args,args
 Set,fire.trace_test.FireTraceTest.testGetCommandWithFlagQuotes,testGetCommandWithFlagQuotes,fire.trace_test.FireTraceTest.testGetCommandWithFlagQuotes.t,t
 Set,fire.trace_test.FireTraceTest.testGetCommandWithFlagQuotes,testGetCommandWithFlagQuotes,fire.trace_test.FireTraceTest.testGetCommandWithFlagQuotes.args,args
 Extend,fire.trace_test.FireTraceElementTest,FireTraceElementTest,fire.testutils.BaseTestCase,BaseTestCase
 Call,fire.trace_test.FireTraceElementTest.testFireTraceElementHasError,testFireTraceElementHasError,fire.trace.FireTraceElement,FireTraceElement
+Implicit External Call,fire.trace_test.FireTraceElementTest.testFireTraceElementHasError,testFireTraceElementHasError,fire.trace.FireTrace.HasError,HasError
+Implicit External Call,fire.trace_test.FireTraceElementTest.testFireTraceElementHasError,testFireTraceElementHasError,fire.trace.FireTraceElement.HasError,HasError
 Call,fire.trace_test.FireTraceElementTest.testFireTraceElementHasError,testFireTraceElementHasError,fire.trace.FireTraceElement,FireTraceElement
 Set,fire.trace_test.FireTraceElementTest.testFireTraceElementHasError,testFireTraceElementHasError,fire.trace_test.FireTraceElementTest.testFireTraceElementHasError.el,el
 Call,fire.trace_test.FireTraceElementTest.testFireTraceElementAsStringNoMetadata,testFireTraceElementAsStringNoMetadata,fire.trace.FireTraceElement,FireTraceElement

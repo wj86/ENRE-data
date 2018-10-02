@@ -6,7 +6,7 @@
     "src" : 64,
     "dest" : 8,
     "values" : {
-      "Call" : 25.0,
+      "Call" : 13.0,
       "Import" : 3.0,
       "Use" : 2.0
     }
@@ -14,7 +14,7 @@
     "src" : 65,
     "dest" : 26,
     "values" : {
-      "Call" : 8.0,
+      "Call" : 4.0,
       "Import" : 3.0
     }
   }, {
@@ -28,7 +28,7 @@
     "src" : 46,
     "dest" : 16,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 1.0,
       "Import" : 2.0,
       "Use" : 1.0
     }
@@ -52,7 +52,7 @@
     "src" : 49,
     "dest" : 37,
     "values" : {
-      "Call" : 14.0,
+      "Call" : 8.0,
       "Import" : 3.0,
       "Use" : 1.0
     }
@@ -75,7 +75,7 @@
     "src" : 52,
     "dest" : 24,
     "values" : {
-      "Call" : 6.0,
+      "Call" : 4.0,
       "Import" : 3.0
     }
   }, {
@@ -133,14 +133,14 @@
     "src" : 60,
     "dest" : 25,
     "values" : {
-      "Call" : 6.0,
+      "Call" : 4.0,
       "Import" : 3.0
     }
   }, {
     "src" : 61,
     "dest" : 21,
     "values" : {
-      "Call" : 3.0,
+      "Call" : 4.0,
       "Import" : 1.0
     }
   }, {

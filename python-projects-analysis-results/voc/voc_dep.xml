@@ -398,7 +398,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="168" src="152">
-            <depend name="Call" weight="2.0"/>
+            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="172" src="152">
@@ -410,7 +410,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="158" src="152">
-            <depend name="Call" weight="7.0"/>
+            <depend name="Call" weight="3.0"/>
             <depend name="Import" weight="2.0"/>
         </cell>
         <cell dest="155" src="154">
@@ -450,7 +450,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="158" src="160">
-            <depend name="Call" weight="6.0"/>
+            <depend name="Call" weight="5.0"/>
             <depend name="Import" weight="2.0"/>
             <depend name="Use" weight="1.0"/>
         </cell>
@@ -492,11 +492,11 @@
             <depend name="Use" weight="1.0"/>
         </cell>
         <cell dest="176" src="167">
-            <depend name="Call" weight="64.0"/>
+            <depend name="Call" weight="57.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="163" src="167">
-            <depend name="Call" weight="146.0"/>
+            <depend name="Call" weight="132.0"/>
             <depend name="Import" weight="1.0"/>
             <depend name="Use" weight="12.0"/>
         </cell>
@@ -509,7 +509,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="174" src="167">
-            <depend name="Call" weight="54.0"/>
+            <depend name="Call" weight="43.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="175" src="167">
@@ -524,7 +524,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="163" src="168">
-            <depend name="Call" weight="27.0"/>
+            <depend name="Call" weight="26.0"/>
             <depend name="Import" weight="1.0"/>
             <depend name="Use" weight="2.0"/>
         </cell>
@@ -533,7 +533,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="175" src="168">
-            <depend name="Call" weight="13.0"/>
+            <depend name="Call" weight="12.0"/>
             <depend name="Import" weight="8.0"/>
         </cell>
         <cell dest="163" src="169">
@@ -581,21 +581,21 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="163" src="171">
-            <depend name="Call" weight="158.0"/>
+            <depend name="Call" weight="130.0"/>
             <depend name="Import" weight="1.0"/>
             <depend name="Use" weight="3.0"/>
         </cell>
         <cell dest="168" src="171">
-            <depend name="Call" weight="17.0"/>
+            <depend name="Call" weight="7.0"/>
             <depend name="Import" weight="3.0"/>
             <depend name="Use" weight="4.0"/>
         </cell>
         <cell dest="174" src="171">
-            <depend name="Call" weight="48.0"/>
+            <depend name="Call" weight="51.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="175" src="171">
-            <depend name="Call" weight="86.0"/>
+            <depend name="Call" weight="77.0"/>
             <depend name="Import" weight="8.0"/>
         </cell>
         <cell dest="176" src="172">
@@ -607,20 +607,20 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="163" src="172">
-            <depend name="Call" weight="33.0"/>
+            <depend name="Call" weight="22.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="168" src="172">
-            <depend name="Call" weight="6.0"/>
+            <depend name="Call" weight="3.0"/>
             <depend name="Import" weight="2.0"/>
             <depend name="Use" weight="1.0"/>
         </cell>
         <cell dest="174" src="172">
-            <depend name="Call" weight="10.0"/>
+            <depend name="Call" weight="3.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="175" src="172">
-            <depend name="Call" weight="18.0"/>
+            <depend name="Call" weight="16.0"/>
             <depend name="Import" weight="3.0"/>
         </cell>
         <cell dest="163" src="173">
@@ -660,187 +660,187 @@
         </cell>
     </cells>
     <variables>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\docs\conf.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\setup.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\stdlib_tests\test_argparse.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\stdlib_tests\test_base64.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\stdlib_tests\test_bisect.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\stdlib_tests\test_calendar.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\stdlib_tests\test_chunk.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\stdlib_tests\test_colorsys.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\stdlib_tests\test_datetime.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\stdlib_tests\test_decimal.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\stdlib_tests\test_ipaddress.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\stdlib_tests\test_itertools.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\stdlib_tests\test_json.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\stdlib_tests\test_keyword.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\stdlib_tests\test_operator.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\stdlib_tests\test_textwrap.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\stdlib_tests\test_this.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\stdlib_tests\test_types.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\stdlib_tests\test_urllib.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\stdlib_tests\test_warnings.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\benchmarks\binary-trees.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\benchmarks\call_simple.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\benchmarks\pystone.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\benchmarks\unpack_sequence.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_abs.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_all.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_any.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_ascii.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_bin.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_bool.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_bytearray.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_bytes.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_callable.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_chr.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_classmethod.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_compile.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_complex.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_delattr.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_dict.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_dir.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_divmod.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_enumerate.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_eval.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_exec.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_filter.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_float.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_format.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_frozenset.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_getattr.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_globals.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_hasattr.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_hash.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_help.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_hex.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_id.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_import.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_input.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_int.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_isinstance.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_issubclass.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_iter.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_len.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_list.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_locals.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_map.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_max.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_memoryview.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_min.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_next.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_object.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_oct.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_open.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_ord.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_pow.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_print.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_property.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_range.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_repr.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_reversed.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_round.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_set.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_setattr.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_slice.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_sorted.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_staticmethod.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_str.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_sum.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_super.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_tuple.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_type.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_vars.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\test_zip.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\builtins\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\datatypes\test_bool.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\datatypes\test_bytearray.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\datatypes\test_bytes.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\datatypes\test_complex.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\datatypes\test_dict.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\datatypes\test_float.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\datatypes\test_frozenset.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\datatypes\test_int.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\datatypes\test_list.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\datatypes\test_NoneType.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\datatypes\test_NotImplemented.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\datatypes\test_object.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\datatypes\test_range.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\datatypes\test_set.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\datatypes\test_slice.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\datatypes\test_str.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\datatypes\test_tuple.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\datatypes\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\microbenchmarks.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\stdlib\test_collections.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\stdlib\test_os.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\stdlib\test_sys.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\stdlib\test_time.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\stdlib\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_assert.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_assignment.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_class.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_closure.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_comparisons.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_decorators.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_delete.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_descriptor.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_dict_comprehension.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_docstrings.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_exception.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_extends.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_for.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_function.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_generator.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_if_elif_else.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_import.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_interface.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_iterator.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_java.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_list_comprehension.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_methods.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_nonlocal.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_return.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_scope.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_sequences.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_set_comprehension.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_try_catch.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_while.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\test_with.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\structures\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\test_benchmarks.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\test_codecs.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\test_large_code.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\test_utils.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\utils.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tests\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tools\build_stdlib_report.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tools\compile_stdlib.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\tools\upload.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\java\attributes.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\java\constants.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\java\fields.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\java\klass.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\java\methods.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\java\mutf_8.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\java\opcodes.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\java\signatures.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\java\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\java\__main__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\python\ast.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\python\blocks.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\python\debug.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\python\klass.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\python\methods.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\python\modules.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\python\structures.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\python\types\java.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\python\types\primitives.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\python\types\python.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\python\types\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\python\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\transpiler.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\voc\voc\__main__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\docs\conf.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\setup.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\stdlib_tests\test_argparse.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\stdlib_tests\test_base64.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\stdlib_tests\test_bisect.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\stdlib_tests\test_calendar.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\stdlib_tests\test_chunk.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\stdlib_tests\test_colorsys.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\stdlib_tests\test_datetime.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\stdlib_tests\test_decimal.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\stdlib_tests\test_ipaddress.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\stdlib_tests\test_itertools.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\stdlib_tests\test_json.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\stdlib_tests\test_keyword.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\stdlib_tests\test_operator.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\stdlib_tests\test_textwrap.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\stdlib_tests\test_this.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\stdlib_tests\test_types.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\stdlib_tests\test_urllib.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\stdlib_tests\test_warnings.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\benchmarks\binary-trees.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\benchmarks\call_simple.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\benchmarks\pystone.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\benchmarks\unpack_sequence.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_abs.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_all.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_any.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_ascii.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_bin.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_bool.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_bytearray.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_bytes.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_callable.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_chr.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_classmethod.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_compile.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_complex.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_delattr.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_dict.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_dir.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_divmod.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_enumerate.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_eval.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_exec.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_filter.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_float.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_format.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_frozenset.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_getattr.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_globals.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_hasattr.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_hash.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_help.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_hex.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_id.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_import.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_input.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_int.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_isinstance.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_issubclass.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_iter.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_len.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_list.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_locals.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_map.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_max.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_memoryview.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_min.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_next.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_object.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_oct.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_open.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_ord.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_pow.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_print.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_property.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_range.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_repr.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_reversed.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_round.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_set.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_setattr.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_slice.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_sorted.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_staticmethod.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_str.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_sum.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_super.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_tuple.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_type.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_vars.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\test_zip.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\builtins\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\datatypes\test_bool.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\datatypes\test_bytearray.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\datatypes\test_bytes.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\datatypes\test_complex.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\datatypes\test_dict.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\datatypes\test_float.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\datatypes\test_frozenset.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\datatypes\test_int.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\datatypes\test_list.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\datatypes\test_NoneType.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\datatypes\test_NotImplemented.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\datatypes\test_object.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\datatypes\test_range.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\datatypes\test_set.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\datatypes\test_slice.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\datatypes\test_str.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\datatypes\test_tuple.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\datatypes\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\microbenchmarks.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\stdlib\test_collections.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\stdlib\test_os.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\stdlib\test_sys.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\stdlib\test_time.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\stdlib\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_assert.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_assignment.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_class.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_closure.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_comparisons.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_decorators.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_delete.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_descriptor.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_dict_comprehension.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_docstrings.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_exception.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_extends.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_for.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_function.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_generator.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_if_elif_else.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_import.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_interface.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_iterator.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_java.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_list_comprehension.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_methods.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_nonlocal.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_return.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_scope.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_sequences.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_set_comprehension.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_try_catch.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_while.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\test_with.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\structures\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\test_benchmarks.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\test_codecs.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\test_large_code.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\test_utils.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\utils.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tests\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tools\build_stdlib_report.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tools\compile_stdlib.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\tools\upload.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\java\attributes.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\java\constants.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\java\fields.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\java\klass.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\java\methods.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\java\mutf_8.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\java\opcodes.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\java\signatures.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\java\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\java\__main__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\python\ast.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\python\blocks.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\python\debug.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\python\klass.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\python\methods.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\python\modules.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\python\structures.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\python\types\java.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\python\types\primitives.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\python\types\python.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\python\types\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\python\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\transpiler.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\voc\voc\__main__.py</variable>
     </variables>
 </matrix>

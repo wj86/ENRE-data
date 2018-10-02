@@ -3,103 +3,6 @@ compound = true;
 concentrate=true;
 node [shape=box];
 
-subgraph cluster0 {
-style=dashed;label="conftest.py";
-GRAPH_DUMMY0 [shape=point, style=invis];
-1 [style=solid,label="_py_files"];
-5 [style=solid,label="chdir"];
-}
-subgraph cluster7 {
-style=dashed;label="conf.py";
-GRAPH_DUMMY7 [shape=point, style=invis];
-}
-subgraph cluster27 {
-style=dashed;label="linkfix.py";
-GRAPH_DUMMY27 [shape=point, style=invis];
-}
-subgraph cluster35 {
-style=dashed;label="scrapydocs.py";
-GRAPH_DUMMY35 [shape=point, style=invis];
-subgraph cluster36 {
-style=rounded;label="settingslist_node";
-GRAPH_DUMMY36 [shape=point, style=invis];
-37 [style=solid,label="__init__"];
-}
-subgraph cluster38 {
-style=rounded;label="SettingsListDirective";
-GRAPH_DUMMY38 [shape=point, style=invis];
-39 [style=solid,label="run"];
-41 [style=solid,label="__init__"];
-}
-subgraph cluster42 {
-style=solid;label="is_setting_index";
-GRAPH_DUMMY42 [shape=point, style=invis];
-}
-47 [style=solid,label="get_setting_target"];
-subgraph cluster49 {
-style=solid;label="get_setting_name_and_refid";
-GRAPH_DUMMY49 [shape=point, style=invis];
-}
-subgraph cluster54 {
-style=solid;label="collect_scrapy_settings_refs";
-GRAPH_DUMMY54 [shape=point, style=invis];
-}
-subgraph cluster61 {
-style=solid;label="make_setting_element";
-GRAPH_DUMMY61 [shape=point, style=invis];
-}
-subgraph cluster68 {
-style=solid;label="replace_settingslist_nodes";
-GRAPH_DUMMY68 [shape=point, style=invis];
-}
-74 [style=solid,label="setup"];
-subgraph cluster76 {
-style=solid;label="source_role";
-GRAPH_DUMMY76 [shape=point, style=invis];
-}
-subgraph cluster86 {
-style=solid;label="issue_role";
-GRAPH_DUMMY86 [shape=point, style=invis];
-}
-subgraph cluster96 {
-style=solid;label="commit_role";
-GRAPH_DUMMY96 [shape=point, style=invis];
-}
-subgraph cluster106 {
-style=solid;label="rev_role";
-GRAPH_DUMMY106 [shape=point, style=invis];
-}
-}
-subgraph cluster116 {
-style=dashed;label="qps-bench-server.py";
-GRAPH_DUMMY116 [shape=point, style=invis];
-subgraph cluster117 {
-style=rounded;label="Root";
-GRAPH_DUMMY117 [shape=point, style=invis];
-118 [style=solid,label="__init__"];
-122 [style=solid,label="_reset_stats"];
-124 [style=solid,label="getChild"];
-subgraph cluster128 {
-style=solid;label="render";
-GRAPH_DUMMY128 [shape=point, style=invis];
-}
-135 [style=solid,label="_finish"];
-}
-}
-subgraph cluster140 {
-style=dashed;label="qpsclient.py";
-GRAPH_DUMMY140 [shape=point, style=invis];
-subgraph cluster141 {
-style=rounded;label="QPSSpider";
-GRAPH_DUMMY141 [shape=point, style=invis];
-149 [style=solid,label="__init__"];
-subgraph cluster156 {
-style=solid;label="start_requests";
-GRAPH_DUMMY156 [shape=point, style=invis];
-}
-162 [style=solid,label="parse"];
-}
-}
 subgraph cluster6117 {
 style=bold;label="module";
 GRAPH_DUMMY6117 [shape=point, style=invis];
@@ -4748,11 +4651,6 @@ style=dashed;label="__main__.py";
 GRAPH_DUMMY7187 [shape=point, style=invis];
 7188 [style=solid,label="__main__"];
 }
-}
-subgraph cluster7189 {
-style=dashed;label="setup.py";
-GRAPH_DUMMY7189 [shape=point, style=invis];
-7191 [style=solid,label="has_environment_marker_platform_impl_support"];
 }
 subgraph cluster14361 {
 style=bold;label="tests";

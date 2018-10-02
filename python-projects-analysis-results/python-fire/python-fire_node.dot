@@ -1174,8 +1174,4 @@ style=dashed;label="__init__.py";
 GRAPH_DUMMY1352 [shape=point, style=invis];
 }
 }
-subgraph cluster1354 {
-style=dashed;label="setup.py";
-GRAPH_DUMMY1354 [shape=point, style=invis];
-}
 }

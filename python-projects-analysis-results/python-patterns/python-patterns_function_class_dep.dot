@@ -3,12 +3,6 @@ compound = true;
 concentrate=true;
 node [shape=box];
 
-subgraph cluster585 {
-style=bold;label="behavioral";
-GRAPH_DUMMY585 [shape=point, style=invis];
-subgraph cluster0 {
-style=dashed;label="catalog.py";
-GRAPH_DUMMY0 [shape=point, style=invis];
 subgraph cluster2 {
 style=rounded;label="Catalog";
 GRAPH_DUMMY2 [shape=point, style=invis];
@@ -46,10 +40,6 @@ style=solid;label="main";
 GRAPH_DUMMY50 [shape=point, style=invis];
 }
 52 [style=solid,label="__main__"];
-}
-subgraph cluster53 {
-style=dashed;label="chain.py";
-GRAPH_DUMMY53 [shape=point, style=invis];
 subgraph cluster54 {
 style=rounded;label="Handler";
 GRAPH_DUMMY54 [shape=point, style=invis];
@@ -130,10 +120,6 @@ subgraph cluster124 {
 style=solid;label="__main__";
 GRAPH_DUMMY124 [shape=point, style=invis];
 }
-}
-subgraph cluster130 {
-style=dashed;label="chaining_method.py";
-GRAPH_DUMMY130 [shape=point, style=invis];
 subgraph cluster131 {
 style=rounded;label="Person";
 GRAPH_DUMMY131 [shape=point, style=invis];
@@ -151,10 +137,6 @@ subgraph cluster150 {
 style=solid;label="__main__";
 GRAPH_DUMMY150 [shape=point, style=invis];
 }
-}
-subgraph cluster153 {
-style=dashed;label="command.py";
-GRAPH_DUMMY153 [shape=point, style=invis];
 subgraph cluster154 {
 style=rounded;label="MoveFileCommand";
 GRAPH_DUMMY154 [shape=point, style=invis];
@@ -168,18 +150,10 @@ style=solid;label="main";
 GRAPH_DUMMY169 [shape=point, style=invis];
 }
 171 [style=solid,label="__main__"];
-}
-subgraph cluster172 {
-style=dashed;label="iterator.py";
-GRAPH_DUMMY172 [shape=point, style=invis];
 subgraph cluster173 {
 style=solid;label="count_to";
 GRAPH_DUMMY173 [shape=point, style=invis];
 }
-}
-subgraph cluster178 {
-style=dashed;label="mediator.py";
-GRAPH_DUMMY178 [shape=point, style=invis];
 subgraph cluster179 {
 style=rounded;label="TC";
 GRAPH_DUMMY179 [shape=point, style=invis];
@@ -223,10 +197,6 @@ subgraph cluster238 {
 style=solid;label="__main__";
 GRAPH_DUMMY238 [shape=point, style=invis];
 }
-}
-subgraph cluster243 {
-style=dashed;label="memento.py";
-GRAPH_DUMMY243 [shape=point, style=invis];
 subgraph cluster244 {
 style=solid;label="memento";
 GRAPH_DUMMY244 [shape=point, style=invis];
@@ -261,10 +231,6 @@ subgraph cluster285 {
 style=solid;label="__main__";
 GRAPH_DUMMY285 [shape=point, style=invis];
 }
-}
-subgraph cluster288 {
-style=dashed;label="observer.py";
-GRAPH_DUMMY288 [shape=point, style=invis];
 subgraph cluster289 {
 style=rounded;label="Subject";
 GRAPH_DUMMY289 [shape=point, style=invis];
@@ -297,10 +263,6 @@ style=solid;label="main";
 GRAPH_DUMMY323 [shape=point, style=invis];
 }
 328 [style=solid,label="__main__"];
-}
-subgraph cluster329 {
-style=dashed;label="publish_subscribe.py";
-GRAPH_DUMMY329 [shape=point, style=invis];
 subgraph cluster330 {
 style=rounded;label="Provider";
 GRAPH_DUMMY330 [shape=point, style=invis];
@@ -329,10 +291,6 @@ style=solid;label="main";
 GRAPH_DUMMY372 [shape=point, style=invis];
 }
 379 [style=solid,label="__main__"];
-}
-subgraph cluster380 {
-style=dashed;label="registry.py";
-GRAPH_DUMMY380 [shape=point, style=invis];
 subgraph cluster381 {
 style=rounded;label="RegistryHolder";
 GRAPH_DUMMY381 [shape=point, style=invis];
@@ -353,10 +311,6 @@ style=solid;label="__main__";
 GRAPH_DUMMY395 [shape=point, style=invis];
 396 [style=rounded,label="ClassRegistree"];
 }
-}
-subgraph cluster397 {
-style=dashed;label="specification.py";
-GRAPH_DUMMY397 [shape=point, style=invis];
 subgraph cluster398 {
 style=rounded;label="Specification";
 GRAPH_DUMMY398 [shape=point, style=invis];
@@ -414,10 +368,6 @@ subgraph cluster472 {
 style=solid;label="__main__";
 GRAPH_DUMMY472 [shape=point, style=invis];
 }
-}
-subgraph cluster477 {
-style=dashed;label="state.py";
-GRAPH_DUMMY477 [shape=point, style=invis];
 subgraph cluster478 {
 style=rounded;label="State";
 GRAPH_DUMMY478 [shape=point, style=invis];
@@ -447,10 +397,6 @@ subgraph cluster512 {
 style=solid;label="__main__";
 GRAPH_DUMMY512 [shape=point, style=invis];
 }
-}
-subgraph cluster515 {
-style=dashed;label="strategy.py";
-GRAPH_DUMMY515 [shape=point, style=invis];
 subgraph cluster516 {
 style=rounded;label="StrategyExample";
 GRAPH_DUMMY516 [shape=point, style=invis];
@@ -463,10 +409,6 @@ subgraph cluster528 {
 style=solid;label="__main__";
 GRAPH_DUMMY528 [shape=point, style=invis];
 }
-}
-subgraph cluster532 {
-style=dashed;label="template.py";
-GRAPH_DUMMY532 [shape=point, style=invis];
 535 [style=solid,label="iter_elements"];
 538 [style=solid,label="rev_elements"];
 541 [style=solid,label="get_list"];
@@ -478,10 +420,6 @@ style=solid;label="make_template";
 GRAPH_DUMMY547 [shape=point, style=invis];
 551 [style=solid,label="template"];
 }
-}
-subgraph cluster553 {
-style=dashed;label="visitor.py";
-GRAPH_DUMMY553 [shape=point, style=invis];
 subgraph cluster554 {
 style=rounded;label="Node";
 GRAPH_DUMMY554 [shape=point, style=invis];
@@ -513,15 +451,6 @@ GRAPH_DUMMY563 [shape=point, style=invis];
 575 [style=solid,label="visit_B"];
 580 [style=solid,label="__init__"];
 }
-}
-586 [style=dashed,label="__init__.py"];
-}
-subgraph cluster767 {
-style=bold;label="creational";
-GRAPH_DUMMY767 [shape=point, style=invis];
-subgraph cluster587 {
-style=dashed;label="abstract_factory.py";
-GRAPH_DUMMY587 [shape=point, style=invis];
 subgraph cluster588 {
 style=rounded;label="PetShop";
 GRAPH_DUMMY588 [shape=point, style=invis];
@@ -550,10 +479,6 @@ subgraph cluster609 {
 style=solid;label="__main__";
 GRAPH_DUMMY609 [shape=point, style=invis];
 }
-}
-subgraph cluster612 {
-style=dashed;label="borg.py";
-GRAPH_DUMMY612 [shape=point, style=invis];
 subgraph cluster613 {
 style=rounded;label="Borg";
 GRAPH_DUMMY613 [shape=point, style=invis];
@@ -569,10 +494,6 @@ subgraph cluster623 {
 style=solid;label="__main__";
 GRAPH_DUMMY623 [shape=point, style=invis];
 }
-}
-subgraph cluster627 {
-style=dashed;label="builder.py";
-GRAPH_DUMMY627 [shape=point, style=invis];
 subgraph cluster628 {
 style=rounded;label="Building";
 GRAPH_DUMMY628 [shape=point, style=invis];
@@ -616,10 +537,6 @@ subgraph cluster662 {
 style=solid;label="__main__";
 GRAPH_DUMMY662 [shape=point, style=invis];
 }
-}
-subgraph cluster666 {
-style=dashed;label="factory_method.py";
-GRAPH_DUMMY666 [shape=point, style=invis];
 subgraph cluster667 {
 style=rounded;label="GreekGetter";
 GRAPH_DUMMY667 [shape=point, style=invis];
@@ -640,10 +557,6 @@ subgraph cluster682 {
 style=solid;label="__main__";
 GRAPH_DUMMY682 [shape=point, style=invis];
 }
-}
-subgraph cluster685 {
-style=dashed;label="lazy_evaluation.py";
-GRAPH_DUMMY685 [shape=point, style=invis];
 subgraph cluster686 {
 style=rounded;label="lazy_property";
 GRAPH_DUMMY686 [shape=point, style=invis];
@@ -673,10 +586,6 @@ style=solid;label="main";
 GRAPH_DUMMY714 [shape=point, style=invis];
 }
 716 [style=solid,label="__main__"];
-}
-subgraph cluster717 {
-style=dashed;label="pool.py";
-GRAPH_DUMMY717 [shape=point, style=invis];
 subgraph cluster718 {
 style=rounded;label="ObjectPool";
 GRAPH_DUMMY718 [shape=point, style=invis];
@@ -691,10 +600,6 @@ GRAPH_DUMMY734 [shape=point, style=invis];
 735 [style=solid,label="test_object"];
 }
 738 [style=solid,label="__main__"];
-}
-subgraph cluster739 {
-style=dashed;label="prototype.py";
-GRAPH_DUMMY739 [shape=point, style=invis];
 subgraph cluster740 {
 style=rounded;label="Prototype";
 GRAPH_DUMMY740 [shape=point, style=invis];
@@ -717,15 +622,6 @@ style=solid;label="main";
 GRAPH_DUMMY760 [shape=point, style=invis];
 }
 766 [style=solid,label="__main__"];
-}
-768 [style=dashed,label="__init__.py"];
-}
-subgraph cluster832 {
-style=bold;label="dft";
-GRAPH_DUMMY832 [shape=point, style=invis];
-subgraph cluster769 {
-style=dashed;label="constructor_injection.py";
-GRAPH_DUMMY769 [shape=point, style=invis];
 subgraph cluster770 {
 style=rounded;label="TimeDisplay";
 GRAPH_DUMMY770 [shape=point, style=invis];
@@ -753,10 +649,6 @@ GRAPH_DUMMY786 [shape=point, style=invis];
 }
 789 [style=solid,label="__init__"];
 }
-}
-subgraph cluster790 {
-style=dashed;label="parameter_injection.py";
-GRAPH_DUMMY790 [shape=point, style=invis];
 subgraph cluster791 {
 style=rounded;label="TimeDisplay";
 GRAPH_DUMMY791 [shape=point, style=invis];
@@ -784,10 +676,6 @@ GRAPH_DUMMY806 [shape=point, style=invis];
 }
 809 [style=solid,label="__init__"];
 }
-}
-subgraph cluster810 {
-style=dashed;label="setter_injection.py";
-GRAPH_DUMMY810 [shape=point, style=invis];
 subgraph cluster811 {
 style=rounded;label="TimeDisplay";
 GRAPH_DUMMY811 [shape=point, style=invis];
@@ -816,15 +704,6 @@ GRAPH_DUMMY828 [shape=point, style=invis];
 }
 831 [style=solid,label="__init__"];
 }
-}
-833 [style=dashed,label="__init__.py"];
-}
-subgraph cluster852 {
-style=bold;label="fundamental";
-GRAPH_DUMMY852 [shape=point, style=invis];
-subgraph cluster834 {
-style=dashed;label="delegation_pattern.py";
-GRAPH_DUMMY834 [shape=point, style=invis];
 subgraph cluster835 {
 style=rounded;label="Delegator";
 GRAPH_DUMMY835 [shape=point, style=invis];
@@ -842,18 +721,6 @@ GRAPH_DUMMY846 [shape=point, style=invis];
 850 [style=solid,label="__init__"];
 }
 851 [style=solid,label="__main__"];
-}
-853 [style=dashed,label="__init__.py"];
-}
-subgraph cluster1038 {
-style=bold;label="other";
-GRAPH_DUMMY1038 [shape=point, style=invis];
-subgraph cluster1036 {
-style=bold;label="hsm";
-GRAPH_DUMMY1036 [shape=point, style=invis];
-subgraph cluster930 {
-style=dashed;label="hsm.py";
-GRAPH_DUMMY930 [shape=point, style=invis];
 subgraph cluster931 {
 style=rounded;label="UnsupportedMessageType";
 GRAPH_DUMMY931 [shape=point, style=invis];
@@ -935,12 +802,6 @@ style=rounded;label="Failed";
 GRAPH_DUMMY1031 [shape=point, style=invis];
 1032 [style=solid,label="__init__"];
 }
-}
-1037 [style=dashed,label="__init__.py"];
-}
-subgraph cluster854 {
-style=dashed;label="blackboard.py";
-GRAPH_DUMMY854 [shape=point, style=invis];
 subgraph cluster855 {
 style=rounded;label="Blackboard";
 GRAPH_DUMMY855 [shape=point, style=invis];
@@ -985,10 +846,6 @@ subgraph cluster898 {
 style=solid;label="__main__";
 GRAPH_DUMMY898 [shape=point, style=invis];
 }
-}
-subgraph cluster902 {
-style=dashed;label="graph_search.py";
-GRAPH_DUMMY902 [shape=point, style=invis];
 subgraph cluster903 {
 style=rounded;label="GraphSearch";
 GRAPH_DUMMY903 [shape=point, style=invis];
@@ -1006,15 +863,6 @@ style=solid;label="find_shortest_path";
 GRAPH_DUMMY921 [shape=point, style=invis];
 }
 }
-}
-1039 [style=dashed,label="__init__.py"];
-}
-subgraph cluster1404 {
-style=bold;label="structural";
-GRAPH_DUMMY1404 [shape=point, style=invis];
-subgraph cluster1040 {
-style=dashed;label="3-tier.py";
-GRAPH_DUMMY1040 [shape=point, style=invis];
 subgraph cluster1041 {
 style=rounded;label="Data";
 GRAPH_DUMMY1041 [shape=point, style=invis];
@@ -1043,10 +891,6 @@ style=solid;label="main";
 GRAPH_DUMMY1066 [shape=point, style=invis];
 }
 1068 [style=solid,label="__main__"];
-}
-subgraph cluster1069 {
-style=dashed;label="adapter.py";
-GRAPH_DUMMY1069 [shape=point, style=invis];
 subgraph cluster1070 {
 style=rounded;label="Dog";
 GRAPH_DUMMY1070 [shape=point, style=invis];
@@ -1083,10 +927,6 @@ style=solid;label="main";
 GRAPH_DUMMY1106 [shape=point, style=invis];
 }
 1112 [style=solid,label="__main__"];
-}
-subgraph cluster1113 {
-style=dashed;label="bridge.py";
-GRAPH_DUMMY1113 [shape=point, style=invis];
 subgraph cluster1114 {
 style=rounded;label="DrawingAPI1";
 GRAPH_DUMMY1114 [shape=point, style=invis];
@@ -1111,10 +951,6 @@ style=solid;label="main";
 GRAPH_DUMMY1144 [shape=point, style=invis];
 }
 1146 [style=solid,label="__main__"];
-}
-subgraph cluster1147 {
-style=dashed;label="composite.py";
-GRAPH_DUMMY1147 [shape=point, style=invis];
 subgraph cluster1148 {
 style=rounded;label="Graphic";
 GRAPH_DUMMY1148 [shape=point, style=invis];
@@ -1139,10 +975,6 @@ subgraph cluster1171 {
 style=solid;label="__main__";
 GRAPH_DUMMY1171 [shape=point, style=invis];
 }
-}
-subgraph cluster1179 {
-style=dashed;label="decorator.py";
-GRAPH_DUMMY1179 [shape=point, style=invis];
 subgraph cluster1180 {
 style=rounded;label="TextTag";
 GRAPH_DUMMY1180 [shape=point, style=invis];
@@ -1165,10 +997,6 @@ subgraph cluster1201 {
 style=solid;label="__main__";
 GRAPH_DUMMY1201 [shape=point, style=invis];
 }
-}
-subgraph cluster1204 {
-style=dashed;label="facade.py";
-GRAPH_DUMMY1204 [shape=point, style=invis];
 subgraph cluster1206 {
 style=rounded;label="TC1";
 GRAPH_DUMMY1206 [shape=point, style=invis];
@@ -1197,10 +1025,6 @@ subgraph cluster1227 {
 style=solid;label="__main__";
 GRAPH_DUMMY1227 [shape=point, style=invis];
 }
-}
-subgraph cluster1229 {
-style=dashed;label="flyweight.py";
-GRAPH_DUMMY1229 [shape=point, style=invis];
 subgraph cluster1230 {
 style=rounded;label="FlyweightMeta";
 GRAPH_DUMMY1230 [shape=point, style=invis];
@@ -1238,10 +1062,6 @@ subgraph cluster1270 {
 style=solid;label="__main__";
 GRAPH_DUMMY1270 [shape=point, style=invis];
 }
-}
-subgraph cluster1278 {
-style=dashed;label="front_controller.py";
-GRAPH_DUMMY1278 [shape=point, style=invis];
 subgraph cluster1279 {
 style=rounded;label="MobileView";
 GRAPH_DUMMY1279 [shape=point, style=invis];
@@ -1275,10 +1095,6 @@ subgraph cluster1311 {
 style=solid;label="__main__";
 GRAPH_DUMMY1311 [shape=point, style=invis];
 }
-}
-subgraph cluster1313 {
-style=dashed;label="mvc.py";
-GRAPH_DUMMY1313 [shape=point, style=invis];
 subgraph cluster1314 {
 style=rounded;label="Model";
 GRAPH_DUMMY1314 [shape=point, style=invis];
@@ -1332,10 +1148,6 @@ subgraph cluster1382 {
 style=solid;label="__main__";
 GRAPH_DUMMY1382 [shape=point, style=invis];
 }
-}
-subgraph cluster1386 {
-style=dashed;label="proxy.py";
-GRAPH_DUMMY1386 [shape=point, style=invis];
 subgraph cluster1387 {
 style=rounded;label="SalesManager";
 GRAPH_DUMMY1387 [shape=point, style=invis];
@@ -1358,15 +1170,6 @@ subgraph cluster1402 {
 style=solid;label="__main__";
 GRAPH_DUMMY1402 [shape=point, style=invis];
 }
-}
-1405 [style=dashed,label="__init__.py"];
-}
-subgraph cluster1879 {
-style=bold;label="tests";
-GRAPH_DUMMY1879 [shape=point, style=invis];
-subgraph cluster1406 {
-style=dashed;label="test_abstract_factory.py";
-GRAPH_DUMMY1406 [shape=point, style=invis];
 subgraph cluster1407 {
 style=rounded;label="TestPetShop";
 GRAPH_DUMMY1407 [shape=point, style=invis];
@@ -1376,10 +1179,6 @@ GRAPH_DUMMY1408 [shape=point, style=invis];
 }
 1411 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1412 {
-style=dashed;label="test_adapter.py";
-GRAPH_DUMMY1412 [shape=point, style=invis];
 subgraph cluster1413 {
 style=rounded;label="ClassTest";
 GRAPH_DUMMY1413 [shape=point, style=invis];
@@ -1431,10 +1230,6 @@ GRAPH_DUMMY1462 [shape=point, style=invis];
 }
 1468 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1469 {
-style=dashed;label="test_borg.py";
-GRAPH_DUMMY1469 [shape=point, style=invis];
 subgraph cluster1470 {
 style=rounded;label="BorgTest";
 GRAPH_DUMMY1470 [shape=point, style=invis];
@@ -1447,10 +1242,6 @@ GRAPH_DUMMY1473 [shape=point, style=invis];
 1478 [style=solid,label="test_instances_shall_have_own_ids"];
 1480 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1481 {
-style=dashed;label="test_bridge.py";
-GRAPH_DUMMY1481 [shape=point, style=invis];
 subgraph cluster1482 {
 style=rounded;label="BridgeTest";
 GRAPH_DUMMY1482 [shape=point, style=invis];
@@ -1464,10 +1255,6 @@ GRAPH_DUMMY1489 [shape=point, style=invis];
 }
 1501 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1502 {
-style=dashed;label="test_builder.py";
-GRAPH_DUMMY1502 [shape=point, style=invis];
 subgraph cluster1503 {
 style=rounded;label="TestSimple";
 GRAPH_DUMMY1503 [shape=point, style=invis];
@@ -1490,10 +1277,6 @@ GRAPH_DUMMY1512 [shape=point, style=invis];
 }
 1515 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1516 {
-style=dashed;label="test_command.py";
-GRAPH_DUMMY1516 [shape=point, style=invis];
 subgraph cluster1517 {
 style=rounded;label="CommandTest";
 GRAPH_DUMMY1517 [shape=point, style=invis];
@@ -1510,10 +1293,6 @@ GRAPH_DUMMY1526 [shape=point, style=invis];
 1530 [style=solid,label="tearDownClass"];
 1532 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1533 {
-style=dashed;label="test_constructor_injection.py";
-GRAPH_DUMMY1533 [shape=point, style=invis];
 subgraph cluster1534 {
 style=rounded;label="ConstructorInjectionTest";
 GRAPH_DUMMY1534 [shape=point, style=invis];
@@ -1527,10 +1306,6 @@ GRAPH_DUMMY1540 [shape=point, style=invis];
 }
 1546 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1547 {
-style=dashed;label="test_decorator.py";
-GRAPH_DUMMY1547 [shape=point, style=invis];
 subgraph cluster1548 {
 style=rounded;label="TestTextWrapping";
 GRAPH_DUMMY1548 [shape=point, style=invis];
@@ -1540,10 +1315,6 @@ GRAPH_DUMMY1548 [shape=point, style=invis];
 1555 [style=solid,label="test_mixed_bold_and_italic"];
 1557 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1558 {
-style=dashed;label="test_facade.py";
-GRAPH_DUMMY1558 [shape=point, style=invis];
 subgraph cluster1559 {
 style=rounded;label="TestRunnerFacilities";
 GRAPH_DUMMY1559 [shape=point, style=invis];
@@ -1567,10 +1338,6 @@ GRAPH_DUMMY1573 [shape=point, style=invis];
 }
 1576 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1577 {
-style=dashed;label="test_factory_method.py";
-GRAPH_DUMMY1577 [shape=point, style=invis];
 subgraph cluster1578 {
 style=rounded;label="TestLocalizer";
 GRAPH_DUMMY1578 [shape=point, style=invis];
@@ -1585,10 +1352,6 @@ GRAPH_DUMMY1578 [shape=point, style=invis];
 1595 [style=solid,label="test_bear_greek_localization"];
 1597 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1598 {
-style=dashed;label="test_flyweight.py";
-GRAPH_DUMMY1598 [shape=point, style=invis];
 subgraph cluster1599 {
 style=rounded;label="TestCard";
 GRAPH_DUMMY1599 [shape=point, style=invis];
@@ -1610,10 +1373,6 @@ GRAPH_DUMMY1612 [shape=point, style=invis];
 }
 1618 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1619 {
-style=dashed;label="test_hsm.py";
-GRAPH_DUMMY1619 [shape=point, style=invis];
 subgraph cluster1620 {
 style=rounded;label="HsmMethodTest";
 GRAPH_DUMMY1620 [shape=point, style=invis];
@@ -1641,10 +1400,6 @@ GRAPH_DUMMY1636 [shape=point, style=invis];
 1651 [style=solid,label="test_given_standby_on_message_operator_inservice_shall_raise_exception_and_keep_in_state"];
 1653 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1654 {
-style=dashed;label="test_lazy.py";
-GRAPH_DUMMY1654 [shape=point, style=invis];
 subgraph cluster1655 {
 style=rounded;label="TestDynamicExpanding";
 GRAPH_DUMMY1655 [shape=point, style=invis];
@@ -1656,10 +1411,6 @@ GRAPH_DUMMY1655 [shape=point, style=invis];
 1666 [style=solid,label="test_parents"];
 1668 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1669 {
-style=dashed;label="test_observer.py";
-GRAPH_DUMMY1669 [shape=point, style=invis];
 subgraph cluster1670 {
 style=rounded;label="TestSubject";
 GRAPH_DUMMY1670 [shape=point, style=invis];
@@ -1678,10 +1429,6 @@ GRAPH_DUMMY1680 [shape=point, style=invis];
 1687 [style=solid,label="test_data_name_shall_be_changeable"];
 1689 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1690 {
-style=dashed;label="test_parameter_injection.py";
-GRAPH_DUMMY1690 [shape=point, style=invis];
 subgraph cluster1691 {
 style=rounded;label="ParameterInjectionTest";
 GRAPH_DUMMY1691 [shape=point, style=invis];
@@ -1695,10 +1442,6 @@ GRAPH_DUMMY1697 [shape=point, style=invis];
 }
 1703 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1704 {
-style=dashed;label="test_pool.py";
-GRAPH_DUMMY1704 [shape=point, style=invis];
 subgraph cluster1705 {
 style=rounded;label="TestPool";
 GRAPH_DUMMY1705 [shape=point, style=invis];
@@ -1716,10 +1459,6 @@ GRAPH_DUMMY1714 [shape=point, style=invis];
 }
 1717 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1718 {
-style=dashed;label="test_prototype.py";
-GRAPH_DUMMY1718 [shape=point, style=invis];
 subgraph cluster1719 {
 style=rounded;label="TestPrototypeFeatures";
 GRAPH_DUMMY1719 [shape=point, style=invis];
@@ -1750,10 +1489,6 @@ GRAPH_DUMMY1736 [shape=point, style=invis];
 1745 [style=solid,label="test_extended_properties_retrieving"];
 1747 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1748 {
-style=dashed;label="test_proxy.py";
-GRAPH_DUMMY1748 [shape=point, style=invis];
 subgraph cluster1749 {
 style=rounded;label="ProxyTest";
 GRAPH_DUMMY1749 [shape=point, style=invis];
@@ -1786,10 +1521,6 @@ GRAPH_DUMMY1788 [shape=point, style=invis];
 }
 1796 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1797 {
-style=dashed;label="test_publish_subscribe.py";
-GRAPH_DUMMY1797 [shape=point, style=invis];
 subgraph cluster1798 {
 style=rounded;label="TestProvider";
 GRAPH_DUMMY1798 [shape=point, style=invis];
@@ -1811,10 +1542,6 @@ GRAPH_DUMMY1815 [shape=point, style=invis];
 }
 1823 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1824 {
-style=dashed;label="test_setter_injection.py";
-GRAPH_DUMMY1824 [shape=point, style=invis];
 subgraph cluster1825 {
 style=rounded;label="ParameterInjectionTest";
 GRAPH_DUMMY1825 [shape=point, style=invis];
@@ -1828,10 +1555,6 @@ GRAPH_DUMMY1831 [shape=point, style=invis];
 }
 1837 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1838 {
-style=dashed;label="test_state.py";
-GRAPH_DUMMY1838 [shape=point, style=invis];
 subgraph cluster1839 {
 style=rounded;label="RadioTest";
 GRAPH_DUMMY1839 [shape=point, style=invis];
@@ -1866,10 +1589,6 @@ GRAPH_DUMMY1866 [shape=point, style=invis];
 }
 1870 [style=solid,label="__init__"];
 }
-}
-subgraph cluster1871 {
-style=dashed;label="test_strategy.py";
-GRAPH_DUMMY1871 [shape=point, style=invis];
 subgraph cluster1872 {
 style=rounded;label="StrategyTest";
 GRAPH_DUMMY1872 [shape=point, style=invis];
@@ -1878,9 +1597,6 @@ style=solid;label="test_print_output";
 GRAPH_DUMMY1873 [shape=point, style=invis];
 }
 1878 [style=solid,label="__init__"];
-}
-}
-1880 [style=dashed,label="__init__.py"];
 }
 
 }

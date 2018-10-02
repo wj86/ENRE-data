@@ -13,7 +13,7 @@
             <depend name="Inherit" weight="1.0"/>
         </cell>
         <cell dest="0" src="1">
-            <depend name="Call" weight="5.0"/>
+            <depend name="Call" weight="3.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="17" src="3">
@@ -115,7 +115,7 @@
             <depend name="Use" weight="4.0"/>
         </cell>
         <cell dest="23" src="17">
-            <depend name="Call" weight="4.0"/>
+            <depend name="Call" weight="2.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="25" src="17">
@@ -136,12 +136,12 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="32" src="18">
-            <depend name="Call" weight="23.0"/>
+            <depend name="Call" weight="14.0"/>
             <depend name="Import" weight="1.0"/>
             <depend name="Inherit" weight="1.0"/>
         </cell>
         <cell dest="17" src="18">
-            <depend name="Call" weight="35.0"/>
+            <depend name="Call" weight="33.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="34" src="18">
@@ -159,7 +159,7 @@
             <depend name="Inherit" weight="1.0"/>
         </cell>
         <cell dest="17" src="20">
-            <depend name="Call" weight="22.0"/>
+            <depend name="Call" weight="14.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="19" src="20">
@@ -179,12 +179,12 @@
             <depend name="Use" weight="1.0"/>
         </cell>
         <cell dest="32" src="22">
-            <depend name="Call" weight="30.0"/>
+            <depend name="Call" weight="19.0"/>
             <depend name="Import" weight="1.0"/>
             <depend name="Inherit" weight="1.0"/>
         </cell>
         <cell dest="17" src="22">
-            <depend name="Call" weight="157.0"/>
+            <depend name="Call" weight="107.0"/>
         </cell>
         <cell dest="34" src="22">
             <depend name="Call" weight="2.0"/>
@@ -260,7 +260,7 @@
             <depend name="Inherit" weight="1.0"/>
         </cell>
         <cell dest="29" src="31">
-            <depend name="Call" weight="60.0"/>
+            <depend name="Call" weight="32.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="17" src="32">
@@ -272,7 +272,7 @@
             <depend name="Use" weight="1.0"/>
         </cell>
         <cell dest="32" src="33">
-            <depend name="Call" weight="6.0"/>
+            <depend name="Call" weight="2.0"/>
             <depend name="Import" weight="1.0"/>
             <depend name="Inherit" weight="1.0"/>
         </cell>
@@ -285,7 +285,7 @@
             <depend name="Inherit" weight="1.0"/>
         </cell>
         <cell dest="34" src="36">
-            <depend name="Call" weight="2.0"/>
+            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
             <depend name="Use" weight="2.0"/>
         </cell>

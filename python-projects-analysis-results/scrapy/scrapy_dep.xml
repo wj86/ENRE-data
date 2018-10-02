@@ -57,7 +57,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="61" src="9">
-            <depend name="Call" weight="4.0"/>
+            <depend name="Call" weight="3.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="158" src="9">
@@ -121,7 +121,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="61" src="15">
-            <depend name="Call" weight="6.0"/>
+            <depend name="Call" weight="5.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="158" src="15">
@@ -129,7 +129,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="116" src="17">
-            <depend name="Call" weight="2.0"/>
+            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="166" src="17">
@@ -173,7 +173,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="61" src="21">
-            <depend name="Call" weight="1.0"/>
+            <depend name="Call" weight="2.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="157" src="22">
@@ -203,14 +203,12 @@
             <depend name="Use" weight="1.0"/>
         </cell>
         <cell dest="108" src="26">
-            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="141" src="26">
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="108" src="27">
-            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="141" src="27">
@@ -221,7 +219,6 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="108" src="28">
-            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="158" src="28">
@@ -258,7 +255,6 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="108" src="31">
-            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="158" src="31">
@@ -314,7 +310,6 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="108" src="36">
-            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="158" src="36">
@@ -344,11 +339,11 @@
             <depend name="Use" weight="7.0"/>
         </cell>
         <cell dest="40" src="38">
-            <depend name="Call" weight="4.0"/>
+            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="152" src="38">
-            <depend name="Call" weight="4.0"/>
+            <depend name="Call" weight="2.0"/>
             <depend name="Import" weight="2.0"/>
         </cell>
         <cell dest="154" src="38">
@@ -388,7 +383,7 @@
             <depend name="Use" weight="4.0"/>
         </cell>
         <cell dest="152" src="40">
-            <depend name="Call" weight="6.0"/>
+            <depend name="Call" weight="5.0"/>
             <depend name="Import" weight="2.0"/>
         </cell>
         <cell dest="89" src="40">
@@ -425,7 +420,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="117" src="43">
-            <depend name="Call" weight="2.0"/>
+            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="38" src="43">
@@ -487,7 +482,6 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="108" src="47">
-            <depend name="Call" weight="4.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="158" src="48">
@@ -507,7 +501,7 @@
             <depend name="Use" weight="2.0"/>
         </cell>
         <cell dest="154" src="51">
-            <depend name="Call" weight="2.0"/>
+            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="61" src="51">
@@ -520,7 +514,6 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="108" src="52">
-            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="61" src="52">
@@ -696,7 +689,6 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="108" src="68">
-            <depend name="Call" weight="3.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="157" src="68">
@@ -1411,7 +1403,7 @@
             <depend name="Import" weight="2.0"/>
         </cell>
         <cell dest="43" src="168">
-            <depend name="Call" weight="2.0"/>
+            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="61" src="168">
@@ -1540,7 +1532,7 @@
             <depend name="Import" weight="2.0"/>
         </cell>
         <cell dest="43" src="196">
-            <depend name="Call" weight="3.0"/>
+            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="145" src="197">
@@ -1555,11 +1547,11 @@
             <depend name="Use" weight="20.0"/>
         </cell>
         <cell dest="43" src="197">
-            <depend name="Call" weight="17.0"/>
+            <depend name="Call" weight="12.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="158" src="197">
-            <depend name="Call" weight="4.0"/>
+            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="113" src="198">
@@ -1577,7 +1569,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="152" src="198">
-            <depend name="Call" weight="5.0"/>
+            <depend name="Call" weight="6.0"/>
             <depend name="Import" weight="2.0"/>
         </cell>
         <cell dest="154" src="198">
@@ -1588,7 +1580,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="43" src="198">
-            <depend name="Call" weight="23.0"/>
+            <depend name="Call" weight="18.0"/>
             <depend name="Import" weight="3.0"/>
             <depend name="Use" weight="11.0"/>
         </cell>
@@ -1661,7 +1653,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="51" src="207">
-            <depend name="Call" weight="3.0"/>
+            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="168" src="207">
@@ -1682,11 +1674,10 @@
             <depend name="Use" weight="1.0"/>
         </cell>
         <cell dest="108" src="208">
-            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="53" src="209">
-            <depend name="Call" weight="25.0"/>
+            <depend name="Call" weight="14.0"/>
             <depend name="Import" weight="1.0"/>
             <depend name="Use" weight="1.0"/>
         </cell>
@@ -1719,7 +1710,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="56" src="212">
-            <depend name="Call" weight="9.0"/>
+            <depend name="Call" weight="8.0"/>
             <depend name="Import" weight="2.0"/>
             <depend name="Set" weight="1.0"/>
             <depend name="Use" weight="2.0"/>
@@ -1772,7 +1763,7 @@
             <depend name="Use" weight="3.0"/>
         </cell>
         <cell dest="27" src="215">
-            <depend name="Call" weight="2.0"/>
+            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="28" src="215">
@@ -1809,7 +1800,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="60" src="216">
-            <depend name="Call" weight="19.0"/>
+            <depend name="Call" weight="3.0"/>
             <depend name="Import" weight="1.0"/>
             <depend name="Use" weight="1.0"/>
         </cell>
@@ -1825,7 +1816,7 @@
             <depend name="Use" weight="14.0"/>
         </cell>
         <cell dest="38" src="217">
-            <depend name="Call" weight="9.0"/>
+            <depend name="Call" weight="3.0"/>
             <depend name="Import" weight="1.0"/>
             <depend name="Use" weight="3.0"/>
         </cell>
@@ -1845,7 +1836,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="62" src="218">
-            <depend name="Call" weight="28.0"/>
+            <depend name="Call" weight="17.0"/>
             <depend name="Import" weight="9.0"/>
             <depend name="Use" weight="2.0"/>
         </cell>
@@ -1853,7 +1844,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="67" src="219">
-            <depend name="Call" weight="19.0"/>
+            <depend name="Call" weight="16.0"/>
             <depend name="Import" weight="6.0"/>
             <depend name="Use" weight="6.0"/>
         </cell>
@@ -1872,7 +1863,7 @@
             <depend name="Use" weight="1.0"/>
         </cell>
         <cell dest="43" src="219">
-            <depend name="Call" weight="2.0"/>
+            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="62" src="219">
@@ -1907,12 +1898,12 @@
             <depend name="Use" weight="19.0"/>
         </cell>
         <cell dest="90" src="225">
-            <depend name="Call" weight="13.0"/>
+            <depend name="Call" weight="12.0"/>
             <depend name="Import" weight="1.0"/>
             <depend name="Use" weight="1.0"/>
         </cell>
         <cell dest="90" src="226">
-            <depend name="Call" weight="2.0"/>
+            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="92" src="226">
@@ -1923,11 +1914,11 @@
             <depend name="Inherit" weight="1.0"/>
         </cell>
         <cell dest="90" src="227">
-            <depend name="Call" weight="38.0"/>
+            <depend name="Call" weight="26.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="91" src="227">
-            <depend name="Call" weight="4.0"/>
+            <depend name="Call" weight="3.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="93" src="227">
@@ -1935,11 +1926,11 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="94" src="227">
-            <depend name="Call" weight="21.0"/>
+            <depend name="Call" weight="13.0"/>
             <depend name="Import" weight="2.0"/>
         </cell>
         <cell dest="97" src="228">
-            <depend name="Call" weight="22.0"/>
+            <depend name="Call" weight="17.0"/>
             <depend name="Import" weight="6.0"/>
         </cell>
         <cell dest="89" src="228">
@@ -1953,7 +1944,7 @@
             <depend name="Import" weight="2.0"/>
         </cell>
         <cell dest="101" src="230">
-            <depend name="Call" weight="12.0"/>
+            <depend name="Call" weight="7.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="102" src="231">
@@ -1981,7 +1972,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="103" src="233">
-            <depend name="Call" weight="11.0"/>
+            <depend name="Call" weight="9.0"/>
             <depend name="Import" weight="4.0"/>
             <depend name="Set" weight="1.0"/>
             <depend name="Use" weight="12.0"/>
@@ -2052,7 +2043,6 @@
             <depend name="Use" weight="1.0"/>
         </cell>
         <cell dest="108" src="238">
-            <depend name="Call" weight="6.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="110" src="239">
@@ -2090,7 +2080,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="119" src="251">
-            <depend name="Call" weight="7.0"/>
+            <depend name="Call" weight="8.0"/>
             <depend name="Import" weight="1.0"/>
             <depend name="Use" weight="1.0"/>
         </cell>
@@ -2099,7 +2089,7 @@
             <depend name="Use" weight="1.0"/>
         </cell>
         <cell dest="43" src="251">
-            <depend name="Call" weight="2.0"/>
+            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
             <depend name="Use" weight="1.0"/>
         </cell>
@@ -2145,7 +2135,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="123" src="255">
-            <depend name="Call" weight="7.0"/>
+            <depend name="Call" weight="6.0"/>
             <depend name="Import" weight="20.0"/>
             <depend name="Use" weight="38.0"/>
         </cell>
@@ -2153,11 +2143,11 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="124" src="256">
-            <depend name="Call" weight="2.0"/>
+            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="72" src="257">
-            <depend name="Call" weight="9.0"/>
+            <depend name="Call" weight="2.0"/>
             <depend name="Import" weight="1.0"/>
             <depend name="Use" weight="1.0"/>
         </cell>
@@ -2177,7 +2167,7 @@
             <depend name="Import" weight="2.0"/>
         </cell>
         <cell dest="132" src="259">
-            <depend name="Call" weight="33.0"/>
+            <depend name="Call" weight="7.0"/>
             <depend name="Import" weight="2.0"/>
         </cell>
         <cell dest="168" src="259">
@@ -2193,7 +2183,7 @@
             <depend name="Use" weight="2.0"/>
         </cell>
         <cell dest="138" src="262">
-            <depend name="Call" weight="10.0"/>
+            <depend name="Call" weight="11.0"/>
             <depend name="Import" weight="2.0"/>
             <depend name="Use" weight="4.0"/>
         </cell>
@@ -2202,7 +2192,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="140" src="264">
-            <depend name="Call" weight="31.0"/>
+            <depend name="Call" weight="28.0"/>
             <depend name="Import" weight="2.0"/>
             <depend name="Use" weight="6.0"/>
         </cell>
@@ -2215,11 +2205,11 @@
             <depend name="Use" weight="5.0"/>
         </cell>
         <cell dest="143" src="266">
-            <depend name="Call" weight="17.0"/>
+            <depend name="Call" weight="20.0"/>
             <depend name="Import" weight="2.0"/>
         </cell>
         <cell dest="147" src="267">
-            <depend name="Call" weight="12.0"/>
+            <depend name="Call" weight="11.0"/>
             <depend name="Import" weight="2.0"/>
             <depend name="Use" weight="1.0"/>
         </cell>
@@ -2228,7 +2218,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="149" src="269">
-            <depend name="Call" weight="3.0"/>
+            <depend name="Call" weight="2.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="150" src="270">
@@ -2252,7 +2242,7 @@
             <depend name="Use" weight="1.0"/>
         </cell>
         <cell dest="154" src="276">
-            <depend name="Call" weight="19.0"/>
+            <depend name="Call" weight="15.0"/>
             <depend name="Import" weight="4.0"/>
             <depend name="Use" weight="2.0"/>
         </cell>
@@ -2261,7 +2251,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="158" src="278">
-            <depend name="Call" weight="43.0"/>
+            <depend name="Call" weight="37.0"/>
             <depend name="Import" weight="9.0"/>
             <depend name="Use" weight="3.0"/>
         </cell>
@@ -2271,11 +2261,11 @@
             <depend name="Use" weight="2.0"/>
         </cell>
         <cell dest="161" src="280">
-            <depend name="Call" weight="30.0"/>
+            <depend name="Call" weight="11.0"/>
             <depend name="Import" weight="4.0"/>
         </cell>
         <cell dest="162" src="281">
-            <depend name="Call" weight="12.0"/>
+            <depend name="Call" weight="9.0"/>
             <depend name="Import" weight="5.0"/>
             <depend name="Use" weight="1.0"/>
         </cell>
@@ -2308,16 +2298,16 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="171" src="287">
-            <depend name="Call" weight="8.0"/>
+            <depend name="Call" weight="7.0"/>
             <depend name="Import" weight="1.0"/>
             <depend name="Inherit" weight="2.0"/>
         </cell>
         <cell dest="172" src="288">
-            <depend name="Call" weight="68.0"/>
+            <depend name="Call" weight="45.0"/>
             <depend name="Import" weight="6.0"/>
         </cell>
         <cell dest="36" src="289">
-            <depend name="Call" weight="13.0"/>
+            <depend name="Call" weight="15.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="158" src="289">
@@ -2326,296 +2316,296 @@
         </cell>
     </cells>
     <variables>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\conftest.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\docs\conf.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\docs\utils\linkfix.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\docs\_ext\scrapydocs.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\extras\qps-bench-server.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\extras\qpsclient.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\cmdline.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\commands\bench.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\commands\check.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\commands\crawl.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\commands\edit.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\commands\fetch.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\commands\genspider.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\commands\list.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\commands\parse.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\commands\runspider.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\commands\settings.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\commands\shell.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\commands\startproject.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\commands\version.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\commands\view.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\commands\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\conf.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\contracts\default.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\contracts\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\core\downloader\contextfactory.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\core\downloader\handlers\datauri.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\core\downloader\handlers\file.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\core\downloader\handlers\ftp.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\core\downloader\handlers\http.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\core\downloader\handlers\http10.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\core\downloader\handlers\http11.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\core\downloader\handlers\s3.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\core\downloader\handlers\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\core\downloader\middleware.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\core\downloader\tls.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\core\downloader\webclient.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\core\downloader\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\core\engine.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\core\scheduler.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\core\scraper.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\core\spidermw.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\core\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\crawler.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\downloadermiddlewares\ajaxcrawl.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\downloadermiddlewares\chunked.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\downloadermiddlewares\cookies.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\downloadermiddlewares\decompression.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\downloadermiddlewares\defaultheaders.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\downloadermiddlewares\downloadtimeout.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\downloadermiddlewares\httpauth.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\downloadermiddlewares\httpcache.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\downloadermiddlewares\httpcompression.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\downloadermiddlewares\httpproxy.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\downloadermiddlewares\redirect.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\downloadermiddlewares\retry.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\downloadermiddlewares\robotstxt.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\downloadermiddlewares\stats.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\downloadermiddlewares\useragent.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\downloadermiddlewares\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\dupefilters.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\exceptions.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\exporters.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\extension.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\extensions\closespider.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\extensions\corestats.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\extensions\debug.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\extensions\feedexport.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\extensions\httpcache.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\extensions\logstats.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\extensions\memdebug.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\extensions\memusage.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\extensions\spiderstate.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\extensions\statsmailer.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\extensions\telnet.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\extensions\throttle.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\extensions\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\http\common.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\http\cookies.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\http\headers.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\http\request\form.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\http\request\rpc.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\http\request\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\http\response\html.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\http\response\text.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\http\response\xml.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\http\response\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\http\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\interfaces.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\item.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\link.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\linkextractors\htmlparser.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\linkextractors\lxmlhtml.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\linkextractors\regex.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\linkextractors\sgml.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\linkextractors\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\loader\common.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\loader\processors.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\loader\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\log.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\logformatter.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\mail.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\middleware.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\pipelines\files.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\pipelines\images.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\pipelines\media.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\pipelines\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\resolver.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\responsetypes.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\selector\csstranslator.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\selector\lxmlsel.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\selector\unified.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\selector\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\settings\default_settings.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\settings\deprecated.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\settings\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\shell.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\signalmanager.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\signals.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\spiderloader.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\spidermiddlewares\depth.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\spidermiddlewares\httperror.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\spidermiddlewares\offsite.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\spidermiddlewares\referer.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\spidermiddlewares\urllength.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\spidermiddlewares\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\spiders\crawl.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\spiders\feed.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\spiders\init.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\spiders\sitemap.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\spiders\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\squeues.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\statscollectors.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\telnet.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\templates\project\module\spiders\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\templates\project\module\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\benchserver.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\boto.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\conf.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\console.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\datatypes.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\decorators.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\defer.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\deprecate.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\display.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\engine.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\ftp.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\gz.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\http.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\httpobj.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\iterators.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\job.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\log.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\markup.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\misc.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\multipart.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\ossignal.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\project.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\python.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\reactor.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\reqser.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\request.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\response.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\serialize.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\signal.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\sitemap.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\spider.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\template.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\test.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\testproc.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\testsite.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\trackref.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\url.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\versions.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\utils\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\xlib\pydispatch.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\xlib\tx.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\xlib\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\_monkeypatches.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\scrapy\__main__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\setup.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\mocks\dummydbm.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\mocks\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\mockserver.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\pipelines.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\spiders.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_closespider.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_cmdline\extensions.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_cmdline\settings.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_cmdline\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_commands.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_command_fetch.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_command_parse.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_command_shell.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_command_version.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_contracts.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_crawl.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_crawler.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_dependencies.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_downloadermiddleware.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_downloadermiddleware_ajaxcrawlable.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_downloadermiddleware_cookies.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_downloadermiddleware_decompression.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_downloadermiddleware_defaultheaders.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_downloadermiddleware_downloadtimeout.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_downloadermiddleware_httpauth.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_downloadermiddleware_httpcache.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_downloadermiddleware_httpcompression.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_downloadermiddleware_httpproxy.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_downloadermiddleware_redirect.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_downloadermiddleware_retry.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_downloadermiddleware_robotstxt.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_downloadermiddleware_stats.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_downloadermiddleware_useragent.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_downloader_handlers.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_dupefilters.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_engine.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_exporters.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_feedexport.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_http_cookies.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_http_headers.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_http_request.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_http_response.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_item.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_link.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_linkextractors.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_linkextractors_deprecated.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_loader.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_logformatter.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_mail.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_middleware.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_pipeline_crawl.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_pipeline_files.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_pipeline_images.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_pipeline_media.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_proxy_connect.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_pydispatch_deprecated.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_responsetypes.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_selector.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_selector_csstranslator.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_settings\default_settings.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_settings\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_spider.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_spiderloader\test_spiders\nested\spider4.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_spiderloader\test_spiders\nested\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_spiderloader\test_spiders\spider0.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_spiderloader\test_spiders\spider1.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_spiderloader\test_spiders\spider2.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_spiderloader\test_spiders\spider3.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_spiderloader\test_spiders\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_spiderloader\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_spidermiddleware_depth.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_spidermiddleware_httperror.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_spidermiddleware_offsite.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_spidermiddleware_referer.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_spidermiddleware_urllength.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_spiderstate.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_squeues.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_stats.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_toplevel.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_urlparse_monkeypatches.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_conf.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_console.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_datatypes.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_defer.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_deprecate.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_gz.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_http.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_httpobj.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_iterators.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_log.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_misc\test_walk_modules\mod\mod0.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_misc\test_walk_modules\mod\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_misc\test_walk_modules\mod1.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_misc\test_walk_modules\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_misc\__init__.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_project.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_python.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_reqser.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_request.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_response.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_serialize.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_signal.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_sitemap.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_spider.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_template.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_trackref.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_utils_url.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\test_webclient.py</variable>
-        <variable>C:\Users\wj86\Documents\gitrepo\eRESC\..\python-workspace\scrapy\tests\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\conftest.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\docs\conf.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\docs\utils\linkfix.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\docs\_ext\scrapydocs.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\extras\qps-bench-server.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\extras\qpsclient.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\cmdline.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\commands\bench.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\commands\check.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\commands\crawl.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\commands\edit.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\commands\fetch.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\commands\genspider.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\commands\list.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\commands\parse.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\commands\runspider.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\commands\settings.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\commands\shell.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\commands\startproject.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\commands\version.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\commands\view.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\commands\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\conf.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\contracts\default.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\contracts\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\core\downloader\contextfactory.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\core\downloader\handlers\datauri.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\core\downloader\handlers\file.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\core\downloader\handlers\ftp.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\core\downloader\handlers\http.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\core\downloader\handlers\http10.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\core\downloader\handlers\http11.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\core\downloader\handlers\s3.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\core\downloader\handlers\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\core\downloader\middleware.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\core\downloader\tls.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\core\downloader\webclient.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\core\downloader\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\core\engine.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\core\scheduler.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\core\scraper.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\core\spidermw.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\core\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\crawler.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\downloadermiddlewares\ajaxcrawl.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\downloadermiddlewares\chunked.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\downloadermiddlewares\cookies.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\downloadermiddlewares\decompression.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\downloadermiddlewares\defaultheaders.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\downloadermiddlewares\downloadtimeout.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\downloadermiddlewares\httpauth.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\downloadermiddlewares\httpcache.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\downloadermiddlewares\httpcompression.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\downloadermiddlewares\httpproxy.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\downloadermiddlewares\redirect.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\downloadermiddlewares\retry.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\downloadermiddlewares\robotstxt.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\downloadermiddlewares\stats.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\downloadermiddlewares\useragent.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\downloadermiddlewares\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\dupefilters.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\exceptions.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\exporters.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\extension.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\extensions\closespider.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\extensions\corestats.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\extensions\debug.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\extensions\feedexport.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\extensions\httpcache.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\extensions\logstats.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\extensions\memdebug.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\extensions\memusage.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\extensions\spiderstate.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\extensions\statsmailer.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\extensions\telnet.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\extensions\throttle.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\extensions\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\http\common.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\http\cookies.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\http\headers.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\http\request\form.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\http\request\rpc.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\http\request\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\http\response\html.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\http\response\text.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\http\response\xml.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\http\response\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\http\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\interfaces.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\item.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\link.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\linkextractors\htmlparser.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\linkextractors\lxmlhtml.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\linkextractors\regex.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\linkextractors\sgml.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\linkextractors\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\loader\common.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\loader\processors.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\loader\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\log.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\logformatter.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\mail.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\middleware.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\pipelines\files.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\pipelines\images.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\pipelines\media.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\pipelines\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\resolver.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\responsetypes.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\selector\csstranslator.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\selector\lxmlsel.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\selector\unified.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\selector\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\settings\default_settings.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\settings\deprecated.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\settings\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\shell.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\signalmanager.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\signals.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\spiderloader.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\spidermiddlewares\depth.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\spidermiddlewares\httperror.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\spidermiddlewares\offsite.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\spidermiddlewares\referer.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\spidermiddlewares\urllength.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\spidermiddlewares\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\spiders\crawl.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\spiders\feed.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\spiders\init.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\spiders\sitemap.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\spiders\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\squeues.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\statscollectors.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\telnet.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\templates\project\module\spiders\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\templates\project\module\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\benchserver.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\boto.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\conf.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\console.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\datatypes.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\decorators.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\defer.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\deprecate.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\display.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\engine.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\ftp.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\gz.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\http.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\httpobj.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\iterators.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\job.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\log.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\markup.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\misc.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\multipart.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\ossignal.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\project.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\python.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\reactor.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\reqser.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\request.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\response.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\serialize.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\signal.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\sitemap.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\spider.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\template.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\test.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\testproc.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\testsite.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\trackref.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\url.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\versions.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\utils\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\xlib\pydispatch.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\xlib\tx.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\xlib\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\_monkeypatches.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\scrapy\__main__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\setup.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\mocks\dummydbm.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\mocks\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\mockserver.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\pipelines.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\spiders.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_closespider.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_cmdline\extensions.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_cmdline\settings.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_cmdline\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_commands.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_command_fetch.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_command_parse.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_command_shell.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_command_version.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_contracts.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_crawl.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_crawler.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_dependencies.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_downloadermiddleware.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_downloadermiddleware_ajaxcrawlable.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_downloadermiddleware_cookies.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_downloadermiddleware_decompression.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_downloadermiddleware_defaultheaders.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_downloadermiddleware_downloadtimeout.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_downloadermiddleware_httpauth.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_downloadermiddleware_httpcache.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_downloadermiddleware_httpcompression.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_downloadermiddleware_httpproxy.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_downloadermiddleware_redirect.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_downloadermiddleware_retry.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_downloadermiddleware_robotstxt.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_downloadermiddleware_stats.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_downloadermiddleware_useragent.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_downloader_handlers.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_dupefilters.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_engine.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_exporters.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_feedexport.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_http_cookies.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_http_headers.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_http_request.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_http_response.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_item.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_link.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_linkextractors.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_linkextractors_deprecated.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_loader.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_logformatter.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_mail.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_middleware.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_pipeline_crawl.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_pipeline_files.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_pipeline_images.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_pipeline_media.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_proxy_connect.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_pydispatch_deprecated.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_responsetypes.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_selector.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_selector_csstranslator.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_settings\default_settings.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_settings\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_spider.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_spiderloader\test_spiders\nested\spider4.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_spiderloader\test_spiders\nested\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_spiderloader\test_spiders\spider0.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_spiderloader\test_spiders\spider1.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_spiderloader\test_spiders\spider2.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_spiderloader\test_spiders\spider3.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_spiderloader\test_spiders\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_spiderloader\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_spidermiddleware_depth.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_spidermiddleware_httperror.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_spidermiddleware_offsite.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_spidermiddleware_referer.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_spidermiddleware_urllength.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_spiderstate.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_squeues.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_stats.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_toplevel.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_urlparse_monkeypatches.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_conf.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_console.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_datatypes.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_defer.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_deprecate.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_gz.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_http.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_httpobj.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_iterators.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_log.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_misc\test_walk_modules\mod\mod0.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_misc\test_walk_modules\mod\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_misc\test_walk_modules\mod1.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_misc\test_walk_modules\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_misc\__init__.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_project.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_python.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_reqser.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_request.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_response.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_serialize.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_signal.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_sitemap.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_spider.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_template.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_trackref.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_utils_url.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\test_webclient.py</variable>
+        <variable>C:\Users\wj86\Documents\gitrepo\ENRE\..\python-workspace\scrapy\tests\__init__.py</variable>
     </variables>
 </matrix>

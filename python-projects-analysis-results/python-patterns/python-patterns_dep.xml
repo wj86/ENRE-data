@@ -2,12 +2,12 @@
 <matrix name="python-patterns-sdsm" schema-version="1.0">
     <cells>
         <cell dest="8" src="64">
-            <depend name="Call" weight="25.0"/>
+            <depend name="Call" weight="13.0"/>
             <depend name="Import" weight="3.0"/>
             <depend name="Use" weight="2.0"/>
         </cell>
         <cell dest="26" src="65">
-            <depend name="Call" weight="8.0"/>
+            <depend name="Call" weight="4.0"/>
             <depend name="Import" weight="3.0"/>
         </cell>
         <cell dest="11" src="66">
@@ -15,7 +15,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="16" src="46">
-            <depend name="Call" weight="2.0"/>
+            <depend name="Call" weight="1.0"/>
             <depend name="Import" weight="2.0"/>
             <depend name="Use" weight="1.0"/>
         </cell>
@@ -30,7 +30,7 @@
             <depend name="Use" weight="1.0"/>
         </cell>
         <cell dest="37" src="49">
-            <depend name="Call" weight="14.0"/>
+            <depend name="Call" weight="8.0"/>
             <depend name="Import" weight="3.0"/>
             <depend name="Use" weight="1.0"/>
         </cell>
@@ -44,7 +44,7 @@
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="24" src="52">
-            <depend name="Call" weight="6.0"/>
+            <depend name="Call" weight="4.0"/>
             <depend name="Import" weight="3.0"/>
         </cell>
         <cell dest="39" src="53">
@@ -78,11 +78,11 @@
             <depend name="Use" weight="3.0"/>
         </cell>
         <cell dest="25" src="60">
-            <depend name="Call" weight="6.0"/>
+            <depend name="Call" weight="4.0"/>
             <depend name="Import" weight="3.0"/>
         </cell>
         <cell dest="21" src="61">
-            <depend name="Call" weight="3.0"/>
+            <depend name="Call" weight="4.0"/>
             <depend name="Import" weight="1.0"/>
         </cell>
         <cell dest="22" src="62">
